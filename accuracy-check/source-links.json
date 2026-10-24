@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://github.com/interline-io/scrape-of-transitfeeds/blob/master/json-scrape/feedVersionS3Urls.csv",
+    "status": 200,
+    "final_url": "https://github.com/interline-io/scrape-of-transitfeeds/blob/master/json-scrape/feedVersionS3Urls.csv"
+  },
+  {
+    "url": "https://openmobilitydata-data.s3-us-west-1.amazonaws.com/public/feeds/santa-barbara-mtd/1156/20190819/gtfs.zip",
+    "status": 200,
+    "final_url": "https://openmobilitydata-data.s3-us-west-1.amazonaws.com/public/feeds/santa-barbara-mtd/1156/20190819/gtfs.zip"
+  },
+  {
+    "url": "https://sbmtd.gov/mtd_news/santa-barbara-mtds-on-demand-microtransit-servicethe-wave-expands-to-carpinteria/",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/mtd_news/santa-barbara-mtds-on-demand-microtransit-servicethe-wave-expands-to-carpinteria/"
+  },
+  {
+    "url": "https://sbmtd.gov/servicechanges/",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/servicechanges/"
+  },
+  {
+    "url": "https://sbmtd.gov/thewave/",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/thewave/"
+  },
+  {
+    "url": "https://sbmtd.gov/wp-content/uploads/2019/08/MTD-August-2019-Schedule-Guide_complete-final.pdf",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/wp-content/uploads/2019/08/MTD-August-2019-Schedule-Guide_complete-final.pdf"
+  },
+  {
+    "url": "https://sbmtd.gov/wp-content/uploads/2025/05/20250603-Item-8-FY2025-26-Final-Draft-Budget.pdf",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/wp-content/uploads/2025/05/20250603-Item-8-FY2025-26-Final-Draft-Budget.pdf"
+  },
+  {
+    "url": "https://sbmtd.gov/wp-content/uploads/2026/05/20260602-Agenda-Packet.pdf",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/wp-content/uploads/2026/05/20260602-Agenda-Packet.pdf"
+  },
+  {
+    "url": "https://sbmtd.gov/wp-content/uploads/2026/07/20260721-Board-Packet-v2-1.pdf",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/wp-content/uploads/2026/07/20260721-Board-Packet-v2-1.pdf"
+  },
+  {
+    "url": "https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf",
+    "status": 200,
+    "final_url": "https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf"
+  },
+  {
+    "url": "https://www.sbmtd.gov/google_transit/feed.zip",
+    "status": 200,
+    "final_url": "https://www.sbmtd.gov/google_transit/feed.zip"
+  }
+]

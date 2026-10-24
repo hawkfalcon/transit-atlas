@@ -1,0 +1,52 @@
+{
+  "checked_local_date": "2026-10-24",
+  "sources": [
+    {
+      "key": "historic",
+      "url": "https://openmobilitydata-data.s3-us-west-1.amazonaws.com/public/feeds/santa-barbara-mtd/1156/20190819/gtfs.zip",
+      "local_file": "sources/historic-feed-20190819.zip",
+      "status": 200,
+      "bytes": 971757,
+      "sha256": "73c1108b82fdd68838749c266f2f2af5a0eaf8f09c9e8d1ff6e853da9972e2d1",
+      "matches_saved_source": true,
+      "feed_info": "feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version\r\nSanta Barbara MTD,http://www.sbmtd.gov,en,20190819,20191201,190819 August 19_20190712"
+    },
+    {
+      "key": "current",
+      "url": "https://www.sbmtd.gov/google_transit/feed.zip",
+      "local_file": "sources/current-feed.zip",
+      "status": 200,
+      "bytes": 2833444,
+      "sha256": "12d3aa31357051e804ac8ff94c639f27251edea9865442d0f7576b52fad10c6a",
+      "matches_saved_source": true,
+      "feed_info": "feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url\r\nSBMTD,https://sbmtd.gov,en,20260817,20261129,S1000262,info1@sbmtd.gov,https://sbmtd.gov/gtfs"
+    },
+    {
+      "key": "performance",
+      "url": "https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf",
+      "local_file": "sources/Q4-FY26-ridership.pdf",
+      "status": 200,
+      "bytes": 341959,
+      "sha256": "f96ab010476091389b54b3c94ea96d67eb6494bea9383a43aaaeaafad740dfdb",
+      "matches_saved_source": true
+    },
+    {
+      "key": "budget",
+      "url": "https://sbmtd.gov/wp-content/uploads/2026/05/20260602-Agenda-Packet.pdf",
+      "local_file": "sources/20260602-budget-packet.pdf",
+      "status": 200,
+      "bytes": 1696975,
+      "sha256": "363018c08692e88cd35795dc7206611cc2609cba27ffd068f4c49eb1eefc1c0b",
+      "matches_saved_source": true
+    },
+    {
+      "key": "campus",
+      "url": "https://sbmtd.gov/wp-content/uploads/2026/07/20260721-Board-Packet-v2-1.pdf",
+      "local_file": "sources/20260721-annual-packet.pdf",
+      "status": 200,
+      "bytes": 990639,
+      "sha256": "a667d2f994e0970db136b720ce43b5072227187ad1c5ff1111b03538b4174ea7",
+      "matches_saved_source": true
+    }
+  ]
+}

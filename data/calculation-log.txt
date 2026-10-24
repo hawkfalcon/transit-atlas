@@ -1,0 +1,47 @@
+historic 1 West Santa Barbara active True day 121 mid 32 h 15.0 range 15.0 15.0
+historic 10 Cathedral Oaks active True day 12 mid 0 h None range None None
+historic 11 UCSB active True day 77 mid 16 h 30.0 range 27.0 33.0
+historic 12X Goleta Express active True day 38 mid 6 h 70.0 range 70.0 70.0
+historic 14 Montecito active True day 28 mid 6 h 60.0 range 60.0 123.0
+historic 15X SBCC/UCSB Express active True day 85 mid 23 h 27.0 range 13.0 27.0
+historic 16 City College active True day 54 mid 20 h 28.0 range 10.0 30.0
+historic 17 Lower West/SBCC active True day 47 mid 13 h 35.0 range 35.0 35.0
+historic 2 East Santa Barbara active True day 130 mid 32 h 15.0 range 15.0 15.0
+historic 20 Carpinteria active True day 60 mid 12 h 40.0 range 40.0 40.0
+historic 23 El Encanto Heights active True day 34 mid 8 h 60.0 range 60.0 60.0
+historic 24X UCSB Express active True day 65 mid 14 h 35.0 range 10.0 38.0
+historic 25 Ellwood / Winchester active True day 39 mid 8 h 60.0 range 60.0 60.0
+historic 27 Isla Vista Shuttle active True day 82 mid 20 h 21.0 range 21.0 42.0
+historic 28 UCSB Shuttle active True day 150 mid 44 h 10.0 range 10.0 20.0
+historic 3 Oak Park active True day 54 mid 16 h 30.0 range 30.0 30.0
+historic 30 Downtown Shuttle active True day 63 mid 32 h 15.0 range 15.0 21.0
+historic 34 Waterfront Shuttle active True day 35 mid 16 h 30.0 range 30.0 30.0
+historic 36 Seaside Shuttle active True day 29 mid 10 h 25.0 range 25.0 25.0
+historic 37 Crosstown Shuttle active True day 56 mid 10 h 47.0 range 47.0 47.0
+historic 4 Mesa/SBCC active True day 47 mid 14 h 35.0 range 35.0 35.0
+historic 5 Mesa/La Cumbre active True day 35 mid 8 h 60.0 range 60.0 60.0
+historic 6 Goleta active True day 68 mid 16 h 30.0 range 30.0 30.0
+historic 7 Goleta Old Town active True day 52 mid 16 h 30.0 range 30.0 30.0
+current 1 West Santa Barbara active True day 88 mid 24 h 20.0 range 20.0 20.0
+current 11 UCSB active True day 66 mid 16 h 30.0 range 30.0 30.0
+current 12X Goleta Express active True day 33 mid 11 h 35.0 range 35.0 70.0
+current 14 Montecito active True day 21 mid 6 h 60.0 range 60.0 120.0
+current 15X SBCC/UCSB Express active True day 37 mid 11 h 54.0 range 25.0 54.0
+current 17 Lower West/SBCC active True day 47 mid 13 h 35.0 range 35.0 35.0
+current 19X Carpinteria/SBCC Express active True day 6 mid 2 h None range None None
+current 2 East Santa Barbara active True day 92 mid 24 h 20.0 range 20.0 20.0
+current 20 Carpinteria active True day 50 mid 8 h 60.0 range 60.0 60.0
+current 23 El Encanto Heights active True day 35 mid 8 h 60.0 range 60.0 60.0
+current 24X UCSB Express active True day 57 mid 13 h 35.0 range 10.0 70.0
+current 25 Ellwood / Winchester active True day 36 mid 8 h 60.0 range 60.0 60.0
+current 27 Isla Vista Shuttle active True day 76 mid 22 h 20.0 range 20.0 40.0
+current 28 UCSB Shuttle active True day 74 mid 22 h 18.0 range 18.0 36.0
+current 3 Oak Park active True day 53 mid 16 h 30.0 range 30.0 30.0
+current 33 Downtown Waterfront active False day 0 mid 0 h None range None None
+current 4 Mesa/SBCC active True day 47 mid 14 h 35.0 range 35.0 35.0
+current 5 Mesa/La Cumbre active True day 27 mid 8 h 60.0 range 60.0 60.0
+current 6 Goleta active True day 57 mid 16 h 30.0 range 30.0 30.0
+current 7 Goleta Old Town active True day 50 mid 16 h 30.0 range 30.0 30.0
+TOTAL historic regular lines 24 midday trips 392 <=15 min 4
+TOTAL current regular lines 19 midday trips 258 <=15 min 0
+Wrote /home/user/sb-transit/data/network.json 804524 bytes

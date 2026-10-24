@@ -1,0 +1,49 @@
+line,name,type,historic_active,historic_day_trips,historic_midday_trips_both_directions,historic_typical_midday_headway_min,historic_midday_gap_min,historic_midday_gap_max,current_active,current_day_trips,current_midday_trips_both_directions,current_typical_midday_headway_min,current_midday_gap_min,current_midday_gap_max,note
+1,West Santa Barbara,regular,True,121,32,15.0,15.0,15.0,True,88,24,20.0,20.0,20.0,Weekday intervals went from 15 to 20 minutes in August 2026.
+2,East Santa Barbara,regular,True,130,32,15.0,15.0,15.0,True,92,24,20.0,20.0,20.0,Weekday intervals went from 15 to 20 minutes in August 2026.
+3,Oak Park,regular,True,54,16,30.0,30.0,30.0,True,53,16,30.0,30.0,30.0,
+4,Mesa/SBCC,regular,True,47,14,35.0,35.0,35.0,True,47,14,35.0,35.0,35.0,
+5,Mesa/La Cumbre,regular,True,35,8,60.0,60.0,60.0,True,27,8,60.0,60.0,60.0,
+6,Goleta,regular,True,68,16,30.0,30.0,30.0,True,57,16,30.0,30.0,30.0,
+7,Goleta Old Town,regular,True,52,16,30.0,30.0,30.0,True,50,16,30.0,30.0,30.0,
+10,Cathedral Oaks,regular,True,12,0,,,,False,0,0,,,,"Cathedral Oaks ran 12 trips on the 2019 weekday, all outside midday. It is missing from today’s timetable."
+11,UCSB,regular,True,77,16,30.0,27.0,33.0,True,66,16,30.0,30.0,30.0,
+12X,Goleta Express,regular,True,38,6,70.0,70.0,70.0,True,33,11,35.0,35.0,70.0,
+14,Montecito,regular,True,28,6,60.0,60.0,123.0,True,21,6,60.0,60.0,120.0,
+15X,SBCC/UCSB Express,regular,True,85,23,27.0,13.0,27.0,True,37,11,54.0,25.0,54.0,
+16,City College,regular,True,54,20,28.0,10.0,30.0,False,0,0,,,,The City College line from 2019 is gone. Other MTD routes still serve SBCC.
+17,Lower West/SBCC,regular,True,47,13,35.0,35.0,35.0,True,47,13,35.0,35.0,35.0,
+19X,Carpinteria/SBCC Express,regular,False,0,0,,,,True,6,2,,,,This Carpinteria–SBCC express is new since 2019. It runs six college-oriented trips on the comparison weekday.
+20,Carpinteria,regular,True,60,12,40.0,40.0,40.0,True,50,8,60.0,60.0,60.0,
+23,El Encanto Heights,regular,True,34,8,60.0,60.0,60.0,True,35,8,60.0,60.0,60.0,
+24X,UCSB Express,regular,True,65,14,35.0,10.0,38.0,True,57,13,35.0,10.0,70.0,
+25,Ellwood / Winchester,regular,True,39,8,60.0,60.0,60.0,True,36,8,60.0,60.0,60.0,
+27,Isla Vista Shuttle,regular,True,82,20,21.0,21.0,42.0,True,76,22,20.0,20.0,40.0,
+28,UCSB Shuttle,regular,True,150,44,10.0,10.0,20.0,True,74,22,18.0,18.0,36.0,"In 2019, the guide advertised a bus every 10 minutes while UCSB was in session. Today’s midday timetable has longer, uneven gaps."
+30,Downtown Shuttle,regular,True,63,32,15.0,15.0,21.0,False,0,0,,,,"This was the Downtown Shuttle. Today’s seasonal Downtown–Waterfront line 33 is a different route, with no October weekday trips."
+33,Downtown Waterfront,regular,False,0,0,,,,False,0,0,,,,"This is a seasonal shuttle. There are no trips on October 15, 2026."
+34,Waterfront Shuttle,regular,True,35,16,30.0,30.0,30.0,False,0,0,,,,This was the Waterfront Shuttle. Seasonal line 33 is a separate route and has no trips on the October comparison weekday.
+36,Seaside Shuttle,regular,True,29,10,25.0,25.0,25.0,False,0,0,,,,"The Seaside Shuttle is gone from the fixed-route timetable. Carpinteria now also has The Wave, which you book on demand."
+37,Crosstown Shuttle,regular,True,56,10,47.0,47.0,47.0,False,0,0,,,,The Crosstown Shuttle is missing from today’s timetable. The dark dashes show its 2019 route.
+90,West Goleta Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
+91,East Goleta/UCSB Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
+92,Santa Barbara Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
+1001,Carp Standby,standby,False,0,0,,,,False,0,0,,,,"Carp Standby appears in the source data, with no scheduled trips on the 2019 comparison date."
+2010,Alpha Resource Center,booster,True,1,0,,,,False,0,0,,,,
+2110,Santa Barbara Jr. High,booster,True,1,0,,,,True,1,0,,,,
+2410,La Colina Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2420,La Colina Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2430,La Colina Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2510,San Marcos High School,booster,True,5,1,,,,True,5,0,,,,
+2520,San Marcos High School,booster,True,2,0,,,,True,2,0,,,,
+2530,San Marcos High School,booster,True,2,0,,,,True,2,0,,,,
+2540,San Marcos High School,booster,True,1,0,,,,True,1,0,,,,
+2610,Goleta Valley Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2620,Goleta Valley Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2630,Goleta Valley Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2650,Goleta Valley Jr. High,booster,True,2,0,,,,True,2,0,,,,
+2660,Goleta Valley Jr. High,booster,True,1,0,,,,False,0,0,,,,
+2710,Dos Pueblos High School,booster,True,2,0,,,,True,2,0,,,,
+2720,Dos Pueblos High School,booster,True,4,0,,,,True,4,0,,,,
+2730,Dos Pueblos High School,booster,True,2,0,,,,True,2,0,,,,
+2740,Dos Pueblos High School,booster,True,2,0,,,,True,2,0,,,,

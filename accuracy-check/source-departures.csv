@@ -1,0 +1,2495 @@
+period,date,line,trip_id,direction,first_boardable_stop,departure,midday
+historic,2019-10-15,1,656952,0,Modoc & Portesuello,06:05:00,False
+historic,2019-10-15,1,657012,0,Modoc & Portesuello,06:25:00,False
+historic,2019-10-15,1,657004,0,Modoc & Portesuello,06:40:00,False
+historic,2019-10-15,1,657005,0,Modoc & Portesuello,06:55:00,False
+historic,2019-10-15,1,657006,0,Modoc & Portesuello,07:10:00,False
+historic,2019-10-15,1,657007,0,Modoc & Portesuello,07:25:00,False
+historic,2019-10-15,1,657008,0,Modoc & Portesuello,07:40:00,False
+historic,2019-10-15,1,657009,0,Modoc & Portesuello,07:55:00,False
+historic,2019-10-15,1,657010,0,Modoc & Portesuello,08:10:00,False
+historic,2019-10-15,1,657011,0,Modoc & Portesuello,08:25:00,False
+historic,2019-10-15,1,656953,0,Modoc & Portesuello,08:40:00,False
+historic,2019-10-15,1,656954,0,Modoc & Portesuello,08:55:00,False
+historic,2019-10-15,1,656955,0,Modoc & Portesuello,09:10:00,False
+historic,2019-10-15,1,656956,0,Modoc & Portesuello,09:25:00,False
+historic,2019-10-15,1,656957,0,Modoc & Portesuello,09:40:00,False
+historic,2019-10-15,1,656958,0,Modoc & Portesuello,09:55:00,False
+historic,2019-10-15,1,656959,0,Modoc & Portesuello,10:10:00,True
+historic,2019-10-15,1,656960,0,Modoc & Portesuello,10:25:00,True
+historic,2019-10-15,1,656961,0,Modoc & Portesuello,10:40:00,True
+historic,2019-10-15,1,656962,0,Modoc & Portesuello,10:55:00,True
+historic,2019-10-15,1,656963,0,Modoc & Portesuello,11:10:00,True
+historic,2019-10-15,1,656964,0,Modoc & Portesuello,11:25:00,True
+historic,2019-10-15,1,656965,0,Modoc & Portesuello,11:40:00,True
+historic,2019-10-15,1,656966,0,Modoc & Portesuello,11:55:00,True
+historic,2019-10-15,1,656967,0,Modoc & Portesuello,12:10:00,True
+historic,2019-10-15,1,656968,0,Modoc & Portesuello,12:25:00,True
+historic,2019-10-15,1,656969,0,Modoc & Portesuello,12:40:00,True
+historic,2019-10-15,1,656970,0,Modoc & Portesuello,12:55:00,True
+historic,2019-10-15,1,656971,0,Modoc & Portesuello,13:10:00,True
+historic,2019-10-15,1,656972,0,Modoc & Portesuello,13:25:00,True
+historic,2019-10-15,1,656973,0,Modoc & Portesuello,13:40:00,True
+historic,2019-10-15,1,656974,0,Modoc & Portesuello,13:55:00,True
+historic,2019-10-15,1,656975,0,Modoc & Portesuello,14:10:00,False
+historic,2019-10-15,1,656976,0,Modoc & Portesuello,14:25:00,False
+historic,2019-10-15,1,656977,0,Modoc & Portesuello,14:40:00,False
+historic,2019-10-15,1,656978,0,Modoc & Portesuello,14:50:00,False
+historic,2019-10-15,1,656979,0,Modoc & Portesuello,15:00:00,False
+historic,2019-10-15,1,656980,0,Modoc & Portesuello,15:10:00,False
+historic,2019-10-15,1,656981,0,Modoc & Portesuello,15:20:00,False
+historic,2019-10-15,1,656982,0,Modoc & Portesuello,15:30:00,False
+historic,2019-10-15,1,656983,0,Modoc & Portesuello,15:40:00,False
+historic,2019-10-15,1,656984,0,Modoc & Portesuello,15:50:00,False
+historic,2019-10-15,1,656985,0,Modoc & Portesuello,16:00:00,False
+historic,2019-10-15,1,656986,0,Modoc & Portesuello,16:10:00,False
+historic,2019-10-15,1,656987,0,Modoc & Portesuello,16:20:00,False
+historic,2019-10-15,1,656988,0,Modoc & Portesuello,16:30:00,False
+historic,2019-10-15,1,656989,0,Modoc & Portesuello,16:40:00,False
+historic,2019-10-15,1,656990,0,Modoc & Portesuello,16:50:00,False
+historic,2019-10-15,1,656991,0,Modoc & Portesuello,17:00:00,False
+historic,2019-10-15,1,656992,0,Modoc & Portesuello,17:10:00,False
+historic,2019-10-15,1,656993,0,Modoc & Portesuello,17:20:00,False
+historic,2019-10-15,1,656994,0,Modoc & Portesuello,17:30:00,False
+historic,2019-10-15,1,656995,0,Modoc & Portesuello,17:40:00,False
+historic,2019-10-15,1,656996,0,Modoc & Portesuello,17:55:00,False
+historic,2019-10-15,1,656997,0,Modoc & Portesuello,18:10:00,False
+historic,2019-10-15,1,656998,0,Modoc & Portesuello,18:40:00,False
+historic,2019-10-15,1,656999,0,Modoc & Portesuello,19:10:00,False
+historic,2019-10-15,1,657000,0,Modoc & Portesuello,19:40:00,False
+historic,2019-10-15,1,657001,0,Modoc & Portesuello,20:25:00,False
+historic,2019-10-15,1,657002,0,Modoc & Portesuello,20:55:00,False
+historic,2019-10-15,1,657003,0,Modoc & Portesuello,21:40:00,False
+historic,2019-10-15,1,657013,1,Transit Center,06:25:00,False
+historic,2019-10-15,1,657065,1,Transit Center,06:40:00,False
+historic,2019-10-15,1,657066,1,Transit Center,06:55:00,False
+historic,2019-10-15,1,657067,1,Transit Center,07:10:00,False
+historic,2019-10-15,1,657068,1,Transit Center,07:25:00,False
+historic,2019-10-15,1,657069,1,Transit Center,07:40:00,False
+historic,2019-10-15,1,657070,1,Transit Center,07:55:00,False
+historic,2019-10-15,1,657071,1,Transit Center,08:10:00,False
+historic,2019-10-15,1,657072,1,Transit Center,08:25:00,False
+historic,2019-10-15,1,657014,1,Transit Center,08:40:00,False
+historic,2019-10-15,1,657015,1,Transit Center,08:55:00,False
+historic,2019-10-15,1,657016,1,Transit Center,09:10:00,False
+historic,2019-10-15,1,657017,1,Transit Center,09:25:00,False
+historic,2019-10-15,1,657018,1,Transit Center,09:40:00,False
+historic,2019-10-15,1,657019,1,Transit Center,09:55:00,False
+historic,2019-10-15,1,657020,1,Transit Center,10:10:00,True
+historic,2019-10-15,1,657021,1,Transit Center,10:25:00,True
+historic,2019-10-15,1,657022,1,Transit Center,10:40:00,True
+historic,2019-10-15,1,657023,1,Transit Center,10:55:00,True
+historic,2019-10-15,1,657024,1,Transit Center,11:10:00,True
+historic,2019-10-15,1,657025,1,Transit Center,11:25:00,True
+historic,2019-10-15,1,657026,1,Transit Center,11:40:00,True
+historic,2019-10-15,1,657027,1,Transit Center,11:55:00,True
+historic,2019-10-15,1,657028,1,Transit Center,12:10:00,True
+historic,2019-10-15,1,657029,1,Transit Center,12:25:00,True
+historic,2019-10-15,1,657030,1,Transit Center,12:40:00,True
+historic,2019-10-15,1,657031,1,Transit Center,12:55:00,True
+historic,2019-10-15,1,657032,1,Transit Center,13:10:00,True
+historic,2019-10-15,1,657033,1,Transit Center,13:25:00,True
+historic,2019-10-15,1,657034,1,Transit Center,13:40:00,True
+historic,2019-10-15,1,657035,1,Transit Center,13:55:00,True
+historic,2019-10-15,1,657036,1,Transit Center,14:10:00,False
+historic,2019-10-15,1,657037,1,Transit Center,14:25:00,False
+historic,2019-10-15,1,657038,1,Transit Center,14:35:00,False
+historic,2019-10-15,1,657039,1,Transit Center,14:45:00,False
+historic,2019-10-15,1,657040,1,Transit Center,14:55:00,False
+historic,2019-10-15,1,657041,1,Transit Center,15:05:00,False
+historic,2019-10-15,1,657042,1,Transit Center,15:15:00,False
+historic,2019-10-15,1,657043,1,Transit Center,15:25:00,False
+historic,2019-10-15,1,657044,1,Transit Center,15:35:00,False
+historic,2019-10-15,1,657045,1,Transit Center,15:45:00,False
+historic,2019-10-15,1,657046,1,Transit Center,15:55:00,False
+historic,2019-10-15,1,657047,1,Transit Center,16:05:00,False
+historic,2019-10-15,1,657048,1,Transit Center,16:15:00,False
+historic,2019-10-15,1,657049,1,Transit Center,16:25:00,False
+historic,2019-10-15,1,657050,1,Transit Center,16:35:00,False
+historic,2019-10-15,1,657051,1,Transit Center,16:45:00,False
+historic,2019-10-15,1,657052,1,Transit Center,16:55:00,False
+historic,2019-10-15,1,657053,1,Transit Center,17:05:00,False
+historic,2019-10-15,1,657054,1,Transit Center,17:15:00,False
+historic,2019-10-15,1,657055,1,Transit Center,17:25:00,False
+historic,2019-10-15,1,657056,1,Transit Center,17:40:00,False
+historic,2019-10-15,1,657057,1,Transit Center,17:55:00,False
+historic,2019-10-15,1,657058,1,Transit Center,18:25:00,False
+historic,2019-10-15,1,657059,1,Transit Center,18:55:00,False
+historic,2019-10-15,1,657060,1,Transit Center,19:25:00,False
+historic,2019-10-15,1,657061,1,Transit Center,20:10:00,False
+historic,2019-10-15,1,657062,1,Transit Center,20:40:00,False
+historic,2019-10-15,1,657063,1,Transit Center,21:25:00,False
+historic,2019-10-15,1,657064,1,Transit Center,22:00:00,False
+historic,2019-10-15,10,660944,0,Cathedral Oaks & Fairview,06:43:00,False
+historic,2019-10-15,10,660943,0,Santa Felicia & Marketplace,07:25:00,False
+historic,2019-10-15,10,660942,0,Santa Felicia & Marketplace,08:35:00,False
+historic,2019-10-15,10,660941,0,Santa Felicia & Marketplace,14:27:00,False
+historic,2019-10-15,10,660940,0,Santa Felicia & Marketplace,15:45:00,False
+historic,2019-10-15,10,660939,0,Santa Felicia & Marketplace,17:00:00,False
+historic,2019-10-15,10,660938,0,Santa Felicia & Marketplace,18:10:00,False
+historic,2019-10-15,10,660949,1,State & La Cumbre,06:50:00,False
+historic,2019-10-15,10,660948,1,State & La Cumbre,08:00:00,False
+historic,2019-10-15,10,660947,1,State & La Cumbre,15:05:00,False
+historic,2019-10-15,10,660946,1,State & La Cumbre,16:20:00,False
+historic,2019-10-15,10,660945,1,State & La Cumbre,17:35:00,False
+historic,2019-10-15,11,657268,0,Transit Center,06:00:00,False
+historic,2019-10-15,11,657269,0,Transit Center,06:40:00,False
+historic,2019-10-15,11,657270,0,Transit Center,07:00:00,False
+historic,2019-10-15,11,657271,0,Transit Center,07:20:00,False
+historic,2019-10-15,11,657272,0,Transit Center,07:40:00,False
+historic,2019-10-15,11,657273,0,Transit Center,08:00:00,False
+historic,2019-10-15,11,657274,0,Transit Center,08:30:00,False
+historic,2019-10-15,11,657275,0,Transit Center,09:00:00,False
+historic,2019-10-15,11,657276,0,Transit Center,09:30:00,False
+historic,2019-10-15,11,657277,0,Transit Center,10:00:00,True
+historic,2019-10-15,11,657278,0,Transit Center,10:30:00,True
+historic,2019-10-15,11,657279,0,Transit Center,11:00:00,True
+historic,2019-10-15,11,657280,0,Transit Center,11:30:00,True
+historic,2019-10-15,11,657281,0,Transit Center,12:00:00,True
+historic,2019-10-15,11,657282,0,Transit Center,12:30:00,True
+historic,2019-10-15,11,657283,0,Transit Center,13:00:00,True
+historic,2019-10-15,11,657284,0,Transit Center,13:30:00,True
+historic,2019-10-15,11,657285,0,Transit Center,14:00:00,False
+historic,2019-10-15,11,657286,0,Transit Center,14:30:00,False
+historic,2019-10-15,11,657303,0,Transit Center,15:00:00,False
+historic,2019-10-15,11,657287,0,Transit Center,15:20:00,False
+historic,2019-10-15,11,657288,0,Transit Center,15:40:00,False
+historic,2019-10-15,11,657289,0,Transit Center,16:00:00,False
+historic,2019-10-15,11,657290,0,Transit Center,16:20:00,False
+historic,2019-10-15,11,657291,0,Transit Center,16:40:00,False
+historic,2019-10-15,11,657292,0,Transit Center,17:00:00,False
+historic,2019-10-15,11,657293,0,Transit Center,17:20:00,False
+historic,2019-10-15,11,657294,0,Transit Center,17:40:00,False
+historic,2019-10-15,11,657295,0,Transit Center,18:00:00,False
+historic,2019-10-15,11,657296,0,Transit Center,18:35:00,False
+historic,2019-10-15,11,657305,0,Transit Center,19:05:00,False
+historic,2019-10-15,11,657297,0,Transit Center,19:35:00,False
+historic,2019-10-15,11,657298,0,Transit Center,20:15:00,False
+historic,2019-10-15,11,657299,0,Transit Center,20:45:00,False
+historic,2019-10-15,11,657300,0,Transit Center,21:25:00,False
+historic,2019-10-15,11,657301,0,Transit Center,22:05:00,False
+historic,2019-10-15,11,657302,0,Transit Center,22:45:00,False
+historic,2019-10-15,11,657304,0,Transit Center,23:30:00,False
+historic,2019-10-15,11,657332,1,Storke & Hollister,05:50:00,False
+historic,2019-10-15,11,657306,1,Storke & Hollister,06:10:00,False
+historic,2019-10-15,11,657307,1,Storke & Hollister,06:30:00,False
+historic,2019-10-15,11,657308,1,Storke & Hollister,06:50:00,False
+historic,2019-10-15,11,657309,1,Storke & Hollister,07:10:00,False
+historic,2019-10-15,11,657310,1,Storke & Hollister,07:33:00,False
+historic,2019-10-15,11,657311,1,Storke & Hollister,07:50:00,False
+historic,2019-10-15,11,657312,1,Storke & Hollister,08:10:00,False
+historic,2019-10-15,11,657344,1,Storke & Hollister,08:35:00,False
+historic,2019-10-15,11,657343,1,Storke & Hollister,09:05:00,False
+historic,2019-10-15,11,657313,1,Storke & Hollister,09:35:00,False
+historic,2019-10-15,11,657314,1,Storke & Hollister,10:08:00,True
+historic,2019-10-15,11,657315,1,Storke & Hollister,10:35:00,True
+historic,2019-10-15,11,657316,1,Storke & Hollister,11:08:00,True
+historic,2019-10-15,11,657317,1,Storke & Hollister,11:35:00,True
+historic,2019-10-15,11,657318,1,Storke & Hollister,12:08:00,True
+historic,2019-10-15,11,657319,1,Storke & Hollister,12:35:00,True
+historic,2019-10-15,11,657320,1,Storke & Hollister,13:08:00,True
+historic,2019-10-15,11,657321,1,Storke & Hollister,13:35:00,True
+historic,2019-10-15,11,657322,1,Storke & Hollister,14:08:00,False
+historic,2019-10-15,11,657334,1,Storke & Hollister,14:25:00,False
+historic,2019-10-15,11,657335,1,Storke & Hollister,14:50:00,False
+historic,2019-10-15,11,657323,1,Storke & Hollister,15:10:00,False
+historic,2019-10-15,11,657336,1,Storke & Hollister,15:30:00,False
+historic,2019-10-15,11,657337,1,Storke & Hollister,15:50:00,False
+historic,2019-10-15,11,657324,1,Storke & Hollister,16:10:00,False
+historic,2019-10-15,11,657338,1,Storke & Hollister,16:30:00,False
+historic,2019-10-15,11,657340,1,Storke & Hollister,16:50:00,False
+historic,2019-10-15,11,657339,1,Storke & Hollister,17:10:00,False
+historic,2019-10-15,11,657325,1,Storke & Hollister,17:30:00,False
+historic,2019-10-15,11,657341,1,Storke & Hollister,17:50:00,False
+historic,2019-10-15,11,657326,1,Storke & Hollister,18:25:00,False
+historic,2019-10-15,11,657342,1,Storke & Hollister,18:55:00,False
+historic,2019-10-15,11,657327,1,Storke & Hollister,19:25:00,False
+historic,2019-10-15,11,657328,1,Storke & Hollister,19:55:00,False
+historic,2019-10-15,11,657329,1,Storke & Hollister,20:35:00,False
+historic,2019-10-15,11,657333,1,Storke & Hollister,21:37:00,False
+historic,2019-10-15,11,657330,1,Storke & Hollister,22:37:00,False
+historic,2019-10-15,11,657331,1,Storke & Hollister,23:37:00,False
+historic,2019-10-15,12X,661038,0,Transit Center,06:05:00,False
+historic,2019-10-15,12X,661055,0,Transit Center,06:30:00,False
+historic,2019-10-15,12X,661054,0,Transit Center,07:05:00,False
+historic,2019-10-15,12X,661053,0,Transit Center,07:40:00,False
+historic,2019-10-15,12X,661052,0,Transit Center,08:15:00,False
+historic,2019-10-15,12X,661051,0,Transit Center,08:50:00,False
+historic,2019-10-15,12X,661050,0,Transit Center,09:25:00,False
+historic,2019-10-15,12X,661049,0,Transit Center,10:35:00,True
+historic,2019-10-15,12X,661048,0,Transit Center,11:45:00,True
+historic,2019-10-15,12X,661047,0,Transit Center,12:55:00,True
+historic,2019-10-15,12X,661046,0,Transit Center,14:05:00,False
+historic,2019-10-15,12X,661045,0,Transit Center,15:15:00,False
+historic,2019-10-15,12X,661043,0,Transit Center,15:50:00,False
+historic,2019-10-15,12X,661042,0,Transit Center,16:25:00,False
+historic,2019-10-15,12X,661041,0,Transit Center,17:00:00,False
+historic,2019-10-15,12X,661040,0,Transit Center,17:35:00,False
+historic,2019-10-15,12X,661039,0,Transit Center,18:10:00,False
+historic,2019-10-15,12X,661044,0,Transit Center,19:00:00,False
+historic,2019-10-15,12X,661074,1,Hollister & Storke,05:55:00,False
+historic,2019-10-15,12X,661073,1,Hollister & Storke,06:30:00,False
+historic,2019-10-15,12X,661072,1,Hollister & Storke,07:03:00,False
+historic,2019-10-15,12X,661071,1,Hollister & Storke,07:38:00,False
+historic,2019-10-15,12X,661075,1,Storke & Hollister,07:57:00,False
+historic,2019-10-15,12X,661070,1,Hollister & Storke,08:13:00,False
+historic,2019-10-15,12X,661056,1,Hollister & Storke,08:48:00,False
+historic,2019-10-15,12X,661069,1,Hollister & Storke,09:23:00,False
+historic,2019-10-15,12X,661068,1,Hollister & Storke,09:58:00,False
+historic,2019-10-15,12X,661067,1,Hollister & Storke,11:08:00,True
+historic,2019-10-15,12X,661066,1,Hollister & Storke,12:18:00,True
+historic,2019-10-15,12X,661065,1,Hollister & Storke,13:28:00,True
+historic,2019-10-15,12X,661064,1,Hollister & Storke,14:38:00,False
+historic,2019-10-15,12X,661063,1,Hollister & Storke,15:13:00,False
+historic,2019-10-15,12X,661062,1,Hollister & Storke,15:48:00,False
+historic,2019-10-15,12X,661061,1,Hollister & Storke,16:23:00,False
+historic,2019-10-15,12X,661060,1,Hollister & Storke,16:58:00,False
+historic,2019-10-15,12X,661057,1,Hollister & Storke,17:33:00,False
+historic,2019-10-15,12X,661059,1,Hollister & Storke,18:08:00,False
+historic,2019-10-15,12X,661058,1,Hollister & Storke,18:43:00,False
+historic,2019-10-15,14,661126,0,East Valley & San Ysidro,06:25:00,False
+historic,2019-10-15,14,661125,0,Transit Center,06:25:00,False
+historic,2019-10-15,14,661124,0,Transit Center,07:00:00,False
+historic,2019-10-15,14,661123,0,Transit Center,07:45:00,False
+historic,2019-10-15,14,661122,0,Transit Center,08:45:00,False
+historic,2019-10-15,14,661116,0,Transit Center,09:45:00,False
+historic,2019-10-15,14,661115,0,Transit Center,11:45:00,True
+historic,2019-10-15,14,661114,0,Transit Center,12:45:00,True
+historic,2019-10-15,14,661113,0,Transit Center,13:45:00,True
+historic,2019-10-15,14,661121,0,Transit Center,14:45:00,False
+historic,2019-10-15,14,661120,0,Transit Center,15:45:00,False
+historic,2019-10-15,14,661119,0,Transit Center,16:45:00,False
+historic,2019-10-15,14,661118,0,Transit Center,17:15:00,False
+historic,2019-10-15,14,661117,0,Transit Center,17:45:00,False
+historic,2019-10-15,14,661140,1,North Jameson & Sheffield,06:33:00,False
+historic,2019-10-15,14,661139,1,North Jameson & Sheffield,06:57:00,False
+historic,2019-10-15,14,661138,1,North Jameson & Sheffield,07:38:00,False
+historic,2019-10-15,14,661137,1,North Jameson & Sheffield,08:23:00,False
+historic,2019-10-15,14,661136,1,North Jameson & Sheffield,09:23:00,False
+historic,2019-10-15,14,661131,1,North Jameson & Sheffield,10:23:00,True
+historic,2019-10-15,14,661130,1,North Jameson & Sheffield,12:26:00,True
+historic,2019-10-15,14,661129,1,North Jameson & Sheffield,13:26:00,True
+historic,2019-10-15,14,661128,1,North Jameson & Sheffield,14:26:00,False
+historic,2019-10-15,14,661135,1,North Jameson & Sheffield,15:24:00,False
+historic,2019-10-15,14,661134,1,North Jameson & Sheffield,16:24:00,False
+historic,2019-10-15,14,661133,1,North Jameson & Sheffield,17:24:00,False
+historic,2019-10-15,14,661132,1,North Jameson & Sheffield,17:54:00,False
+historic,2019-10-15,14,661127,1,North Jameson & Sheffield,18:21:00,False
+historic,2019-10-15,15X,661169,0,UCSB North Hall Outbound,07:02:00,False
+historic,2019-10-15,15X,661168,0,UCSB North Hall Outbound,07:04:00,False
+historic,2019-10-15,15X,661199,0,UCSB North Hall Outbound,07:07:00,False
+historic,2019-10-15,15X,661194,0,UCSB North Hall Outbound,07:38:00,False
+historic,2019-10-15,15X,661198,0,UCSB North Hall Outbound,08:09:00,False
+historic,2019-10-15,15X,661193,0,UCSB North Hall Outbound,08:40:00,False
+historic,2019-10-15,15X,661167,0,UCSB North Hall Outbound,08:40:00,False
+historic,2019-10-15,15X,661197,0,UCSB North Hall Outbound,09:11:00,False
+historic,2019-10-15,15X,661166,0,UCSB North Hall Outbound,09:44:00,False
+historic,2019-10-15,15X,661192,0,UCSB North Hall Outbound,09:44:00,False
+historic,2019-10-15,15X,661196,0,UCSB North Hall Outbound,10:11:00,True
+historic,2019-10-15,15X,661191,0,UCSB North Hall Outbound,10:38:00,True
+historic,2019-10-15,15X,661195,0,UCSB North Hall Outbound,11:05:00,True
+historic,2019-10-15,15X,661190,0,UCSB North Hall Outbound,11:32:00,True
+historic,2019-10-15,15X,661189,0,UCSB North Hall Outbound,11:59:00,True
+historic,2019-10-15,15X,661188,0,UCSB North Hall Outbound,12:26:00,True
+historic,2019-10-15,15X,661178,0,UCSB North Hall Outbound,12:53:00,True
+historic,2019-10-15,15X,661163,0,UCSB North Hall Outbound,13:07:00,True
+historic,2019-10-15,15X,661187,0,UCSB North Hall Outbound,13:20:00,True
+historic,2019-10-15,15X,661162,0,UCSB North Hall Outbound,13:34:00,True
+historic,2019-10-15,15X,661177,0,UCSB North Hall Outbound,13:47:00,True
+historic,2019-10-15,15X,661161,0,UCSB North Hall Outbound,14:01:00,False
+historic,2019-10-15,15X,661186,0,UCSB North Hall Outbound,14:14:00,False
+historic,2019-10-15,15X,661160,0,UCSB North Hall Outbound,14:28:00,False
+historic,2019-10-15,15X,661176,0,UCSB North Hall Outbound,14:41:00,False
+historic,2019-10-15,15X,661159,0,UCSB North Hall Outbound,14:55:00,False
+historic,2019-10-15,15X,661185,0,UCSB North Hall Outbound,15:08:00,False
+historic,2019-10-15,15X,661158,0,UCSB North Hall Outbound,15:24:00,False
+historic,2019-10-15,15X,661175,0,UCSB North Hall Outbound,15:37:00,False
+historic,2019-10-15,15X,661157,0,UCSB North Hall Outbound,15:51:00,False
+historic,2019-10-15,15X,661184,0,UCSB North Hall Outbound,16:10:00,False
+historic,2019-10-15,15X,661156,0,UCSB North Hall Outbound,16:26:00,False
+historic,2019-10-15,15X,661174,0,UCSB North Hall Outbound,16:39:00,False
+historic,2019-10-15,15X,661165,0,UCSB North Hall Outbound,16:53:00,False
+historic,2019-10-15,15X,661183,0,UCSB North Hall Outbound,17:12:00,False
+historic,2019-10-15,15X,661164,0,UCSB North Hall Outbound,17:28:00,False
+historic,2019-10-15,15X,661173,0,UCSB North Hall Outbound,17:41:00,False
+historic,2019-10-15,15X,661182,0,UCSB North Hall Outbound,18:14:00,False
+historic,2019-10-15,15X,661172,0,UCSB North Hall Outbound,18:43:00,False
+historic,2019-10-15,15X,661181,0,UCSB North Hall Outbound,19:16:00,False
+historic,2019-10-15,15X,661171,0,UCSB North Hall Outbound,19:45:00,False
+historic,2019-10-15,15X,661180,0,UCSB North Hall Outbound,20:18:00,False
+historic,2019-10-15,15X,661170,0,UCSB North Hall Outbound,20:45:00,False
+historic,2019-10-15,15X,661179,0,UCSB North Hall Outbound,21:18:00,False
+historic,2019-10-15,15X,661251,1,SBCC,07:16:00,False
+historic,2019-10-15,15X,661256,1,SBCC,07:47:00,False
+historic,2019-10-15,15X,661250,1,SBCC,08:18:00,False
+historic,2019-10-15,15X,661255,1,SBCC,08:49:00,False
+historic,2019-10-15,15X,661249,1,SBCC,09:20:00,False
+historic,2019-10-15,15X,661254,1,SBCC,09:51:00,False
+historic,2019-10-15,15X,661248,1,SBCC,10:18:00,True
+historic,2019-10-15,15X,661253,1,SBCC,10:45:00,True
+historic,2019-10-15,15X,661247,1,SBCC,11:12:00,True
+historic,2019-10-15,15X,661252,1,SBCC,11:39:00,True
+historic,2019-10-15,15X,661246,1,SBCC,12:06:00,True
+historic,2019-10-15,15X,661236,1,SBCC,12:33:00,True
+historic,2019-10-15,15X,661226,1,SBCC,12:47:00,True
+historic,2019-10-15,15X,661245,1,SBCC,13:00:00,True
+historic,2019-10-15,15X,661225,1,SBCC,13:14:00,True
+historic,2019-10-15,15X,661235,1,SBCC,13:27:00,True
+historic,2019-10-15,15X,661224,1,SBCC,13:41:00,True
+historic,2019-10-15,15X,661244,1,SBCC,13:54:00,True
+historic,2019-10-15,15X,661223,1,SBCC,14:08:00,False
+historic,2019-10-15,15X,661234,1,SBCC,14:21:00,False
+historic,2019-10-15,15X,661222,1,SBCC,14:35:00,False
+historic,2019-10-15,15X,661243,1,SBCC,14:48:00,False
+historic,2019-10-15,15X,661221,1,SBCC,15:02:00,False
+historic,2019-10-15,15X,661233,1,SBCC,15:15:00,False
+historic,2019-10-15,15X,661220,1,SBCC,15:29:00,False
+historic,2019-10-15,15X,661242,1,SBCC,15:48:00,False
+historic,2019-10-15,15X,661219,1,SBCC,16:04:00,False
+historic,2019-10-15,15X,661232,1,SBCC,16:17:00,False
+historic,2019-10-15,15X,661218,1,SBCC,16:31:00,False
+historic,2019-10-15,15X,661241,1,SBCC,16:50:00,False
+historic,2019-10-15,15X,661217,1,SBCC,17:06:00,False
+historic,2019-10-15,15X,661231,1,SBCC,17:19:00,False
+historic,2019-10-15,15X,661240,1,SBCC,17:52:00,False
+historic,2019-10-15,15X,661230,1,SBCC,18:21:00,False
+historic,2019-10-15,15X,661239,1,SBCC,18:54:00,False
+historic,2019-10-15,15X,661229,1,SBCC,19:23:00,False
+historic,2019-10-15,15X,661238,1,SBCC,19:56:00,False
+historic,2019-10-15,15X,661228,1,SBCC,20:25:00,False
+historic,2019-10-15,15X,661237,1,SBCC,20:58:00,False
+historic,2019-10-15,15X,661227,1,SBCC,21:17:00,False
+historic,2019-10-15,15X,661200,1,SBCC,21:50:00,False
+historic,2019-10-15,16,657667,0,Transit Center,06:55:00,False
+historic,2019-10-15,16,657678,0,Transit Center,07:25:00,False
+historic,2019-10-15,16,657668,0,Transit Center,07:35:00,False
+historic,2019-10-15,16,657666,0,Transit Center,08:00:00,False
+historic,2019-10-15,16,657665,0,Transit Center,08:30:00,False
+historic,2019-10-15,16,657677,0,Transit Center,09:00:00,False
+historic,2019-10-15,16,657676,0,Transit Center,09:30:00,False
+historic,2019-10-15,16,657675,0,Transit Center,10:00:00,True
+historic,2019-10-15,16,657664,0,Transit Center,10:30:00,True
+historic,2019-10-15,16,657674,0,Transit Center,11:00:00,True
+historic,2019-10-15,16,657673,0,Transit Center,11:30:00,True
+historic,2019-10-15,16,657672,0,Transit Center,12:00:00,True
+historic,2019-10-15,16,657663,0,Transit Center,12:30:00,True
+historic,2019-10-15,16,657657,0,Transit Center,12:55:00,True
+historic,2019-10-15,16,657662,0,Transit Center,13:15:00,True
+historic,2019-10-15,16,657656,0,Transit Center,13:35:00,True
+historic,2019-10-15,16,657661,0,Transit Center,13:55:00,True
+historic,2019-10-15,16,657669,0,Transit Center,14:15:00,False
+historic,2019-10-15,16,657660,0,Transit Center,14:35:00,False
+historic,2019-10-15,16,657655,0,Transit Center,14:55:00,False
+historic,2019-10-15,16,657671,0,Transit Center,15:15:00,False
+historic,2019-10-15,16,657654,0,Transit Center,15:35:00,False
+historic,2019-10-15,16,657659,0,Transit Center,15:55:00,False
+historic,2019-10-15,16,657653,0,Transit Center,16:15:00,False
+historic,2019-10-15,16,657670,0,Transit Center,16:35:00,False
+historic,2019-10-15,16,657652,0,Transit Center,16:55:00,False
+historic,2019-10-15,16,657658,0,Transit Center,17:15:00,False
+historic,2019-10-15,16,657694,1,SBCC West Campus,07:06:00,False
+historic,2019-10-15,16,657705,1,SBCC West Campus,07:36:00,False
+historic,2019-10-15,16,657693,1,SBCC West Campus,08:11:00,False
+historic,2019-10-15,16,657692,1,SBCC West Campus,08:41:00,False
+historic,2019-10-15,16,657691,1,SBCC West Campus,09:11:00,False
+historic,2019-10-15,16,657704,1,SBCC West Campus,09:41:00,False
+historic,2019-10-15,16,657703,1,SBCC West Campus,10:11:00,True
+historic,2019-10-15,16,657702,1,SBCC West Campus,10:41:00,True
+historic,2019-10-15,16,657690,1,SBCC West Campus,11:11:00,True
+historic,2019-10-15,16,657701,1,SBCC West Campus,11:41:00,True
+historic,2019-10-15,16,657700,1,SBCC West Campus,12:11:00,True
+historic,2019-10-15,16,657697,1,SBCC West Campus,12:31:00,True
+historic,2019-10-15,16,657689,1,SBCC West Campus,12:41:00,True
+historic,2019-10-15,16,657683,1,SBCC West Campus,13:07:00,True
+historic,2019-10-15,16,657688,1,SBCC West Campus,13:31:00,True
+historic,2019-10-15,16,657696,1,SBCC West Campus,13:51:00,True
+historic,2019-10-15,16,657687,1,SBCC West Campus,14:11:00,False
+historic,2019-10-15,16,657695,1,SBCC West Campus,14:31:00,False
+historic,2019-10-15,16,657686,1,SBCC West Campus,14:51:00,False
+historic,2019-10-15,16,657682,1,SBCC West Campus,15:11:00,False
+historic,2019-10-15,16,657699,1,SBCC West Campus,15:31:00,False
+historic,2019-10-15,16,657681,1,SBCC West Campus,15:51:00,False
+historic,2019-10-15,16,657685,1,SBCC West Campus,16:11:00,False
+historic,2019-10-15,16,657680,1,SBCC West Campus,16:31:00,False
+historic,2019-10-15,16,657698,1,SBCC West Campus,16:51:00,False
+historic,2019-10-15,16,657679,1,SBCC West Campus,17:11:00,False
+historic,2019-10-15,16,657684,1,SBCC West Campus,17:31:00,False
+historic,2019-10-15,17,661336,0,Transit Center,06:25:00,False
+historic,2019-10-15,17,661335,0,Transit Center,07:00:00,False
+historic,2019-10-15,17,661334,0,Transit Center,07:35:00,False
+historic,2019-10-15,17,661333,0,Transit Center,08:15:00,False
+historic,2019-10-15,17,661332,0,Transit Center,08:50:00,False
+historic,2019-10-15,17,661331,0,Transit Center,09:25:00,False
+historic,2019-10-15,17,661330,0,Transit Center,10:00:00,True
+historic,2019-10-15,17,661329,0,Transit Center,10:35:00,True
+historic,2019-10-15,17,661328,0,Transit Center,11:10:00,True
+historic,2019-10-15,17,661327,0,Transit Center,11:45:00,True
+historic,2019-10-15,17,661326,0,Transit Center,12:20:00,True
+historic,2019-10-15,17,661325,0,Transit Center,12:55:00,True
+historic,2019-10-15,17,661324,0,Transit Center,13:30:00,True
+historic,2019-10-15,17,661323,0,Transit Center,14:05:00,False
+historic,2019-10-15,17,661322,0,Transit Center,14:40:00,False
+historic,2019-10-15,17,661321,0,Transit Center,15:15:00,False
+historic,2019-10-15,17,661320,0,Transit Center,15:50:00,False
+historic,2019-10-15,17,661319,0,Transit Center,16:25:00,False
+historic,2019-10-15,17,661318,0,Transit Center,17:00:00,False
+historic,2019-10-15,17,661317,0,Transit Center,17:35:00,False
+historic,2019-10-15,17,661316,0,Transit Center,18:10:00,False
+historic,2019-10-15,17,661337,0,Transit Center,18:45:00,False
+historic,2019-10-15,17,661315,0,Transit Center,19:45:00,False
+historic,2019-10-15,17,661314,0,Transit Center,20:45:00,False
+historic,2019-10-15,17,661338,1,SBCC,06:56:00,False
+historic,2019-10-15,17,661360,1,SBCC,07:31:00,False
+historic,2019-10-15,17,661359,1,SBCC,08:06:00,False
+historic,2019-10-15,17,661358,1,SBCC,08:46:00,False
+historic,2019-10-15,17,661357,1,SBCC,09:21:00,False
+historic,2019-10-15,17,661356,1,SBCC,09:56:00,False
+historic,2019-10-15,17,661355,1,SBCC,10:31:00,True
+historic,2019-10-15,17,661354,1,SBCC,11:06:00,True
+historic,2019-10-15,17,661353,1,SBCC,11:41:00,True
+historic,2019-10-15,17,661352,1,SBCC,12:16:00,True
+historic,2019-10-15,17,661351,1,SBCC,12:51:00,True
+historic,2019-10-15,17,661350,1,SBCC,13:26:00,True
+historic,2019-10-15,17,661349,1,SBCC,14:01:00,False
+historic,2019-10-15,17,661348,1,SBCC,14:36:00,False
+historic,2019-10-15,17,661347,1,SBCC,15:11:00,False
+historic,2019-10-15,17,661346,1,SBCC,15:46:00,False
+historic,2019-10-15,17,661345,1,SBCC,16:21:00,False
+historic,2019-10-15,17,661344,1,SBCC,16:56:00,False
+historic,2019-10-15,17,661343,1,SBCC,17:31:00,False
+historic,2019-10-15,17,661342,1,SBCC,18:06:00,False
+historic,2019-10-15,17,661341,1,SBCC,18:41:00,False
+historic,2019-10-15,17,661340,1,SBCC,19:31:00,False
+historic,2019-10-15,17,661339,1,SBCC,20:31:00,False
+historic,2019-10-15,2,658003,0,Montecito & Milpas,05:36:00,False
+historic,2019-10-15,2,658004,0,Montecito & Milpas,05:50:00,False
+historic,2019-10-15,2,658005,0,Montecito & Milpas,06:05:00,False
+historic,2019-10-15,2,658006,0,Montecito & Milpas,06:20:00,False
+historic,2019-10-15,2,658007,0,Transit Center,06:25:00,False
+historic,2019-10-15,2,658008,0,Transit Center,06:45:00,False
+historic,2019-10-15,2,658066,0,Transit Center,07:00:00,False
+historic,2019-10-15,2,658009,0,Transit Center,07:15:00,False
+historic,2019-10-15,2,658010,0,Transit Center,07:30:00,False
+historic,2019-10-15,2,658067,0,Transit Center,07:45:00,False
+historic,2019-10-15,2,658011,0,Transit Center,08:00:00,False
+historic,2019-10-15,2,658065,0,Transit Center,08:15:00,False
+historic,2019-10-15,2,658012,0,Transit Center,08:30:00,False
+historic,2019-10-15,2,658013,0,Transit Center,08:45:00,False
+historic,2019-10-15,2,658014,0,Transit Center,09:00:00,False
+historic,2019-10-15,2,658015,0,Transit Center,09:15:00,False
+historic,2019-10-15,2,658016,0,Transit Center,09:30:00,False
+historic,2019-10-15,2,658017,0,Transit Center,09:45:00,False
+historic,2019-10-15,2,658018,0,Transit Center,10:00:00,True
+historic,2019-10-15,2,658019,0,Transit Center,10:15:00,True
+historic,2019-10-15,2,658020,0,Transit Center,10:30:00,True
+historic,2019-10-15,2,658021,0,Transit Center,10:45:00,True
+historic,2019-10-15,2,658022,0,Transit Center,11:00:00,True
+historic,2019-10-15,2,658023,0,Transit Center,11:15:00,True
+historic,2019-10-15,2,658024,0,Transit Center,11:30:00,True
+historic,2019-10-15,2,658025,0,Transit Center,11:45:00,True
+historic,2019-10-15,2,658026,0,Transit Center,12:00:00,True
+historic,2019-10-15,2,658027,0,Transit Center,12:15:00,True
+historic,2019-10-15,2,658028,0,Transit Center,12:30:00,True
+historic,2019-10-15,2,658029,0,Transit Center,12:45:00,True
+historic,2019-10-15,2,658030,0,Transit Center,13:00:00,True
+historic,2019-10-15,2,658031,0,Transit Center,13:15:00,True
+historic,2019-10-15,2,658032,0,Transit Center,13:30:00,True
+historic,2019-10-15,2,658033,0,Transit Center,13:45:00,True
+historic,2019-10-15,2,658034,0,Transit Center,14:00:00,False
+historic,2019-10-15,2,658035,0,Transit Center,14:15:00,False
+historic,2019-10-15,2,658036,0,Transit Center,14:30:00,False
+historic,2019-10-15,2,658037,0,Transit Center,14:40:00,False
+historic,2019-10-15,2,658038,0,Transit Center,14:50:00,False
+historic,2019-10-15,2,658039,0,Transit Center,15:00:00,False
+historic,2019-10-15,2,658040,0,Transit Center,15:10:00,False
+historic,2019-10-15,2,658041,0,Transit Center,15:20:00,False
+historic,2019-10-15,2,658042,0,Transit Center,15:30:00,False
+historic,2019-10-15,2,658043,0,Transit Center,15:40:00,False
+historic,2019-10-15,2,658044,0,Transit Center,15:50:00,False
+historic,2019-10-15,2,658045,0,Transit Center,16:00:00,False
+historic,2019-10-15,2,658046,0,Transit Center,16:10:00,False
+historic,2019-10-15,2,658047,0,Transit Center,16:20:00,False
+historic,2019-10-15,2,658048,0,Transit Center,16:30:00,False
+historic,2019-10-15,2,658049,0,Transit Center,16:40:00,False
+historic,2019-10-15,2,658050,0,Transit Center,16:50:00,False
+historic,2019-10-15,2,658051,0,Transit Center,17:00:00,False
+historic,2019-10-15,2,658052,0,Transit Center,17:10:00,False
+historic,2019-10-15,2,658053,0,Transit Center,17:20:00,False
+historic,2019-10-15,2,658054,0,Transit Center,17:30:00,False
+historic,2019-10-15,2,658055,0,Transit Center,17:45:00,False
+historic,2019-10-15,2,658056,0,Transit Center,18:00:00,False
+historic,2019-10-15,2,658057,0,Transit Center,18:15:00,False
+historic,2019-10-15,2,658058,0,Transit Center,18:30:00,False
+historic,2019-10-15,2,658059,0,Transit Center,19:00:00,False
+historic,2019-10-15,2,658060,0,Transit Center,19:30:00,False
+historic,2019-10-15,2,658061,0,Transit Center,20:00:00,False
+historic,2019-10-15,2,658062,0,Transit Center,20:45:00,False
+historic,2019-10-15,2,658063,0,Transit Center,21:15:00,False
+historic,2019-10-15,2,658064,0,Transit Center,22:00:00,False
+historic,2019-10-15,2,658068,1,Punta Gorda & Salinas,05:42:00,False
+historic,2019-10-15,2,658069,1,Punta Gorda & Salinas,05:56:00,False
+historic,2019-10-15,2,658070,1,Punta Gorda & Salinas,06:11:00,False
+historic,2019-10-15,2,658071,1,Punta Gorda & Salinas,06:26:00,False
+historic,2019-10-15,2,658072,1,Punta Gorda & Salinas,06:47:00,False
+historic,2019-10-15,2,658073,1,Punta Gorda & Salinas,07:07:00,False
+historic,2019-10-15,2,658130,1,Punta Gorda & Salinas,07:22:00,False
+historic,2019-10-15,2,658074,1,Punta Gorda & Salinas,07:37:00,False
+historic,2019-10-15,2,658075,1,Punta Gorda & Salinas,07:52:00,False
+historic,2019-10-15,2,658076,1,Punta Gorda & Salinas,08:07:00,False
+historic,2019-10-15,2,658131,1,Punta Gorda & Salinas,08:22:00,False
+historic,2019-10-15,2,658077,1,Punta Gorda & Salinas,08:37:00,False
+historic,2019-10-15,2,658078,1,Punta Gorda & Salinas,08:50:00,False
+historic,2019-10-15,2,658132,1,Punta Gorda & Salinas,09:07:00,False
+historic,2019-10-15,2,658079,1,Punta Gorda & Salinas,09:22:00,False
+historic,2019-10-15,2,658080,1,Punta Gorda & Salinas,09:37:00,False
+historic,2019-10-15,2,658081,1,Punta Gorda & Salinas,09:52:00,False
+historic,2019-10-15,2,658082,1,Punta Gorda & Salinas,10:07:00,True
+historic,2019-10-15,2,658083,1,Punta Gorda & Salinas,10:22:00,True
+historic,2019-10-15,2,658084,1,Punta Gorda & Salinas,10:37:00,True
+historic,2019-10-15,2,658085,1,Punta Gorda & Salinas,10:52:00,True
+historic,2019-10-15,2,658086,1,Punta Gorda & Salinas,11:07:00,True
+historic,2019-10-15,2,658087,1,Punta Gorda & Salinas,11:22:00,True
+historic,2019-10-15,2,658088,1,Punta Gorda & Salinas,11:37:00,True
+historic,2019-10-15,2,658089,1,Punta Gorda & Salinas,11:52:00,True
+historic,2019-10-15,2,658090,1,Punta Gorda & Salinas,12:07:00,True
+historic,2019-10-15,2,658091,1,Punta Gorda & Salinas,12:22:00,True
+historic,2019-10-15,2,658092,1,Punta Gorda & Salinas,12:37:00,True
+historic,2019-10-15,2,658093,1,Punta Gorda & Salinas,12:52:00,True
+historic,2019-10-15,2,658094,1,Punta Gorda & Salinas,13:07:00,True
+historic,2019-10-15,2,658095,1,Punta Gorda & Salinas,13:22:00,True
+historic,2019-10-15,2,658096,1,Punta Gorda & Salinas,13:37:00,True
+historic,2019-10-15,2,658097,1,Punta Gorda & Salinas,13:52:00,True
+historic,2019-10-15,2,658098,1,Punta Gorda & Salinas,14:07:00,False
+historic,2019-10-15,2,658099,1,Punta Gorda & Salinas,14:22:00,False
+historic,2019-10-15,2,658100,1,Punta Gorda & Salinas,14:37:00,False
+historic,2019-10-15,2,658101,1,Punta Gorda & Salinas,14:52:00,False
+historic,2019-10-15,2,658102,1,Punta Gorda & Salinas,15:02:00,False
+historic,2019-10-15,2,658103,1,Punta Gorda & Salinas,15:12:00,False
+historic,2019-10-15,2,658104,1,Punta Gorda & Salinas,15:22:00,False
+historic,2019-10-15,2,658105,1,Punta Gorda & Salinas,15:32:00,False
+historic,2019-10-15,2,658106,1,Punta Gorda & Salinas,15:42:00,False
+historic,2019-10-15,2,658107,1,Punta Gorda & Salinas,15:52:00,False
+historic,2019-10-15,2,658108,1,Punta Gorda & Salinas,16:02:00,False
+historic,2019-10-15,2,658109,1,Punta Gorda & Salinas,16:12:00,False
+historic,2019-10-15,2,658110,1,Punta Gorda & Salinas,16:22:00,False
+historic,2019-10-15,2,658111,1,Punta Gorda & Salinas,16:32:00,False
+historic,2019-10-15,2,658112,1,Punta Gorda & Salinas,16:42:00,False
+historic,2019-10-15,2,658113,1,Punta Gorda & Salinas,16:52:00,False
+historic,2019-10-15,2,658114,1,Punta Gorda & Salinas,17:02:00,False
+historic,2019-10-15,2,658115,1,Punta Gorda & Salinas,17:12:00,False
+historic,2019-10-15,2,658116,1,Punta Gorda & Salinas,17:22:00,False
+historic,2019-10-15,2,658117,1,Punta Gorda & Salinas,17:32:00,False
+historic,2019-10-15,2,658118,1,Punta Gorda & Salinas,17:42:00,False
+historic,2019-10-15,2,658119,1,Punta Gorda & Salinas,17:52:00,False
+historic,2019-10-15,2,658120,1,Punta Gorda & Salinas,18:03:00,False
+historic,2019-10-15,2,658121,1,Punta Gorda & Salinas,18:18:00,False
+historic,2019-10-15,2,658122,1,Punta Gorda & Salinas,18:33:00,False
+historic,2019-10-15,2,658123,1,Punta Gorda & Salinas,18:48:00,False
+historic,2019-10-15,2,658124,1,Punta Gorda & Salinas,19:18:00,False
+historic,2019-10-15,2,658125,1,Punta Gorda & Salinas,19:48:00,False
+historic,2019-10-15,2,658126,1,Punta Gorda & Salinas,20:18:00,False
+historic,2019-10-15,2,658127,1,Punta Gorda & Salinas,21:03:00,False
+historic,2019-10-15,2,658128,1,Punta Gorda & Salinas,21:33:00,False
+historic,2019-10-15,2,658129,1,Punta Gorda & Salinas,22:18:00,False
+historic,2019-10-15,20,661464,0,Transit Center,05:30:00,False
+historic,2019-10-15,20,661465,0,Transit Center,06:00:00,False
+historic,2019-10-15,20,661466,0,Transit Center,06:30:00,False
+historic,2019-10-15,20,661467,0,Transit Center,07:00:00,False
+historic,2019-10-15,20,661468,0,Transit Center,07:30:00,False
+historic,2019-10-15,20,661469,0,Transit Center,08:00:00,False
+historic,2019-10-15,20,661470,0,Transit Center,08:30:00,False
+historic,2019-10-15,20,661471,0,Transit Center,09:00:00,False
+historic,2019-10-15,20,661472,0,Transit Center,09:40:00,False
+historic,2019-10-15,20,661473,0,Transit Center,10:20:00,True
+historic,2019-10-15,20,661474,0,Transit Center,11:00:00,True
+historic,2019-10-15,20,661475,0,Transit Center,11:40:00,True
+historic,2019-10-15,20,661476,0,Transit Center,12:20:00,True
+historic,2019-10-15,20,661477,0,Transit Center,13:00:00,True
+historic,2019-10-15,20,661478,0,Transit Center,13:40:00,True
+historic,2019-10-15,20,661479,0,Transit Center,14:20:00,False
+historic,2019-10-15,20,661480,0,Transit Center,15:00:00,False
+historic,2019-10-15,20,661481,0,Transit Center,15:30:00,False
+historic,2019-10-15,20,661482,0,Transit Center,16:00:00,False
+historic,2019-10-15,20,661483,0,Transit Center,16:30:00,False
+historic,2019-10-15,20,661484,0,Transit Center,17:00:00,False
+historic,2019-10-15,20,661463,0,Transit Center,17:15:00,False
+historic,2019-10-15,20,661485,0,Transit Center,17:30:00,False
+historic,2019-10-15,20,661462,0,Transit Center,17:45:00,False
+historic,2019-10-15,20,661486,0,Transit Center,18:00:00,False
+historic,2019-10-15,20,661461,0,Transit Center,18:30:00,False
+historic,2019-10-15,20,661487,0,Transit Center,19:00:00,False
+historic,2019-10-15,20,661488,0,Transit Center,20:00:00,False
+historic,2019-10-15,20,661489,0,Transit Center,21:00:00,False
+historic,2019-10-15,20,661490,0,Transit Center,22:00:00,False
+historic,2019-10-15,20,661493,1,Via Real & Mark,05:30:00,False
+historic,2019-10-15,20,661494,1,Via Real & Mark,06:00:00,False
+historic,2019-10-15,20,661492,1,Via Real & Mark,06:15:00,False
+historic,2019-10-15,20,661495,1,Via Real & Mark,06:30:00,False
+historic,2019-10-15,20,661491,1,Via Real & Mark,06:45:00,False
+historic,2019-10-15,20,661496,1,Via Real & Mark,07:00:00,False
+historic,2019-10-15,20,661497,1,Via Real & Mark,07:30:00,False
+historic,2019-10-15,20,661498,1,Via Real & Mark,08:00:00,False
+historic,2019-10-15,20,661499,1,Via Real & Mark,08:30:00,False
+historic,2019-10-15,20,661500,1,Via Real & Mark,09:00:00,False
+historic,2019-10-15,20,661501,1,Via Real & Mark,09:40:00,False
+historic,2019-10-15,20,661502,1,Via Real & Mark,10:20:00,True
+historic,2019-10-15,20,661503,1,Via Real & Mark,11:00:00,True
+historic,2019-10-15,20,661504,1,Via Real & Mark,11:40:00,True
+historic,2019-10-15,20,661505,1,Via Real & Mark,12:20:00,True
+historic,2019-10-15,20,661506,1,Via Real & Mark,13:00:00,True
+historic,2019-10-15,20,661507,1,Via Real & Mark,13:40:00,True
+historic,2019-10-15,20,661508,1,Via Real & Mark,14:20:00,False
+historic,2019-10-15,20,661509,1,Via Real & Mark,15:00:00,False
+historic,2019-10-15,20,661510,1,Via Real & Mark,15:30:00,False
+historic,2019-10-15,20,661511,1,Via Real & Mark,16:00:00,False
+historic,2019-10-15,20,661512,1,Via Real & Mark,16:30:00,False
+historic,2019-10-15,20,661513,1,Via Real & Mark,17:00:00,False
+historic,2019-10-15,20,661514,1,Via Real & Mark,17:30:00,False
+historic,2019-10-15,20,661515,1,Via Real & Mark,18:00:00,False
+historic,2019-10-15,20,661516,1,Via Real & Mark,19:00:00,False
+historic,2019-10-15,20,661517,1,Via Real & Mark,20:00:00,False
+historic,2019-10-15,20,661518,1,Via Real & Mark,21:00:00,False
+historic,2019-10-15,20,661519,1,Via Real & Mark,22:00:00,False
+historic,2019-10-15,20,661520,1,Via Real & Mark,22:45:00,False
+historic,2019-10-15,2010,658293,0,Transit Center,08:37:00,False
+historic,2019-10-15,2110,661524,0,Cota & Quarantina,14:24:57,False
+historic,2019-10-15,23,658362,0,Storke & Hollister,07:09:00,False
+historic,2019-10-15,23,658363,0,Storke & Hollister,08:09:00,False
+historic,2019-10-15,23,658364,0,Storke & Hollister,09:09:00,False
+historic,2019-10-15,23,658365,0,Storke & Hollister,10:09:00,True
+historic,2019-10-15,23,658366,0,Storke & Hollister,11:09:00,True
+historic,2019-10-15,23,658367,0,Storke & Hollister,12:09:00,True
+historic,2019-10-15,23,658368,0,Storke & Hollister,13:09:00,True
+historic,2019-10-15,23,658369,0,Storke & Hollister,14:09:00,False
+historic,2019-10-15,23,658370,0,Storke & Hollister,15:09:00,False
+historic,2019-10-15,23,658371,0,Storke & Hollister,16:09:00,False
+historic,2019-10-15,23,658372,0,Storke & Hollister,17:09:00,False
+historic,2019-10-15,23,658373,0,Storke & Hollister,18:09:00,False
+historic,2019-10-15,23,658374,0,Storke & Hollister,19:09:00,False
+historic,2019-10-15,23,658375,0,Storke & Hollister,20:05:00,False
+historic,2019-10-15,23,658376,0,Storke & Hollister,21:15:00,False
+historic,2019-10-15,23,658377,0,Storke & Hollister,21:45:00,False
+historic,2019-10-15,23,658378,0,Storke & Hollister,23:05:00,False
+historic,2019-10-15,23,658382,1,Brandon & Evergreen,05:39:00,False
+historic,2019-10-15,23,658383,1,Brandon & Evergreen,05:59:00,False
+historic,2019-10-15,23,658384,1,Brandon & Evergreen,06:19:00,False
+historic,2019-10-15,23,658379,1,Brandon & Evergreen,06:39:00,False
+historic,2019-10-15,23,658380,1,Brandon & Evergreen,06:59:00,False
+historic,2019-10-15,23,658392,1,Brandon & Evergreen,07:23:00,False
+historic,2019-10-15,23,658381,1,Brandon & Evergreen,08:23:00,False
+historic,2019-10-15,23,658385,1,Brandon & Evergreen,09:23:00,False
+historic,2019-10-15,23,658386,1,Brandon & Evergreen,10:23:00,True
+historic,2019-10-15,23,658387,1,Brandon & Evergreen,11:23:00,True
+historic,2019-10-15,23,658388,1,Brandon & Evergreen,12:23:00,True
+historic,2019-10-15,23,658389,1,Brandon & Evergreen,13:23:00,True
+historic,2019-10-15,23,658390,1,Brandon & Evergreen,14:38:00,False
+historic,2019-10-15,23,658393,1,Brandon & Evergreen,15:38:00,False
+historic,2019-10-15,23,658391,1,Brandon & Evergreen,16:38:00,False
+historic,2019-10-15,23,658394,1,Brandon & Evergreen,17:38:00,False
+historic,2019-10-15,23,658395,1,Brandon & Evergreen,18:43:00,False
+historic,2019-10-15,2410,661531,0,Turnpike & Ukiah,07:40:00,False
+historic,2019-10-15,2410,661534,1,La Colina JH,14:41:00,False
+historic,2019-10-15,2420,661539,0,University & Patterson,07:55:00,False
+historic,2019-10-15,2420,661542,1,Cathedral Oaks & Via Chaparral,14:49:36,False
+historic,2019-10-15,2430,661547,0,Hollister & San Ricardo,07:45:00,False
+historic,2019-10-15,2430,661550,1,State & La Cumbre,14:46:00,False
+historic,2019-10-15,24X,661680,0,Transit Center,06:30:00,False
+historic,2019-10-15,24X,661681,0,Transit Center,07:05:00,False
+historic,2019-10-15,24X,661704,0,Transit Center,07:25:00,False
+historic,2019-10-15,24X,661705,0,Transit Center,07:40:00,False
+historic,2019-10-15,24X,661706,0,Transit Center,08:15:00,False
+historic,2019-10-15,24X,661707,0,Transit Center,08:25:00,False
+historic,2019-10-15,24X,661708,0,Transit Center,08:50:00,False
+historic,2019-10-15,24X,661709,0,Transit Center,09:25:00,False
+historic,2019-10-15,24X,661710,0,Transit Center,10:00:00,True
+historic,2019-10-15,24X,661711,0,Transit Center,10:25:00,True
+historic,2019-10-15,24X,661682,0,Transit Center,10:35:00,True
+historic,2019-10-15,24X,661683,0,Transit Center,11:10:00,True
+historic,2019-10-15,24X,661684,0,Transit Center,11:45:00,True
+historic,2019-10-15,24X,661685,0,Transit Center,12:20:00,True
+historic,2019-10-15,24X,661686,0,Transit Center,12:55:00,True
+historic,2019-10-15,24X,661687,0,Transit Center,13:30:00,True
+historic,2019-10-15,24X,661688,0,Transit Center,14:05:00,False
+historic,2019-10-15,24X,661689,0,Transit Center,14:40:00,False
+historic,2019-10-15,24X,661690,0,Transit Center,15:15:00,False
+historic,2019-10-15,24X,661691,0,Transit Center,15:50:00,False
+historic,2019-10-15,24X,661692,0,Transit Center,16:25:00,False
+historic,2019-10-15,24X,661701,0,Transit Center,17:00:00,False
+historic,2019-10-15,24X,661697,0,Transit Center,17:15:00,False
+historic,2019-10-15,24X,661694,0,Transit Center,17:35:00,False
+historic,2019-10-15,24X,661698,0,Transit Center,18:10:00,False
+historic,2019-10-15,24X,661700,0,Transit Center,18:45:00,False
+historic,2019-10-15,24X,661699,0,Transit Center,19:20:00,False
+historic,2019-10-15,24X,661693,0,Transit Center,19:55:00,False
+historic,2019-10-15,24X,661702,0,Transit Center,20:30:00,False
+historic,2019-10-15,24X,661695,0,Transit Center,21:05:00,False
+historic,2019-10-15,24X,661703,0,Transit Center,21:40:00,False
+historic,2019-10-15,24X,661696,0,Transit Center,22:15:00,False
+historic,2019-10-15,24X,661679,0,Transit Center,22:50:00,False
+historic,2019-10-15,24X,661678,0,Transit Center,23:25:00,False
+historic,2019-10-15,24X,661717,1,Storke & Hollister,06:25:00,False
+historic,2019-10-15,24X,661726,1,Storke & Hollister,07:02:00,False
+historic,2019-10-15,24X,661727,1,Storke & Hollister,07:37:00,False
+historic,2019-10-15,24X,661728,1,Storke & Hollister,08:12:00,False
+historic,2019-10-15,24X,661729,1,Storke & Hollister,08:47:00,False
+historic,2019-10-15,24X,661730,1,Storke & Hollister,09:22:00,False
+historic,2019-10-15,24X,661722,1,Storke & Hollister,09:57:00,False
+historic,2019-10-15,24X,661733,1,El Colegio & Camino Corto,10:35:00,True
+historic,2019-10-15,24X,661732,1,Storke & Hollister,11:07:00,True
+historic,2019-10-15,24X,661735,1,El Colegio & Camino Corto,11:45:00,True
+historic,2019-10-15,24X,661734,1,Storke & Hollister,12:17:00,True
+historic,2019-10-15,24X,661737,1,El Colegio & Camino Corto,12:55:00,True
+historic,2019-10-15,24X,661736,1,Storke & Hollister,13:27:00,True
+historic,2019-10-15,24X,661739,1,El Colegio & Camino Corto,14:05:00,False
+historic,2019-10-15,24X,661738,1,Storke & Hollister,14:37:00,False
+historic,2019-10-15,24X,661718,1,Storke & Hollister,15:12:00,False
+historic,2019-10-15,24X,661740,1,Storke & Hollister,15:47:00,False
+historic,2019-10-15,24X,661719,1,Storke & Hollister,16:22:00,False
+historic,2019-10-15,24X,661741,1,Storke & Hollister,16:57:00,False
+historic,2019-10-15,24X,661742,1,Storke & Hollister,17:32:00,False
+historic,2019-10-15,24X,661731,1,El Colegio & Camino Corto,17:50:00,False
+historic,2019-10-15,24X,661720,1,Storke & Hollister,18:07:00,False
+historic,2019-10-15,24X,661721,1,Storke & Hollister,18:42:00,False
+historic,2019-10-15,24X,661723,1,Storke & Hollister,19:17:00,False
+historic,2019-10-15,24X,661724,1,Storke & Hollister,19:52:00,False
+historic,2019-10-15,24X,661725,1,Storke & Hollister,20:27:00,False
+historic,2019-10-15,24X,661716,1,Storke & Hollister,21:02:00,False
+historic,2019-10-15,24X,661715,1,Storke & Hollister,21:37:00,False
+historic,2019-10-15,24X,661714,1,Storke & Hollister,22:12:00,False
+historic,2019-10-15,24X,661713,1,Storke & Hollister,22:47:00,False
+historic,2019-10-15,24X,661712,1,Storke & Hollister,23:22:00,False
+historic,2019-10-15,25,658681,0,Hollister & Storke,07:13:00,False
+historic,2019-10-15,25,658680,0,Hollister & Storke,07:43:00,False
+historic,2019-10-15,25,658668,0,Hollister & Storke,08:43:00,False
+historic,2019-10-15,25,658669,0,Hollister & Storke,09:08:00,False
+historic,2019-10-15,25,658670,0,Hollister & Storke,09:38:00,False
+historic,2019-10-15,25,658671,0,Hollister & Storke,10:38:00,True
+historic,2019-10-15,25,658672,0,Hollister & Storke,11:38:00,True
+historic,2019-10-15,25,658673,0,Hollister & Storke,12:38:00,True
+historic,2019-10-15,25,658674,0,Hollister & Storke,13:38:00,True
+historic,2019-10-15,25,658675,0,Hollister & Storke,14:38:00,False
+historic,2019-10-15,25,658676,0,Hollister & Storke,15:38:00,False
+historic,2019-10-15,25,658677,0,Hollister & Storke,16:43:00,False
+historic,2019-10-15,25,658678,0,Hollister & Storke,17:43:00,False
+historic,2019-10-15,25,658679,0,Hollister & Storke,18:43:00,False
+historic,2019-10-15,25,658694,1,Calle Real & Winchester,05:30:00,False
+historic,2019-10-15,25,658682,1,Calle Real & Winchester,05:48:00,False
+historic,2019-10-15,25,658683,1,Calle Real & Winchester,06:08:00,False
+historic,2019-10-15,25,658684,1,Calle Real & Winchester,06:28:00,False
+historic,2019-10-15,25,658685,1,Calle Real & Winchester,06:48:00,False
+historic,2019-10-15,25,658686,1,Calle Real & Winchester,07:08:00,False
+historic,2019-10-15,25,658705,1,Calle Real & Winchester,07:28:00,False
+historic,2019-10-15,25,658687,1,Calle Real & Winchester,08:06:00,False
+historic,2019-10-15,25,658688,1,Calle Real & Winchester,08:58:00,False
+historic,2019-10-15,25,658689,1,Calle Real & Winchester,09:25:00,False
+historic,2019-10-15,25,658690,1,Calle Real & Winchester,09:55:00,False
+historic,2019-10-15,25,658691,1,Calle Real & Winchester,10:55:00,True
+historic,2019-10-15,25,658692,1,Calle Real & Winchester,11:55:00,True
+historic,2019-10-15,25,658693,1,Calle Real & Winchester,12:55:00,True
+historic,2019-10-15,25,658700,1,Calle Real & Winchester,13:55:00,True
+historic,2019-10-15,25,658695,1,Calle Real & Winchester,15:06:00,False
+historic,2019-10-15,25,658706,1,Calle Real & Winchester,16:06:00,False
+historic,2019-10-15,25,658696,1,Calle Real & Winchester,17:06:00,False
+historic,2019-10-15,25,658697,1,Calle Real & Winchester,18:06:00,False
+historic,2019-10-15,25,658698,1,Calle Real & Winchester,19:00:00,False
+historic,2019-10-15,25,658699,1,Calle Real & Winchester,19:25:00,False
+historic,2019-10-15,25,658701,1,Calle Real & Winchester,20:20:00,False
+historic,2019-10-15,25,658702,1,Calle Real & Winchester,21:29:00,False
+historic,2019-10-15,25,658703,1,Calle Real & Winchester,22:00:00,False
+historic,2019-10-15,25,658704,1,Calle Real & Winchester,23:20:00,False
+historic,2019-10-15,2510,661745,0,Rancheria & Gutierrez,07:10:00,False
+historic,2019-10-15,2510,661744,0,Rancheria & Gutierrez,07:12:00,False
+historic,2019-10-15,2510,661750,1,San Marcos High School,13:45:00,True
+historic,2019-10-15,2510,661749,1,San Marcos High School,15:15:00,False
+historic,2019-10-15,2510,661747,1,San Marcos High School,15:15:00,False
+historic,2019-10-15,2520,661754,0,Transit Center,07:35:00,False
+historic,2019-10-15,2520,661756,1,Carrillo & Bath,15:39:03,False
+historic,2019-10-15,2530,661757,0,Carrillo & San Andres,07:15:00,False
+historic,2019-10-15,2530,661760,1,Modoc & La Cumbre Country Club,15:26:18,False
+historic,2019-10-15,2540,661761,0,Haley & Bath,07:00:00,False
+historic,2019-10-15,2610,661763,0,Hollister & Kellogg,08:00:00,False
+historic,2019-10-15,2610,661766,1,Goleta Valley Junior High,14:40:00,False
+historic,2019-10-15,2620,661767,0,Winchester Canyon & Bradford,07:55:00,False
+historic,2019-10-15,2620,661770,1,Cathedral Oaks & Windsor,14:42:27,False
+historic,2019-10-15,2630,661771,0,Hollister & Cathedral Oaks,07:44:00,False
+historic,2019-10-15,2630,661774,1,Hollister & Cathedral Oaks,14:52:00,False
+historic,2019-10-15,2650,661775,0,Cam. Pescadero & El Colegio,07:50:00,False
+historic,2019-10-15,2650,661778,1,Storke & Hollister,14:53:00,False
+historic,2019-10-15,2660,661779,0,El Colegio & Los Carneros,15:48:00,False
+historic,2019-10-15,27,658851,0,Storke & Market Place,07:00:00,False
+historic,2019-10-15,27,658852,0,Storke & Market Place,07:14:00,False
+historic,2019-10-15,27,658853,0,Storke & Market Place,07:28:00,False
+historic,2019-10-15,27,658854,0,Santa Felicia & Marketplace,07:37:00,False
+historic,2019-10-15,27,658855,0,Santa Felicia & Marketplace,07:51:00,False
+historic,2019-10-15,27,658856,0,Santa Felicia & Marketplace,08:05:00,False
+historic,2019-10-15,27,658857,0,Santa Felicia & Marketplace,08:19:00,False
+historic,2019-10-15,27,658858,0,Santa Felicia & Marketplace,08:33:00,False
+historic,2019-10-15,27,658859,0,Santa Felicia & Marketplace,08:47:00,False
+historic,2019-10-15,27,658860,0,Santa Felicia & Marketplace,09:08:00,False
+historic,2019-10-15,27,658869,0,Santa Felicia & Marketplace,09:29:00,False
+historic,2019-10-15,27,658861,0,Santa Felicia & Marketplace,09:50:00,False
+historic,2019-10-15,27,658870,0,Santa Felicia & Marketplace,10:11:00,True
+historic,2019-10-15,27,658862,0,Santa Felicia & Marketplace,10:32:00,True
+historic,2019-10-15,27,658863,0,Santa Felicia & Marketplace,11:14:00,True
+historic,2019-10-15,27,658871,0,Santa Felicia & Marketplace,11:35:00,True
+historic,2019-10-15,27,658864,0,Santa Felicia & Marketplace,11:56:00,True
+historic,2019-10-15,27,658872,0,Santa Felicia & Marketplace,12:17:00,True
+historic,2019-10-15,27,658865,0,Santa Felicia & Marketplace,12:38:00,True
+historic,2019-10-15,27,658873,0,Santa Felicia & Marketplace,12:59:00,True
+historic,2019-10-15,27,658866,0,Santa Felicia & Marketplace,13:20:00,True
+historic,2019-10-15,27,658874,0,Santa Felicia & Marketplace,13:41:00,True
+historic,2019-10-15,27,658867,0,Santa Felicia & Marketplace,14:02:00,False
+historic,2019-10-15,27,658875,0,Santa Felicia & Marketplace,14:23:00,False
+historic,2019-10-15,27,658868,0,Santa Felicia & Marketplace,14:44:00,False
+historic,2019-10-15,27,658876,0,Santa Felicia & Marketplace,14:58:00,False
+historic,2019-10-15,27,658881,0,Santa Felicia & Marketplace,15:12:00,False
+historic,2019-10-15,27,658886,0,Santa Felicia & Marketplace,15:26:00,False
+historic,2019-10-15,27,658877,0,Santa Felicia & Marketplace,15:40:00,False
+historic,2019-10-15,27,658882,0,Santa Felicia & Marketplace,15:54:00,False
+historic,2019-10-15,27,658887,0,Santa Felicia & Marketplace,16:08:00,False
+historic,2019-10-15,27,658878,0,Santa Felicia & Marketplace,16:22:00,False
+historic,2019-10-15,27,658883,0,Santa Felicia & Marketplace,16:36:00,False
+historic,2019-10-15,27,658888,0,Santa Felicia & Marketplace,16:50:00,False
+historic,2019-10-15,27,658879,0,Santa Felicia & Marketplace,17:04:00,False
+historic,2019-10-15,27,658884,0,Santa Felicia & Marketplace,17:18:00,False
+historic,2019-10-15,27,658889,0,Santa Felicia & Marketplace,17:32:00,False
+historic,2019-10-15,27,658880,0,Santa Felicia & Marketplace,17:46:00,False
+historic,2019-10-15,27,658885,0,Santa Felicia & Marketplace,18:00:00,False
+historic,2019-10-15,27,658890,0,Santa Felicia & Marketplace,18:14:00,False
+historic,2019-10-15,27,658891,0,Santa Felicia & Marketplace,18:56:00,False
+historic,2019-10-15,27,658892,0,Santa Felicia & Marketplace,19:38:00,False
+historic,2019-10-15,27,658915,1,UCSB North Hall Outbound,07:16:00,False
+historic,2019-10-15,27,658916,1,UCSB North Hall Outbound,07:30:00,False
+historic,2019-10-15,27,658917,1,UCSB North Hall Outbound,07:44:00,False
+historic,2019-10-15,27,658918,1,UCSB North Hall Outbound,07:58:00,False
+historic,2019-10-15,27,658919,1,UCSB North Hall Outbound,08:12:00,False
+historic,2019-10-15,27,658920,1,UCSB North Hall Outbound,08:26:00,False
+historic,2019-10-15,27,658921,1,UCSB North Hall Outbound,08:40:00,False
+historic,2019-10-15,27,658922,1,UCSB North Hall Outbound,09:01:00,False
+historic,2019-10-15,27,658923,1,UCSB North Hall Outbound,09:29:00,False
+historic,2019-10-15,27,658924,1,UCSB North Hall Outbound,09:50:00,False
+historic,2019-10-15,27,658925,1,UCSB North Hall Outbound,10:11:00,True
+historic,2019-10-15,27,658926,1,UCSB North Hall Outbound,10:32:00,True
+historic,2019-10-15,27,658927,1,UCSB North Hall Outbound,10:53:00,True
+historic,2019-10-15,27,658928,1,UCSB North Hall Outbound,11:35:00,True
+historic,2019-10-15,27,658929,1,UCSB North Hall Outbound,11:56:00,True
+historic,2019-10-15,27,658930,1,UCSB North Hall Outbound,12:17:00,True
+historic,2019-10-15,27,658931,1,UCSB North Hall Outbound,12:38:00,True
+historic,2019-10-15,27,658932,1,UCSB North Hall Outbound,12:59:00,True
+historic,2019-10-15,27,658933,1,UCSB North Hall Outbound,13:20:00,True
+historic,2019-10-15,27,658934,1,UCSB North Hall Outbound,13:41:00,True
+historic,2019-10-15,27,658935,1,UCSB North Hall Outbound,14:02:00,False
+historic,2019-10-15,27,658936,1,UCSB North Hall Outbound,14:23:00,False
+historic,2019-10-15,27,658937,1,UCSB North Hall Outbound,14:44:00,False
+historic,2019-10-15,27,658940,1,UCSB North Hall Outbound,15:05:00,False
+historic,2019-10-15,27,658938,1,UCSB North Hall Outbound,15:19:00,False
+historic,2019-10-15,27,658939,1,UCSB North Hall Outbound,15:33:00,False
+historic,2019-10-15,27,658941,1,UCSB North Hall Outbound,15:47:00,False
+historic,2019-10-15,27,658945,1,UCSB North Hall Outbound,16:01:00,False
+historic,2019-10-15,27,658948,1,UCSB North Hall Outbound,16:15:00,False
+historic,2019-10-15,27,658942,1,UCSB North Hall Outbound,16:29:00,False
+historic,2019-10-15,27,658946,1,UCSB North Hall Outbound,16:43:00,False
+historic,2019-10-15,27,658949,1,UCSB North Hall Outbound,16:57:00,False
+historic,2019-10-15,27,658943,1,UCSB North Hall Outbound,17:11:00,False
+historic,2019-10-15,27,658947,1,UCSB North Hall Outbound,17:25:00,False
+historic,2019-10-15,27,658950,1,UCSB North Hall Outbound,17:39:00,False
+historic,2019-10-15,27,658944,1,UCSB North Hall Outbound,17:53:00,False
+historic,2019-10-15,27,658951,1,UCSB North Hall Outbound,18:21:00,False
+historic,2019-10-15,27,658952,1,UCSB North Hall Outbound,18:35:00,False
+historic,2019-10-15,27,658953,1,UCSB North Hall Outbound,19:17:00,False
+historic,2019-10-15,27,658954,1,UCSB North Hall Outbound,19:59:00,False
+historic,2019-10-15,2710,661782,0,Cam. Pescadero & El Colegio,07:20:00,False
+historic,2019-10-15,2710,661784,1,Alameda & Padova,15:06:00,False
+historic,2019-10-15,2720,661790,0,Hollister & Kellogg,07:28:00,False
+historic,2019-10-15,2720,661788,0,Hollister & Turnpike,07:20:00,False
+historic,2019-10-15,2720,661794,1,Alameda & Padova,15:06:00,False
+historic,2019-10-15,2720,661793,1,Alameda & Padova,15:06:00,False
+historic,2019-10-15,2730,661799,0,State & La Cumbre,07:05:00,False
+historic,2019-10-15,2730,661801,1,Alameda & Padova,15:06:00,False
+historic,2019-10-15,2740,661802,0,Hollister & Pacific Oaks,07:15:00,False
+historic,2019-10-15,2740,661805,1,Alameda & Padova,15:06:00,False
+historic,2019-10-15,28,662088,0,UCSB North Hall Outbound,07:28:00,False
+historic,2019-10-15,28,662087,0,UCSB North Hall Outbound,07:38:00,False
+historic,2019-10-15,28,662086,0,UCSB North Hall Outbound,07:48:00,False
+historic,2019-10-15,28,662085,0,UCSB North Hall Outbound,07:58:00,False
+historic,2019-10-15,28,662084,0,UCSB North Hall Outbound,08:08:00,False
+historic,2019-10-15,28,662083,0,UCSB North Hall Outbound,08:18:00,False
+historic,2019-10-15,28,662082,0,UCSB North Hall Outbound,08:28:00,False
+historic,2019-10-15,28,662081,0,UCSB North Hall Outbound,08:38:00,False
+historic,2019-10-15,28,662080,0,UCSB North Hall Outbound,08:48:00,False
+historic,2019-10-15,28,662079,0,UCSB North Hall Outbound,08:58:00,False
+historic,2019-10-15,28,662078,0,UCSB North Hall Outbound,09:08:00,False
+historic,2019-10-15,28,662077,0,UCSB North Hall Outbound,09:18:00,False
+historic,2019-10-15,28,662076,0,UCSB North Hall Outbound,09:28:00,False
+historic,2019-10-15,28,662075,0,UCSB North Hall Outbound,09:38:00,False
+historic,2019-10-15,28,662074,0,UCSB North Hall Outbound,09:48:00,False
+historic,2019-10-15,28,662073,0,UCSB North Hall Outbound,09:58:00,False
+historic,2019-10-15,28,662072,0,UCSB North Hall Outbound,10:08:00,True
+historic,2019-10-15,28,662071,0,UCSB North Hall Outbound,10:18:00,True
+historic,2019-10-15,28,662070,0,UCSB North Hall Outbound,10:38:00,True
+historic,2019-10-15,28,662069,0,UCSB North Hall Outbound,10:48:00,True
+historic,2019-10-15,28,662068,0,UCSB North Hall Outbound,11:08:00,True
+historic,2019-10-15,28,662067,0,UCSB North Hall Outbound,11:18:00,True
+historic,2019-10-15,28,662066,0,UCSB North Hall Outbound,11:28:00,True
+historic,2019-10-15,28,662065,0,UCSB North Hall Outbound,11:38:00,True
+historic,2019-10-15,28,662064,0,UCSB North Hall Outbound,11:48:00,True
+historic,2019-10-15,28,662063,0,UCSB North Hall Outbound,11:58:00,True
+historic,2019-10-15,28,662062,0,UCSB North Hall Outbound,12:08:00,True
+historic,2019-10-15,28,662061,0,UCSB North Hall Outbound,12:18:00,True
+historic,2019-10-15,28,662060,0,UCSB North Hall Outbound,12:28:00,True
+historic,2019-10-15,28,662059,0,UCSB North Hall Outbound,12:38:00,True
+historic,2019-10-15,28,662058,0,UCSB North Hall Outbound,12:48:00,True
+historic,2019-10-15,28,662057,0,UCSB North Hall Outbound,12:58:00,True
+historic,2019-10-15,28,662056,0,UCSB North Hall Outbound,13:08:00,True
+historic,2019-10-15,28,662055,0,UCSB North Hall Outbound,13:18:00,True
+historic,2019-10-15,28,662054,0,UCSB North Hall Outbound,13:28:00,True
+historic,2019-10-15,28,662053,0,UCSB North Hall Outbound,13:38:00,True
+historic,2019-10-15,28,662052,0,UCSB North Hall Outbound,13:48:00,True
+historic,2019-10-15,28,662051,0,UCSB North Hall Outbound,13:58:00,True
+historic,2019-10-15,28,662050,0,UCSB North Hall Outbound,14:08:00,False
+historic,2019-10-15,28,662049,0,UCSB North Hall Outbound,14:18:00,False
+historic,2019-10-15,28,662048,0,UCSB North Hall Outbound,14:28:00,False
+historic,2019-10-15,28,662047,0,UCSB North Hall Outbound,14:38:00,False
+historic,2019-10-15,28,662046,0,UCSB North Hall Outbound,14:48:00,False
+historic,2019-10-15,28,662045,0,UCSB North Hall Outbound,14:58:00,False
+historic,2019-10-15,28,662044,0,UCSB North Hall Outbound,15:08:00,False
+historic,2019-10-15,28,662043,0,UCSB North Hall Outbound,15:18:00,False
+historic,2019-10-15,28,662042,0,UCSB North Hall Outbound,15:28:00,False
+historic,2019-10-15,28,662041,0,UCSB North Hall Outbound,15:38:00,False
+historic,2019-10-15,28,662040,0,UCSB North Hall Outbound,15:48:00,False
+historic,2019-10-15,28,662039,0,UCSB North Hall Outbound,15:58:00,False
+historic,2019-10-15,28,662038,0,UCSB North Hall Outbound,16:08:00,False
+historic,2019-10-15,28,662037,0,UCSB North Hall Outbound,16:18:00,False
+historic,2019-10-15,28,662036,0,UCSB North Hall Outbound,16:28:00,False
+historic,2019-10-15,28,662035,0,UCSB North Hall Outbound,16:38:00,False
+historic,2019-10-15,28,662034,0,UCSB North Hall Outbound,16:48:00,False
+historic,2019-10-15,28,662033,0,UCSB North Hall Outbound,16:58:00,False
+historic,2019-10-15,28,662032,0,UCSB North Hall Outbound,17:08:00,False
+historic,2019-10-15,28,662031,0,UCSB North Hall Outbound,17:18:00,False
+historic,2019-10-15,28,662030,0,UCSB North Hall Outbound,17:28:00,False
+historic,2019-10-15,28,662029,0,UCSB North Hall Outbound,17:38:00,False
+historic,2019-10-15,28,662026,0,UCSB North Hall Outbound,17:48:00,False
+historic,2019-10-15,28,662028,0,UCSB North Hall Outbound,17:58:00,False
+historic,2019-10-15,28,662014,0,UCSB North Hall Outbound,18:08:00,False
+historic,2019-10-15,28,662027,0,UCSB North Hall Outbound,18:28:00,False
+historic,2019-10-15,28,662025,0,UCSB North Hall Outbound,18:38:00,False
+historic,2019-10-15,28,662024,0,UCSB North Hall Outbound,19:08:00,False
+historic,2019-10-15,28,662023,0,UCSB North Hall Outbound,19:38:00,False
+historic,2019-10-15,28,662022,0,UCSB North Hall Outbound,20:08:00,False
+historic,2019-10-15,28,662021,0,UCSB North Hall Outbound,20:38:00,False
+historic,2019-10-15,28,662020,0,UCSB North Hall Outbound,21:08:00,False
+historic,2019-10-15,28,662019,0,UCSB North Hall Outbound,21:38:00,False
+historic,2019-10-15,28,662018,0,UCSB North Hall Outbound,22:08:00,False
+historic,2019-10-15,28,662017,0,UCSB North Hall Outbound,22:38:00,False
+historic,2019-10-15,28,662016,0,UCSB North Hall Outbound,23:08:00,False
+historic,2019-10-15,28,662015,0,UCSB North Hall Outbound,23:38:00,False
+historic,2019-10-15,28,662195,1,Santa Felicia & Marketplace,07:13:00,False
+historic,2019-10-15,28,662194,1,Santa Felicia & Marketplace,07:23:00,False
+historic,2019-10-15,28,662193,1,Santa Felicia & Marketplace,07:33:00,False
+historic,2019-10-15,28,662192,1,Santa Felicia & Marketplace,07:43:00,False
+historic,2019-10-15,28,662191,1,Santa Felicia & Marketplace,07:53:00,False
+historic,2019-10-15,28,662190,1,Santa Felicia & Marketplace,08:03:00,False
+historic,2019-10-15,28,662189,1,Santa Felicia & Marketplace,08:13:00,False
+historic,2019-10-15,28,662188,1,Santa Felicia & Marketplace,08:23:00,False
+historic,2019-10-15,28,662187,1,Santa Felicia & Marketplace,08:33:00,False
+historic,2019-10-15,28,662186,1,Santa Felicia & Marketplace,08:43:00,False
+historic,2019-10-15,28,662185,1,Santa Felicia & Marketplace,08:53:00,False
+historic,2019-10-15,28,662184,1,Santa Felicia & Marketplace,09:03:00,False
+historic,2019-10-15,28,662183,1,Santa Felicia & Marketplace,09:13:00,False
+historic,2019-10-15,28,662182,1,Santa Felicia & Marketplace,09:23:00,False
+historic,2019-10-15,28,662181,1,Santa Felicia & Marketplace,09:33:00,False
+historic,2019-10-15,28,662180,1,Santa Felicia & Marketplace,09:43:00,False
+historic,2019-10-15,28,662179,1,Santa Felicia & Marketplace,09:53:00,False
+historic,2019-10-15,28,662178,1,Santa Felicia & Marketplace,10:03:00,True
+historic,2019-10-15,28,662177,1,Santa Felicia & Marketplace,10:23:00,True
+historic,2019-10-15,28,662176,1,Santa Felicia & Marketplace,10:33:00,True
+historic,2019-10-15,28,662175,1,Santa Felicia & Marketplace,10:53:00,True
+historic,2019-10-15,28,662174,1,Santa Felicia & Marketplace,11:03:00,True
+historic,2019-10-15,28,662173,1,Santa Felicia & Marketplace,11:13:00,True
+historic,2019-10-15,28,662172,1,Santa Felicia & Marketplace,11:23:00,True
+historic,2019-10-15,28,662171,1,Santa Felicia & Marketplace,11:33:00,True
+historic,2019-10-15,28,662170,1,Santa Felicia & Marketplace,11:43:00,True
+historic,2019-10-15,28,662169,1,Santa Felicia & Marketplace,11:53:00,True
+historic,2019-10-15,28,662168,1,Santa Felicia & Marketplace,12:03:00,True
+historic,2019-10-15,28,662167,1,Santa Felicia & Marketplace,12:13:00,True
+historic,2019-10-15,28,662166,1,Santa Felicia & Marketplace,12:23:00,True
+historic,2019-10-15,28,662165,1,Santa Felicia & Marketplace,12:33:00,True
+historic,2019-10-15,28,662164,1,Santa Felicia & Marketplace,12:43:00,True
+historic,2019-10-15,28,662163,1,Santa Felicia & Marketplace,12:53:00,True
+historic,2019-10-15,28,662162,1,Santa Felicia & Marketplace,13:03:00,True
+historic,2019-10-15,28,662161,1,Santa Felicia & Marketplace,13:13:00,True
+historic,2019-10-15,28,662160,1,Santa Felicia & Marketplace,13:23:00,True
+historic,2019-10-15,28,662159,1,Santa Felicia & Marketplace,13:33:00,True
+historic,2019-10-15,28,662158,1,Santa Felicia & Marketplace,13:43:00,True
+historic,2019-10-15,28,662157,1,Santa Felicia & Marketplace,13:53:00,True
+historic,2019-10-15,28,662156,1,Santa Felicia & Marketplace,14:03:00,False
+historic,2019-10-15,28,662155,1,Santa Felicia & Marketplace,14:13:00,False
+historic,2019-10-15,28,662154,1,Santa Felicia & Marketplace,14:23:00,False
+historic,2019-10-15,28,662153,1,Santa Felicia & Marketplace,14:33:00,False
+historic,2019-10-15,28,662152,1,Santa Felicia & Marketplace,14:43:00,False
+historic,2019-10-15,28,662151,1,Santa Felicia & Marketplace,14:53:00,False
+historic,2019-10-15,28,662150,1,Santa Felicia & Marketplace,15:03:00,False
+historic,2019-10-15,28,662149,1,Santa Felicia & Marketplace,15:13:00,False
+historic,2019-10-15,28,662148,1,Santa Felicia & Marketplace,15:23:00,False
+historic,2019-10-15,28,662147,1,Santa Felicia & Marketplace,15:33:00,False
+historic,2019-10-15,28,662146,1,Santa Felicia & Marketplace,15:43:00,False
+historic,2019-10-15,28,662145,1,Santa Felicia & Marketplace,15:53:00,False
+historic,2019-10-15,28,662144,1,Santa Felicia & Marketplace,16:03:00,False
+historic,2019-10-15,28,662143,1,Santa Felicia & Marketplace,16:13:00,False
+historic,2019-10-15,28,662142,1,Santa Felicia & Marketplace,16:23:00,False
+historic,2019-10-15,28,662141,1,Santa Felicia & Marketplace,16:33:00,False
+historic,2019-10-15,28,662140,1,Santa Felicia & Marketplace,16:43:00,False
+historic,2019-10-15,28,662139,1,Santa Felicia & Marketplace,16:53:00,False
+historic,2019-10-15,28,662138,1,Santa Felicia & Marketplace,17:03:00,False
+historic,2019-10-15,28,662137,1,Santa Felicia & Marketplace,17:13:00,False
+historic,2019-10-15,28,662136,1,Santa Felicia & Marketplace,17:23:00,False
+historic,2019-10-15,28,662133,1,Santa Felicia & Marketplace,17:33:00,False
+historic,2019-10-15,28,662135,1,Santa Felicia & Marketplace,17:43:00,False
+historic,2019-10-15,28,662121,1,Santa Felicia & Marketplace,17:53:00,False
+historic,2019-10-15,28,662134,1,Santa Felicia & Marketplace,18:13:00,False
+historic,2019-10-15,28,662132,1,Santa Felicia & Marketplace,18:23:00,False
+historic,2019-10-15,28,662131,1,Santa Felicia & Marketplace,18:53:00,False
+historic,2019-10-15,28,662130,1,Santa Felicia & Marketplace,19:23:00,False
+historic,2019-10-15,28,662129,1,Santa Felicia & Marketplace,19:53:00,False
+historic,2019-10-15,28,662128,1,Santa Felicia & Marketplace,20:23:00,False
+historic,2019-10-15,28,662127,1,Santa Felicia & Marketplace,20:53:00,False
+historic,2019-10-15,28,662126,1,Santa Felicia & Marketplace,21:23:00,False
+historic,2019-10-15,28,662125,1,Santa Felicia & Marketplace,21:53:00,False
+historic,2019-10-15,28,662124,1,Santa Felicia & Marketplace,22:23:00,False
+historic,2019-10-15,28,662123,1,Santa Felicia & Marketplace,22:53:00,False
+historic,2019-10-15,28,662122,1,Santa Felicia & Marketplace,23:23:00,False
+historic,2019-10-15,3,662292,0,Transit Center,06:00:00,False
+historic,2019-10-15,3,662289,0,Transit Center,06:30:00,False
+historic,2019-10-15,3,662288,0,Transit Center,07:00:00,False
+historic,2019-10-15,3,662287,0,Transit Center,07:30:00,False
+historic,2019-10-15,3,662286,0,Transit Center,08:00:00,False
+historic,2019-10-15,3,662285,0,Transit Center,08:30:00,False
+historic,2019-10-15,3,662284,0,Transit Center,09:00:00,False
+historic,2019-10-15,3,662283,0,Transit Center,09:30:00,False
+historic,2019-10-15,3,662282,0,Transit Center,10:00:00,True
+historic,2019-10-15,3,662281,0,Transit Center,10:30:00,True
+historic,2019-10-15,3,662280,0,Transit Center,11:00:00,True
+historic,2019-10-15,3,662279,0,Transit Center,11:30:00,True
+historic,2019-10-15,3,662278,0,Transit Center,12:00:00,True
+historic,2019-10-15,3,662277,0,Transit Center,12:30:00,True
+historic,2019-10-15,3,662276,0,Transit Center,13:00:00,True
+historic,2019-10-15,3,662275,0,Transit Center,13:30:00,True
+historic,2019-10-15,3,662274,0,Transit Center,14:00:00,False
+historic,2019-10-15,3,662291,0,Transit Center,14:30:00,False
+historic,2019-10-15,3,662273,0,Transit Center,15:00:00,False
+historic,2019-10-15,3,662272,0,Transit Center,15:30:00,False
+historic,2019-10-15,3,662271,0,Transit Center,16:00:00,False
+historic,2019-10-15,3,662270,0,Transit Center,16:30:00,False
+historic,2019-10-15,3,662269,0,Transit Center,17:00:00,False
+historic,2019-10-15,3,662268,0,Transit Center,17:30:00,False
+historic,2019-10-15,3,662267,0,Transit Center,18:00:00,False
+historic,2019-10-15,3,662266,0,Transit Center,18:30:00,False
+historic,2019-10-15,3,662290,0,Transit Center,19:00:00,False
+historic,2019-10-15,3,662320,1,State & La Cumbre,06:30:00,False
+historic,2019-10-15,3,662294,1,Treasure & Tallant,07:05:00,False
+historic,2019-10-15,3,662318,1,State & La Cumbre,07:00:00,False
+historic,2019-10-15,3,662317,1,State & La Cumbre,07:30:00,False
+historic,2019-10-15,3,662316,1,Foothill & Cieneguitas,07:45:00,False
+historic,2019-10-15,3,662315,1,Foothill & Cieneguitas,08:15:00,False
+historic,2019-10-15,3,662314,1,Foothill & Cieneguitas,08:45:00,False
+historic,2019-10-15,3,662313,1,Foothill & Cieneguitas,09:15:00,False
+historic,2019-10-15,3,662312,1,Foothill & Cieneguitas,09:45:00,False
+historic,2019-10-15,3,662311,1,Foothill & Cieneguitas,10:15:00,True
+historic,2019-10-15,3,662310,1,Foothill & Cieneguitas,10:45:00,True
+historic,2019-10-15,3,662309,1,Foothill & Cieneguitas,11:15:00,True
+historic,2019-10-15,3,662308,1,Foothill & Cieneguitas,11:45:00,True
+historic,2019-10-15,3,662307,1,Foothill & Cieneguitas,12:15:00,True
+historic,2019-10-15,3,662306,1,Foothill & Cieneguitas,12:45:00,True
+historic,2019-10-15,3,662305,1,Foothill & Cieneguitas,13:15:00,True
+historic,2019-10-15,3,662304,1,Foothill & Cieneguitas,13:45:00,True
+historic,2019-10-15,3,662303,1,Foothill & Cieneguitas,14:15:00,False
+historic,2019-10-15,3,662319,1,Foothill & Cieneguitas,14:45:00,False
+historic,2019-10-15,3,662302,1,Foothill & Cieneguitas,15:15:00,False
+historic,2019-10-15,3,662301,1,Foothill & Cieneguitas,15:45:00,False
+historic,2019-10-15,3,662300,1,Foothill & Cieneguitas,16:15:00,False
+historic,2019-10-15,3,662299,1,Foothill & Cieneguitas,16:45:00,False
+historic,2019-10-15,3,662298,1,Foothill & Cieneguitas,17:15:00,False
+historic,2019-10-15,3,662297,1,State & La Cumbre,18:00:00,False
+historic,2019-10-15,3,662296,1,State & La Cumbre,18:30:00,False
+historic,2019-10-15,3,662295,1,State & La Cumbre,19:00:00,False
+historic,2019-10-15,30,663098,0,Dolphin Fountain,10:00:00,True
+historic,2019-10-15,30,663100,0,Dolphin Fountain,10:15:00,True
+historic,2019-10-15,30,663091,0,Dolphin Fountain,10:30:00,True
+historic,2019-10-15,30,663087,0,Dolphin Fountain,10:45:00,True
+historic,2019-10-15,30,663083,0,Dolphin Fountain,11:00:00,True
+historic,2019-10-15,30,663079,0,Dolphin Fountain,11:15:00,True
+historic,2019-10-15,30,663075,0,Dolphin Fountain,11:30:00,True
+historic,2019-10-15,30,663071,0,Dolphin Fountain,11:45:00,True
+historic,2019-10-15,30,663068,0,Dolphin Fountain,12:00:00,True
+historic,2019-10-15,30,663063,0,Dolphin Fountain,12:15:00,True
+historic,2019-10-15,30,663060,0,Dolphin Fountain,12:30:00,True
+historic,2019-10-15,30,663055,0,Dolphin Fountain,12:45:00,True
+historic,2019-10-15,30,663052,0,Dolphin Fountain,13:00:00,True
+historic,2019-10-15,30,663047,0,Dolphin Fountain,13:15:00,True
+historic,2019-10-15,30,663044,0,Dolphin Fountain,13:30:00,True
+historic,2019-10-15,30,663039,0,Dolphin Fountain,13:45:00,True
+historic,2019-10-15,30,663036,0,Dolphin Fountain,14:00:00,False
+historic,2019-10-15,30,663031,0,Dolphin Fountain,14:15:00,False
+historic,2019-10-15,30,663027,0,Dolphin Fountain,14:30:00,False
+historic,2019-10-15,30,663024,0,Dolphin Fountain,14:45:00,False
+historic,2019-10-15,30,663021,0,Dolphin Fountain,15:00:00,False
+historic,2019-10-15,30,663016,0,Dolphin Fountain,15:15:00,False
+historic,2019-10-15,30,663013,0,Dolphin Fountain,15:30:00,False
+historic,2019-10-15,30,663009,0,Dolphin Fountain,15:45:00,False
+historic,2019-10-15,30,663006,0,Dolphin Fountain,16:00:00,False
+historic,2019-10-15,30,663001,0,Dolphin Fountain,16:15:00,False
+historic,2019-10-15,30,662997,0,Dolphin Fountain,16:30:00,False
+historic,2019-10-15,30,662993,0,Dolphin Fountain,16:45:00,False
+historic,2019-10-15,30,662989,0,Dolphin Fountain,17:00:00,False
+historic,2019-10-15,30,662987,0,Dolphin Fountain,17:15:00,False
+historic,2019-10-15,30,662982,0,Dolphin Fountain,17:45:00,False
+historic,2019-10-15,30,662978,0,Dolphin Fountain,18:00:00,False
+historic,2019-10-15,30,663101,1,State & Sola,10:00:00,True
+historic,2019-10-15,30,663111,1,State & Sola,10:15:00,True
+historic,2019-10-15,30,663102,1,State & Sola,10:30:00,True
+historic,2019-10-15,30,663112,1,State & Sola,10:45:00,True
+historic,2019-10-15,30,663103,1,State & Sola,11:00:00,True
+historic,2019-10-15,30,663113,1,State & Sola,11:15:00,True
+historic,2019-10-15,30,663104,1,State & Sola,11:36:00,True
+historic,2019-10-15,30,663114,1,State & Sola,11:51:00,True
+historic,2019-10-15,30,663123,1,State & Sola,12:06:00,True
+historic,2019-10-15,30,663105,1,State & Sola,12:21:00,True
+historic,2019-10-15,30,663115,1,State & Sola,12:36:00,True
+historic,2019-10-15,30,663124,1,State & Sola,12:51:00,True
+historic,2019-10-15,30,663106,1,State & Sola,13:06:00,True
+historic,2019-10-15,30,663116,1,State & Sola,13:21:00,True
+historic,2019-10-15,30,663125,1,State & Sola,13:36:00,True
+historic,2019-10-15,30,663131,1,State & Sola,13:51:00,True
+historic,2019-10-15,30,663107,1,State & Sola,14:06:00,False
+historic,2019-10-15,30,663117,1,State & Sola,14:21:00,False
+historic,2019-10-15,30,663126,1,State & Sola,14:36:00,False
+historic,2019-10-15,30,663108,1,State & Sola,14:51:00,False
+historic,2019-10-15,30,663118,1,State & Sola,15:06:00,False
+historic,2019-10-15,30,663127,1,State & Sola,15:21:00,False
+historic,2019-10-15,30,663109,1,State & Sola,15:36:00,False
+historic,2019-10-15,30,663119,1,State & Sola,15:51:00,False
+historic,2019-10-15,30,663128,1,State & Sola,16:06:00,False
+historic,2019-10-15,30,663110,1,State & Sola,16:21:00,False
+historic,2019-10-15,30,663120,1,State & Sola,16:36:00,False
+historic,2019-10-15,30,663129,1,State & Sola,16:51:00,False
+historic,2019-10-15,30,663121,1,State & Sola,17:21:00,False
+historic,2019-10-15,30,663130,1,State & Sola,17:36:00,False
+historic,2019-10-15,30,663122,1,State & Sola,18:00:00,False
+historic,2019-10-15,34,663506,0,Harbor,10:15:00,True
+historic,2019-10-15,34,663505,0,Harbor,10:45:00,True
+historic,2019-10-15,34,663504,0,Harbor,11:15:00,True
+historic,2019-10-15,34,663503,0,Harbor,11:45:00,True
+historic,2019-10-15,34,663502,0,Harbor,12:15:00,True
+historic,2019-10-15,34,663492,0,Harbor,12:45:00,True
+historic,2019-10-15,34,663478,0,Harbor,13:15:00,True
+historic,2019-10-15,34,663501,0,Harbor,13:45:00,True
+historic,2019-10-15,34,663500,0,Harbor,14:15:00,False
+historic,2019-10-15,34,663507,0,Harbor,14:45:00,False
+historic,2019-10-15,34,663522,0,Cabrillo & State,14:50:00,False
+historic,2019-10-15,34,663498,0,Harbor,15:15:00,False
+historic,2019-10-15,34,663497,0,Harbor,15:45:00,False
+historic,2019-10-15,34,663496,0,Harbor,16:15:00,False
+historic,2019-10-15,34,663495,0,Harbor,16:45:00,False
+historic,2019-10-15,34,663494,0,Harbor,17:15:00,False
+historic,2019-10-15,34,663493,0,Harbor,17:45:00,False
+historic,2019-10-15,34,663554,1,Santa Barbara Zoo,10:00:00,True
+historic,2019-10-15,34,663553,1,Santa Barbara Zoo,10:30:00,True
+historic,2019-10-15,34,663552,1,Santa Barbara Zoo,11:00:00,True
+historic,2019-10-15,34,663551,1,Santa Barbara Zoo,11:30:00,True
+historic,2019-10-15,34,663550,1,Santa Barbara Zoo,12:00:00,True
+historic,2019-10-15,34,663549,1,Santa Barbara Zoo,12:30:00,True
+historic,2019-10-15,34,663548,1,Santa Barbara Zoo,13:00:00,True
+historic,2019-10-15,34,663547,1,Santa Barbara Zoo,13:30:00,True
+historic,2019-10-15,34,663546,1,Santa Barbara Zoo,14:00:00,False
+historic,2019-10-15,34,663545,1,Santa Barbara Zoo,14:30:00,False
+historic,2019-10-15,34,663537,1,Cabrillo & State,15:10:00,False
+historic,2019-10-15,34,663569,1,Santa Barbara Zoo,15:00:00,False
+historic,2019-10-15,34,663543,1,Santa Barbara Zoo,15:30:00,False
+historic,2019-10-15,34,663542,1,Santa Barbara Zoo,16:00:00,False
+historic,2019-10-15,34,663541,1,Santa Barbara Zoo,16:30:00,False
+historic,2019-10-15,34,663540,1,Santa Barbara Zoo,17:00:00,False
+historic,2019-10-15,34,663539,1,Santa Barbara Zoo,17:30:00,False
+historic,2019-10-15,34,663538,1,Santa Barbara Zoo,18:00:00,False
+historic,2019-10-15,36,660302,0,El Carro & El Carro Park,06:05:00,False
+historic,2019-10-15,36,660303,0,Fifth & Linden,06:30:00,False
+historic,2019-10-15,36,660304,0,Fifth & Linden,06:55:00,False
+historic,2019-10-15,36,660305,0,Fifth & Linden,07:20:00,False
+historic,2019-10-15,36,660306,0,Fifth & Linden,07:50:00,False
+historic,2019-10-15,36,660307,0,Fifth & Linden,08:20:00,False
+historic,2019-10-15,36,660308,0,Fifth & Linden,08:50:00,False
+historic,2019-10-15,36,660309,0,Fifth & Linden,09:15:00,False
+historic,2019-10-15,36,660310,0,Fifth & Linden,09:40:00,False
+historic,2019-10-15,36,660311,0,Fifth & Linden,10:05:00,True
+historic,2019-10-15,36,660312,0,Fifth & Linden,10:30:00,True
+historic,2019-10-15,36,660313,0,Fifth & Linden,10:55:00,True
+historic,2019-10-15,36,660314,0,Fifth & Linden,11:20:00,True
+historic,2019-10-15,36,660315,0,Fifth & Linden,11:45:00,True
+historic,2019-10-15,36,660316,0,Fifth & Linden,12:10:00,True
+historic,2019-10-15,36,660317,0,Fifth & Linden,12:35:00,True
+historic,2019-10-15,36,660318,0,Fifth & Linden,13:00:00,True
+historic,2019-10-15,36,660319,0,Fifth & Linden,13:25:00,True
+historic,2019-10-15,36,660320,0,Fifth & Linden,13:50:00,True
+historic,2019-10-15,36,660321,0,Fifth & Linden,14:15:00,False
+historic,2019-10-15,36,660322,0,Fifth & Linden,14:45:00,False
+historic,2019-10-15,36,660323,0,Fifth & Linden,15:15:00,False
+historic,2019-10-15,36,660324,0,Fifth & Linden,15:45:00,False
+historic,2019-10-15,36,660325,0,Fifth & Linden,16:15:00,False
+historic,2019-10-15,36,660326,0,Fifth & Linden,16:45:00,False
+historic,2019-10-15,36,660327,0,Fifth & Linden,17:15:00,False
+historic,2019-10-15,36,660328,0,Fifth & Linden,17:45:00,False
+historic,2019-10-15,36,660329,0,Fifth & Linden,18:15:00,False
+historic,2019-10-15,36,660330,0,Fifth & Linden,18:40:00,False
+historic,2019-10-15,37,660358,0,Mountain & Valerio,07:07:00,False
+historic,2019-10-15,37,660349,0,Mountain & Valerio,07:25:00,False
+historic,2019-10-15,37,660345,0,Mountain & Valerio,07:43:00,False
+historic,2019-10-15,37,660357,0,Mountain & Valerio,08:02:00,False
+historic,2019-10-15,37,660348,0,Mountain & Valerio,08:20:00,False
+historic,2019-10-15,37,660344,0,Mountain & Valerio,08:38:00,False
+historic,2019-10-15,37,660356,0,Mountain & Valerio,08:57:00,False
+historic,2019-10-15,37,660331,0,Mountain & Valerio,09:15:00,False
+historic,2019-10-15,37,660347,0,Mountain & Valerio,09:30:00,False
+historic,2019-10-15,37,660355,0,Mountain & Valerio,10:17:00,True
+historic,2019-10-15,37,660354,0,Mountain & Valerio,11:04:00,True
+historic,2019-10-15,37,660353,0,Mountain & Valerio,11:51:00,True
+historic,2019-10-15,37,660352,0,Mountain & Valerio,12:38:00,True
+historic,2019-10-15,37,660351,0,Mountain & Valerio,13:25:00,True
+historic,2019-10-15,37,660350,0,Mountain & Valerio,14:12:00,False
+historic,2019-10-15,37,660339,0,Mountain & Valerio,14:49:00,False
+historic,2019-10-15,37,660343,0,Mountain & Valerio,15:07:00,False
+historic,2019-10-15,37,660335,0,Mountain & Valerio,15:25:00,False
+historic,2019-10-15,37,660338,0,Mountain & Valerio,15:44:00,False
+historic,2019-10-15,37,660342,0,Mountain & Valerio,16:02:00,False
+historic,2019-10-15,37,660334,0,Mountain & Valerio,16:20:00,False
+historic,2019-10-15,37,660337,0,Mountain & Valerio,16:39:00,False
+historic,2019-10-15,37,660341,0,Mountain & Valerio,16:57:00,False
+historic,2019-10-15,37,660333,0,Mountain & Valerio,17:15:00,False
+historic,2019-10-15,37,660336,0,Mountain & Valerio,17:34:00,False
+historic,2019-10-15,37,660340,0,Mountain & Valerio,17:52:00,False
+historic,2019-10-15,37,660332,0,Mountain & Valerio,18:10:00,False
+historic,2019-10-15,37,660346,0,Mountain & Valerio,18:29:00,False
+historic,2019-10-15,37,660386,1,Cota & Anacapa,06:54:00,False
+historic,2019-10-15,37,660377,1,Franklin Center,07:00:00,False
+historic,2019-10-15,37,660374,1,Franklin Center,07:18:00,False
+historic,2019-10-15,37,660385,1,Franklin Center,07:37:00,False
+historic,2019-10-15,37,660376,1,Franklin Center,07:55:00,False
+historic,2019-10-15,37,660373,1,Franklin Center,08:13:00,False
+historic,2019-10-15,37,660384,1,Franklin Center,08:32:00,False
+historic,2019-10-15,37,660375,1,Franklin Center,08:50:00,False
+historic,2019-10-15,37,660372,1,Franklin Center,09:08:00,False
+historic,2019-10-15,37,660383,1,Franklin Center,09:55:00,False
+historic,2019-10-15,37,660382,1,Franklin Center,10:42:00,True
+historic,2019-10-15,37,660381,1,Franklin Center,11:29:00,True
+historic,2019-10-15,37,660380,1,Franklin Center,12:16:00,True
+historic,2019-10-15,37,660379,1,Franklin Center,13:03:00,True
+historic,2019-10-15,37,660378,1,Franklin Center,13:50:00,True
+historic,2019-10-15,37,660367,1,Franklin Center,14:24:00,False
+historic,2019-10-15,37,660371,1,Franklin Center,14:42:00,False
+historic,2019-10-15,37,660362,1,Franklin Center,15:00:00,False
+historic,2019-10-15,37,660366,1,Franklin Center,15:19:00,False
+historic,2019-10-15,37,660370,1,Franklin Center,15:37:00,False
+historic,2019-10-15,37,660361,1,Franklin Center,15:55:00,False
+historic,2019-10-15,37,660365,1,Franklin Center,16:14:00,False
+historic,2019-10-15,37,660369,1,Franklin Center,16:32:00,False
+historic,2019-10-15,37,660360,1,Franklin Center,16:50:00,False
+historic,2019-10-15,37,660364,1,Franklin Center,17:09:00,False
+historic,2019-10-15,37,660368,1,Franklin Center,17:27:00,False
+historic,2019-10-15,37,660359,1,Franklin Center,17:45:00,False
+historic,2019-10-15,37,660363,1,Franklin Center,18:04:00,False
+historic,2019-10-15,4,663649,0,Transit Center,06:40:00,False
+historic,2019-10-15,4,663648,0,Transit Center,07:15:00,False
+historic,2019-10-15,4,663647,0,Transit Center,07:50:00,False
+historic,2019-10-15,4,663646,0,Transit Center,08:30:00,False
+historic,2019-10-15,4,663645,0,Transit Center,09:05:00,False
+historic,2019-10-15,4,663644,0,Transit Center,09:40:00,False
+historic,2019-10-15,4,663643,0,Transit Center,10:15:00,True
+historic,2019-10-15,4,663642,0,Transit Center,10:50:00,True
+historic,2019-10-15,4,663641,0,Transit Center,11:25:00,True
+historic,2019-10-15,4,663640,0,Transit Center,12:00:00,True
+historic,2019-10-15,4,663639,0,Transit Center,12:35:00,True
+historic,2019-10-15,4,663638,0,Transit Center,13:10:00,True
+historic,2019-10-15,4,663637,0,Transit Center,13:45:00,True
+historic,2019-10-15,4,663636,0,Transit Center,14:20:00,False
+historic,2019-10-15,4,663635,0,Transit Center,14:55:00,False
+historic,2019-10-15,4,663634,0,Transit Center,15:30:00,False
+historic,2019-10-15,4,663633,0,Transit Center,16:05:00,False
+historic,2019-10-15,4,663632,0,Transit Center,16:40:00,False
+historic,2019-10-15,4,663631,0,Transit Center,17:15:00,False
+historic,2019-10-15,4,663630,0,Transit Center,17:50:00,False
+historic,2019-10-15,4,663629,0,Transit Center,18:25:00,False
+historic,2019-10-15,4,663628,0,Transit Center,19:15:00,False
+historic,2019-10-15,4,663627,0,Transit Center,20:15:00,False
+historic,2019-10-15,4,663673,1,SBCC,06:36:00,False
+historic,2019-10-15,4,663672,1,SBCC,07:11:00,False
+historic,2019-10-15,4,663671,1,SBCC,07:46:00,False
+historic,2019-10-15,4,663670,1,SBCC,08:26:00,False
+historic,2019-10-15,4,663669,1,SBCC,09:01:00,False
+historic,2019-10-15,4,663668,1,SBCC,09:36:00,False
+historic,2019-10-15,4,663667,1,SBCC,10:11:00,True
+historic,2019-10-15,4,663666,1,SBCC,10:46:00,True
+historic,2019-10-15,4,663665,1,SBCC,11:21:00,True
+historic,2019-10-15,4,663664,1,SBCC,11:56:00,True
+historic,2019-10-15,4,663663,1,SBCC,12:31:00,True
+historic,2019-10-15,4,663662,1,SBCC,13:06:00,True
+historic,2019-10-15,4,663661,1,SBCC,13:41:00,True
+historic,2019-10-15,4,663660,1,SBCC,14:16:00,False
+historic,2019-10-15,4,663659,1,SBCC,14:51:00,False
+historic,2019-10-15,4,663658,1,SBCC,15:26:00,False
+historic,2019-10-15,4,663657,1,SBCC,16:01:00,False
+historic,2019-10-15,4,663656,1,SBCC,16:36:00,False
+historic,2019-10-15,4,663655,1,SBCC,17:11:00,False
+historic,2019-10-15,4,663654,1,SBCC,17:46:00,False
+historic,2019-10-15,4,663653,1,SBCC,18:21:00,False
+historic,2019-10-15,4,663652,1,SBCC,18:57:00,False
+historic,2019-10-15,4,663651,1,SBCC,19:57:00,False
+historic,2019-10-15,4,663650,1,SBCC,20:57:00,False
+historic,2019-10-15,5,663759,0,Transit Center,06:15:00,False
+historic,2019-10-15,5,663758,0,Transit Center,07:15:00,False
+historic,2019-10-15,5,663754,0,Transit Center,08:15:00,False
+historic,2019-10-15,5,663748,0,Transit Center,09:15:00,False
+historic,2019-10-15,5,663753,0,Transit Center,10:15:00,True
+historic,2019-10-15,5,663747,0,Transit Center,11:15:00,True
+historic,2019-10-15,5,663752,0,Transit Center,12:15:00,True
+historic,2019-10-15,5,663746,0,Transit Center,13:15:00,True
+historic,2019-10-15,5,663751,0,Transit Center,14:15:00,False
+historic,2019-10-15,5,663745,0,Transit Center,15:15:00,False
+historic,2019-10-15,5,663750,0,Transit Center,16:15:00,False
+historic,2019-10-15,5,663744,0,Transit Center,17:15:00,False
+historic,2019-10-15,5,663749,0,Transit Center,18:10:00,False
+historic,2019-10-15,5,663757,0,Transit Center,19:00:00,False
+historic,2019-10-15,5,663756,0,Transit Center,19:50:00,False
+historic,2019-10-15,5,663743,0,Transit Center,21:00:00,False
+historic,2019-10-15,5,663755,0,Transit Center,22:00:00,False
+historic,2019-10-15,5,663777,1,Arroyo Burro Beach Park,06:05:00,False
+historic,2019-10-15,5,663776,1,Arroyo Burro Beach Park,06:35:00,False
+historic,2019-10-15,5,663773,1,State & La Cumbre,07:00:00,False
+historic,2019-10-15,5,663772,1,State & La Cumbre,08:00:00,False
+historic,2019-10-15,5,663762,1,State & La Cumbre,09:00:00,False
+historic,2019-10-15,5,663767,1,State & La Cumbre,10:00:00,True
+historic,2019-10-15,5,663771,1,State & La Cumbre,11:00:00,True
+historic,2019-10-15,5,663766,1,State & La Cumbre,12:00:00,True
+historic,2019-10-15,5,663770,1,State & La Cumbre,13:00:00,True
+historic,2019-10-15,5,663765,1,State & La Cumbre,14:00:00,False
+historic,2019-10-15,5,663769,1,State & La Cumbre,15:00:00,False
+historic,2019-10-15,5,663764,1,State & La Cumbre,16:00:00,False
+historic,2019-10-15,5,663768,1,State & La Cumbre,17:00:00,False
+historic,2019-10-15,5,663763,1,State & La Cumbre,18:00:00,False
+historic,2019-10-15,5,663775,1,Hillside House,19:22:00,False
+historic,2019-10-15,5,663761,1,Hillside House,20:12:00,False
+historic,2019-10-15,5,663760,1,Hillside House,21:22:00,False
+historic,2019-10-15,5,663774,1,Hillside House,22:22:00,False
+historic,2019-10-15,6,660766,0,Transit Center,06:20:00,False
+historic,2019-10-15,6,660738,0,Transit Center,06:50:00,False
+historic,2019-10-15,6,660739,0,Transit Center,07:10:00,False
+historic,2019-10-15,6,660740,0,Transit Center,07:30:00,False
+historic,2019-10-15,6,660741,0,Transit Center,07:50:00,False
+historic,2019-10-15,6,660742,0,Transit Center,08:15:00,False
+historic,2019-10-15,6,660743,0,Transit Center,08:45:00,False
+historic,2019-10-15,6,660744,0,Transit Center,09:15:00,False
+historic,2019-10-15,6,660745,0,Transit Center,09:45:00,False
+historic,2019-10-15,6,660746,0,Transit Center,10:15:00,True
+historic,2019-10-15,6,660747,0,Transit Center,10:45:00,True
+historic,2019-10-15,6,660748,0,Transit Center,11:15:00,True
+historic,2019-10-15,6,660749,0,Transit Center,11:45:00,True
+historic,2019-10-15,6,660750,0,Transit Center,12:15:00,True
+historic,2019-10-15,6,660751,0,Transit Center,12:45:00,True
+historic,2019-10-15,6,660752,0,Transit Center,13:15:00,True
+historic,2019-10-15,6,660753,0,Transit Center,13:45:00,True
+historic,2019-10-15,6,660754,0,Transit Center,14:15:00,False
+historic,2019-10-15,6,660767,0,Hollister & Turnpike,15:15:00,False
+historic,2019-10-15,6,660755,0,Transit Center,14:45:00,False
+historic,2019-10-15,6,660756,0,Transit Center,15:10:00,False
+historic,2019-10-15,6,660757,0,Transit Center,15:30:00,False
+historic,2019-10-15,6,660758,0,Transit Center,15:50:00,False
+historic,2019-10-15,6,660759,0,Transit Center,16:10:00,False
+historic,2019-10-15,6,660760,0,Transit Center,16:30:00,False
+historic,2019-10-15,6,660761,0,Transit Center,16:50:00,False
+historic,2019-10-15,6,660762,0,Transit Center,17:10:00,False
+historic,2019-10-15,6,660763,0,Transit Center,17:30:00,False
+historic,2019-10-15,6,660764,0,Transit Center,17:50:00,False
+historic,2019-10-15,6,660765,0,Transit Center,18:15:00,False
+historic,2019-10-15,6,660768,1,Hollister & Storke,05:40:00,False
+historic,2019-10-15,6,660769,1,Hollister & Storke,05:58:00,False
+historic,2019-10-15,6,660770,1,Hollister & Storke,06:18:00,False
+historic,2019-10-15,6,660771,1,Hollister & Storke,06:38:00,False
+historic,2019-10-15,6,660772,1,Hollister & Storke,06:58:00,False
+historic,2019-10-15,6,660773,1,Hollister & Storke,07:18:00,False
+historic,2019-10-15,6,660774,1,Hollister & Storke,07:38:00,False
+historic,2019-10-15,6,660775,1,Hollister & Storke,07:58:00,False
+historic,2019-10-15,6,660776,1,Hollister & Storke,08:18:00,False
+historic,2019-10-15,6,660777,1,Hollister & Storke,08:38:00,False
+historic,2019-10-15,6,660803,1,Hollister & Storke,09:08:00,False
+historic,2019-10-15,6,660778,1,Hollister & Storke,09:38:00,False
+historic,2019-10-15,6,660779,1,Hollister & Storke,10:08:00,True
+historic,2019-10-15,6,660780,1,Hollister & Storke,10:38:00,True
+historic,2019-10-15,6,660781,1,Hollister & Storke,11:08:00,True
+historic,2019-10-15,6,660782,1,Hollister & Storke,11:38:00,True
+historic,2019-10-15,6,660783,1,Hollister & Storke,12:08:00,True
+historic,2019-10-15,6,660784,1,Hollister & Storke,12:38:00,True
+historic,2019-10-15,6,660785,1,Hollister & Storke,13:08:00,True
+historic,2019-10-15,6,660786,1,Hollister & Storke,13:38:00,True
+historic,2019-10-15,6,660787,1,Hollister & Storke,14:08:00,False
+historic,2019-10-15,6,660800,1,Hollister & Storke,14:38:00,False
+historic,2019-10-15,6,660788,1,Hollister & Storke,14:58:00,False
+historic,2019-10-15,6,660808,1,Hollister & Turnpike,15:20:00,False
+historic,2019-10-15,6,660807,1,Hollister & Turnpike,15:30:00,False
+historic,2019-10-15,6,660801,1,Hollister & Storke,15:18:00,False
+historic,2019-10-15,6,660789,1,Hollister & Storke,15:38:00,False
+historic,2019-10-15,6,660790,1,Hollister & Storke,15:58:00,False
+historic,2019-10-15,6,660791,1,Hollister & Storke,16:18:00,False
+historic,2019-10-15,6,660802,1,Hollister & Storke,16:38:00,False
+historic,2019-10-15,6,660792,1,Hollister & Storke,16:58:00,False
+historic,2019-10-15,6,660793,1,Hollister & Storke,17:18:00,False
+historic,2019-10-15,6,660794,1,Hollister & Storke,17:38:00,False
+historic,2019-10-15,6,660795,1,Hollister & Storke,18:18:00,False
+historic,2019-10-15,6,660796,1,Hollister & Storke,18:28:00,False
+historic,2019-10-15,6,660797,1,Hollister & Storke,18:58:00,False
+historic,2019-10-15,6,660798,1,Hollister & Storke,19:28:00,False
+historic,2019-10-15,6,660799,1,Hollister & Storke,19:58:00,False
+historic,2019-10-15,7,660902,0,Transit Center,06:00:00,False
+historic,2019-10-15,7,660877,0,Transit Center,06:45:00,False
+historic,2019-10-15,7,660878,0,Transit Center,07:30:00,False
+historic,2019-10-15,7,660879,0,Transit Center,08:00:00,False
+historic,2019-10-15,7,660880,0,Transit Center,08:30:00,False
+historic,2019-10-15,7,660881,0,Transit Center,09:00:00,False
+historic,2019-10-15,7,660882,0,Transit Center,09:30:00,False
+historic,2019-10-15,7,660883,0,Transit Center,10:00:00,True
+historic,2019-10-15,7,660884,0,Transit Center,10:30:00,True
+historic,2019-10-15,7,660885,0,Transit Center,11:00:00,True
+historic,2019-10-15,7,660886,0,Transit Center,11:30:00,True
+historic,2019-10-15,7,660887,0,Transit Center,12:00:00,True
+historic,2019-10-15,7,660888,0,Transit Center,12:30:00,True
+historic,2019-10-15,7,660889,0,Transit Center,13:00:00,True
+historic,2019-10-15,7,660890,0,Transit Center,13:30:00,True
+historic,2019-10-15,7,660891,0,Transit Center,14:00:00,False
+historic,2019-10-15,7,660892,0,Transit Center,14:30:00,False
+historic,2019-10-15,7,660893,0,Transit Center,15:00:00,False
+historic,2019-10-15,7,660894,0,Transit Center,15:30:00,False
+historic,2019-10-15,7,660895,0,Transit Center,16:00:00,False
+historic,2019-10-15,7,660896,0,Transit Center,16:30:00,False
+historic,2019-10-15,7,660897,0,Transit Center,17:10:00,False
+historic,2019-10-15,7,660898,0,Transit Center,17:30:00,False
+historic,2019-10-15,7,660899,0,Transit Center,18:15:00,False
+historic,2019-10-15,7,660900,0,Transit Center,19:10:00,False
+historic,2019-10-15,7,660901,0,Transit Center,21:45:00,False
+historic,2019-10-15,7,660903,1,Hollister & Kellogg,06:32:00,False
+historic,2019-10-15,7,660904,1,Hollister & Kellogg,06:52:00,False
+historic,2019-10-15,7,660928,1,Hollister & Kellogg,07:22:00,False
+historic,2019-10-15,7,660905,1,Hollister & Kellogg,07:52:00,False
+historic,2019-10-15,7,660906,1,Hollister & Kellogg,08:22:00,False
+historic,2019-10-15,7,660907,1,Hollister & Kellogg,08:52:00,False
+historic,2019-10-15,7,660908,1,Hollister & Kellogg,09:22:00,False
+historic,2019-10-15,7,660909,1,Hollister & Kellogg,09:52:00,False
+historic,2019-10-15,7,660910,1,Hollister & Kellogg,10:22:00,True
+historic,2019-10-15,7,660911,1,Hollister & Kellogg,10:52:00,True
+historic,2019-10-15,7,660912,1,Hollister & Kellogg,11:22:00,True
+historic,2019-10-15,7,660913,1,Hollister & Kellogg,11:52:00,True
+historic,2019-10-15,7,660914,1,Hollister & Kellogg,12:22:00,True
+historic,2019-10-15,7,660915,1,Hollister & Kellogg,12:52:00,True
+historic,2019-10-15,7,660916,1,Hollister & Kellogg,13:22:00,True
+historic,2019-10-15,7,660917,1,Hollister & Kellogg,13:52:00,True
+historic,2019-10-15,7,660918,1,Hollister & Kellogg,14:22:00,False
+historic,2019-10-15,7,660919,1,Hollister & Kellogg,14:52:00,False
+historic,2019-10-15,7,660920,1,Hollister & Kellogg,15:22:00,False
+historic,2019-10-15,7,660921,1,Hollister & Kellogg,15:52:00,False
+historic,2019-10-15,7,660922,1,Hollister & Kellogg,16:22:00,False
+historic,2019-10-15,7,660923,1,Hollister & Kellogg,16:52:00,False
+historic,2019-10-15,7,660924,1,Hollister & Kellogg,17:22:00,False
+historic,2019-10-15,7,660925,1,Hollister & Kellogg,18:02:00,False
+historic,2019-10-15,7,660926,1,Hollister & Kellogg,19:07:00,False
+historic,2019-10-15,7,660927,1,Calle Real & Turnpike East,21:30:00,False
+historic,2019-10-15,90,660929,1,Hollister & Palo Alto,16:00:00,False
+historic,2019-10-15,91,660930,1,UCSB North Hall Inbound,16:00:00,False
+historic,2019-10-15,92,660931,1,Bath & Pueblo,16:05:00,False
+current,2026-10-15,1,616030,1,Modoc & Portesuello,12:34:00,True
+current,2026-10-15,1,180030,1,Modoc & Portesuello,08:14:00,False
+current,2026-10-15,1,39030,1,Modoc & Portesuello,16:54:00,False
+current,2026-10-15,1,1052030,1,Modoc & Portesuello,20:48:00,False
+current,2026-10-15,1,2503030,1,Modoc & Portesuello,09:34:00,False
+current,2026-10-15,1,197030,1,Modoc & Portesuello,15:34:00,False
+current,2026-10-15,1,1450030,1,Modoc & Portesuello,08:54:00,False
+current,2026-10-15,1,1360030,1,Modoc & Portesuello,15:54:00,False
+current,2026-10-15,1,1049030,1,Modoc & Portesuello,10:54:00,True
+current,2026-10-15,1,641030,1,Modoc & Portesuello,18:14:00,False
+current,2026-10-15,1,1548030,1,Modoc & Portesuello,20:09:00,False
+current,2026-10-15,1,1060030,1,Modoc & Portesuello,17:14:00,False
+current,2026-10-15,1,74030,1,Modoc & Portesuello,11:54:00,True
+current,2026-10-15,1,157030,1,Modoc & Portesuello,06:54:00,False
+current,2026-10-15,1,2412030,1,Modoc & Portesuello,17:54:00,False
+current,2026-10-15,1,1882030,1,Modoc & Portesuello,07:14:00,False
+current,2026-10-15,1,688030,1,Modoc & Portesuello,14:54:00,False
+current,2026-10-15,1,306030,1,Modoc & Portesuello,07:54:00,False
+current,2026-10-15,1,2470030,1,Modoc & Portesuello,12:14:00,True
+current,2026-10-15,1,659030,1,Modoc & Portesuello,14:14:00,False
+current,2026-10-15,1,621030,1,Modoc & Portesuello,16:14:00,False
+current,2026-10-15,1,1704030,1,Modoc & Portesuello,16:34:00,False
+current,2026-10-15,1,2475030,1,Modoc & Portesuello,06:14:00,False
+current,2026-10-15,1,719030,1,Modoc & Portesuello,15:14:00,False
+current,2026-10-15,1,609030,1,Modoc & Portesuello,18:54:00,False
+current,2026-10-15,1,1184030,1,Modoc & Portesuello,11:14:00,True
+current,2026-10-15,1,1789030,1,Modoc & Portesuello,06:34:00,False
+current,2026-10-15,1,2432030,1,Modoc & Portesuello,13:34:00,True
+current,2026-10-15,1,1793030,1,Modoc & Portesuello,07:34:00,False
+current,2026-10-15,1,254030,1,Modoc & Portesuello,13:14:00,True
+current,2026-10-15,1,2480030,1,Modoc & Portesuello,09:54:00,False
+current,2026-10-15,1,1249030,1,Modoc & Portesuello,12:54:00,True
+current,2026-10-15,1,1676030,1,Modoc & Portesuello,08:34:00,False
+current,2026-10-15,1,981030,1,Modoc & Portesuello,10:14:00,True
+current,2026-10-15,1,1855030,1,Modoc & Portesuello,10:34:00,True
+current,2026-10-15,1,1625030,1,Modoc & Portesuello,18:34:00,False
+current,2026-10-15,1,1634030,1,Modoc & Portesuello,13:54:00,True
+current,2026-10-15,1,1408030,1,Modoc & Portesuello,14:34:00,False
+current,2026-10-15,1,297030,1,Modoc & Portesuello,21:25:00,False
+current,2026-10-15,1,216030,1,Modoc & Portesuello,09:14:00,False
+current,2026-10-15,1,1119030,1,Modoc & Portesuello,19:34:00,False
+current,2026-10-15,1,45030,1,Modoc & Portesuello,19:14:00,False
+current,2026-10-15,1,2429030,1,Modoc & Portesuello,11:34:00,True
+current,2026-10-15,1,221030,1,Modoc & Portesuello,17:34:00,False
+current,2026-10-15,1,1410030,0,Transit Center,11:00:00,True
+current,2026-10-15,1,1443030,0,Transit Center,12:00:00,True
+current,2026-10-15,1,1732030,0,Transit Center,18:00:00,False
+current,2026-10-15,1,1565030,0,Transit Center,07:20:00,False
+current,2026-10-15,1,404030,0,Transit Center,12:40:00,True
+current,2026-10-15,1,1253030,0,Transit Center,12:20:00,True
+current,2026-10-15,1,1527030,0,Transit Center,16:00:00,False
+current,2026-10-15,1,1984030,0,Transit Center,15:40:00,False
+current,2026-10-15,1,1834030,0,Transit Center,18:40:00,False
+current,2026-10-15,1,96030,0,Transit Center,14:40:00,False
+current,2026-10-15,1,301030,0,Transit Center,15:00:00,False
+current,2026-10-15,1,2251030,0,Transit Center,08:00:00,False
+current,2026-10-15,1,1862030,0,Transit Center,18:20:00,False
+current,2026-10-15,1,2172030,0,Transit Center,13:00:00,True
+current,2026-10-15,1,1542030,0,Transit Center,19:55:00,False
+current,2026-10-15,1,244030,0,Transit Center,09:20:00,False
+current,2026-10-15,1,1604030,0,Transit Center,15:20:00,False
+current,2026-10-15,1,1954030,0,Transit Center,09:00:00,False
+current,2026-10-15,1,717030,0,Transit Center,21:48:00,False
+current,2026-10-15,1,1503030,0,Transit Center,11:20:00,True
+current,2026-10-15,1,65030,0,Transit Center,16:20:00,False
+current,2026-10-15,1,225030,0,Transit Center,17:00:00,False
+current,2026-10-15,1,1043030,0,Transit Center,06:40:00,False
+current,2026-10-15,1,586030,0,Transit Center,06:20:00,False
+current,2026-10-15,1,1394030,0,Transit Center,07:40:00,False
+current,2026-10-15,1,2117030,0,Transit Center,10:40:00,True
+current,2026-10-15,1,2330030,0,Transit Center,13:20:00,True
+current,2026-10-15,1,799030,0,Transit Center,21:11:00,False
+current,2026-10-15,1,1400030,0,Transit Center,09:40:00,False
+current,2026-10-15,1,154030,0,Transit Center,10:20:00,True
+current,2026-10-15,1,2436030,0,Transit Center,16:40:00,False
+current,2026-10-15,1,323030,0,Transit Center,19:00:00,False
+current,2026-10-15,1,1785030,0,Transit Center,11:40:00,True
+current,2026-10-15,1,304030,0,Transit Center,19:20:00,False
+current,2026-10-15,1,1660030,0,Transit Center,10:00:00,True
+current,2026-10-15,1,837030,0,Transit Center,17:40:00,False
+current,2026-10-15,1,791030,0,Transit Center,13:40:00,True
+current,2026-10-15,1,1162030,0,Transit Center,20:34:00,False
+current,2026-10-15,1,1770030,0,Transit Center,14:00:00,False
+current,2026-10-15,1,975030,0,Transit Center,14:20:00,False
+current,2026-10-15,1,2327030,0,Transit Center,08:20:00,False
+current,2026-10-15,1,2337030,0,Transit Center,08:40:00,False
+current,2026-10-15,1,7030,0,Transit Center,07:00:00,False
+current,2026-10-15,1,731030,0,Transit Center,17:20:00,False
+current,2026-10-15,11,42030,1,Storke & Hollister,14:47:00,False
+current,2026-10-15,11,1738030,1,Storke & Hollister,11:47:00,True
+current,2026-10-15,11,776030,1,Storke & Hollister,12:47:00,True
+current,2026-10-15,11,808030,1,Storke & Hollister,13:47:00,True
+current,2026-10-15,11,887030,1,Storke & Hollister,11:17:00,True
+current,2026-10-15,11,1194030,1,Storke & Hollister,17:47:00,False
+current,2026-10-15,11,1859030,1,Storke & Hollister,07:47:00,False
+current,2026-10-15,11,647030,1,Storke & Hollister,08:47:00,False
+current,2026-10-15,11,293030,1,Storke & Hollister,15:17:00,False
+current,2026-10-15,11,2323030,1,Storke & Hollister,18:17:00,False
+current,2026-10-15,11,1365030,1,Storke & Hollister,06:47:00,False
+current,2026-10-15,11,1216030,1,Storke & Hollister,09:47:00,False
+current,2026-10-15,11,1390030,1,Storke & Hollister,06:17:00,False
+current,2026-10-15,11,145030,1,Storke & Hollister,17:17:00,False
+current,2026-10-15,11,1734030,1,Storke & Hollister,12:17:00,True
+current,2026-10-15,11,715030,1,Storke & Hollister,20:25:00,False
+current,2026-10-15,11,1457030,1,Storke & Hollister,21:40:00,False
+current,2026-10-15,11,1023030,1,Storke & Hollister,18:47:00,False
+current,2026-10-15,11,1210030,1,Storke & Hollister,19:40:00,False
+current,2026-10-15,11,497030,1,Storke & Hollister,19:17:00,False
+current,2026-10-15,11,1239030,1,Storke & Hollister,10:47:00,True
+current,2026-10-15,11,754030,1,Storke & Hollister,21:00:00,False
+current,2026-10-15,11,534030,1,Storke & Hollister,16:47:00,False
+current,2026-10-15,11,830030,1,Storke & Hollister,08:17:00,False
+current,2026-10-15,11,832030,1,Storke & Hollister,07:17:00,False
+current,2026-10-15,11,220030,1,Storke & Hollister,09:17:00,False
+current,2026-10-15,11,1176030,1,Storke & Hollister,10:17:00,True
+current,2026-10-15,11,1181030,1,Storke & Hollister,15:47:00,False
+current,2026-10-15,11,2491030,1,Storke & Hollister,13:17:00,True
+current,2026-10-15,11,1413030,1,Storke & Hollister,16:17:00,False
+current,2026-10-15,11,879030,1,Storke & Hollister,14:17:00,False
+current,2026-10-15,11,1344030,1,Storke & Hollister,22:30:00,False
+current,2026-10-15,11,1533030,0,Transit Center,11:30:00,True
+current,2026-10-15,11,2023030,0,Transit Center,15:00:00,False
+current,2026-10-15,11,794030,0,Transit Center,08:00:00,False
+current,2026-10-15,11,2142030,0,Transit Center,18:00:00,False
+current,2026-10-15,11,162030,0,Transit Center,10:00:00,True
+current,2026-10-15,11,2179030,0,Transit Center,11:00:00,True
+current,2026-10-15,11,81030,0,Transit Center,06:30:00,False
+current,2026-10-15,11,2208030,0,Transit Center,06:00:00,False
+current,2026-10-15,11,1637030,0,Transit Center,23:30:00,False
+current,2026-10-15,11,1008030,0,Transit Center,19:30:00,False
+current,2026-10-15,11,405030,0,Transit Center,15:30:00,False
+current,2026-10-15,11,1593030,0,Transit Center,22:05:00,False
+current,2026-10-15,11,364030,0,Transit Center,14:00:00,False
+current,2026-10-15,11,1695030,0,Transit Center,13:30:00,True
+current,2026-10-15,11,1320030,0,Transit Center,08:30:00,False
+current,2026-10-15,11,1517030,0,Transit Center,17:00:00,False
+current,2026-10-15,11,129030,0,Transit Center,09:00:00,False
+current,2026-10-15,11,1699030,0,Transit Center,16:30:00,False
+current,2026-10-15,11,1198030,0,Transit Center,19:00:00,False
+current,2026-10-15,11,1598030,0,Transit Center,10:30:00,True
+current,2026-10-15,11,1370030,0,Transit Center,12:00:00,True
+current,2026-10-15,11,231030,0,Transit Center,09:30:00,False
+current,2026-10-15,11,2009030,0,Transit Center,20:15:00,False
+current,2026-10-15,11,1393030,0,Transit Center,21:25:00,False
+current,2026-10-15,11,133030,0,Transit Center,14:30:00,False
+current,2026-10-15,11,2173030,0,Transit Center,18:30:00,False
+current,2026-10-15,11,2334030,0,Transit Center,07:30:00,False
+current,2026-10-15,11,1909030,0,Transit Center,22:45:00,False
+current,2026-10-15,11,836030,0,Transit Center,20:45:00,False
+current,2026-10-15,11,356030,0,Transit Center,13:00:00,True
+current,2026-10-15,11,341030,0,Transit Center,12:30:00,True
+current,2026-10-15,11,2127030,0,Transit Center,07:00:00,False
+current,2026-10-15,11,239030,0,Transit Center,17:30:00,False
+current,2026-10-15,11,1939030,0,Transit Center,16:00:00,False
+current,2026-10-15,12X,2058030,1,Hollister & Storke,14:58:00,False
+current,2026-10-15,12X,474030,1,Hollister & Storke,08:33:00,False
+current,2026-10-15,12X,1990030,1,Hollister & Storke,12:03:00,True
+current,2026-10-15,12X,2198030,1,Hollister & Storke,10:53:00,True
+current,2026-10-15,12X,76030,1,Hollister & Storke,19:33:00,False
+current,2026-10-15,12X,882030,1,Hollister & Storke,17:53:00,False
+current,2026-10-15,12X,486030,1,Hollister & Storke,15:33:00,False
+current,2026-10-15,12X,1922030,1,Hollister & Storke,16:08:00,False
+current,2026-10-15,12X,2420030,1,Hollister & Storke,19:03:00,False
+current,2026-10-15,12X,1107030,1,Hollister & Storke,16:43:00,False
+current,2026-10-15,12X,440030,1,Hollister & Storke,13:48:00,True
+current,2026-10-15,12X,663030,1,Hollister & Storke,13:13:00,True
+current,2026-10-15,12X,686030,1,Hollister & Storke,07:58:00,False
+current,2026-10-15,12X,1005030,1,Hollister & Storke,12:38:00,True
+current,2026-10-15,12X,6030,1,Hollister & Storke,09:43:00,False
+current,2026-10-15,12X,741030,1,Hollister & Storke,14:23:00,False
+current,2026-10-15,12X,606030,0,Transit Center,15:00:00,False
+current,2026-10-15,12X,927030,0,Transit Center,19:05:00,False
+current,2026-10-15,12X,1985030,0,Transit Center,13:15:00,True
+current,2026-10-15,12X,2257030,0,Transit Center,14:25:00,False
+current,2026-10-15,12X,2406030,0,Transit Center,11:30:00,True
+current,2026-10-15,12X,2136030,0,Transit Center,09:45:00,False
+current,2026-10-15,12X,2426030,0,Transit Center,08:35:00,False
+current,2026-10-15,12X,1809030,0,Transit Center,12:05:00,True
+current,2026-10-15,12X,2272030,0,Transit Center,15:35:00,False
+current,2026-10-15,12X,1291030,0,Transit Center,16:45:00,False
+current,2026-10-15,12X,1470030,0,Transit Center,12:40:00,True
+current,2026-10-15,12X,2229030,0,Transit Center,17:55:00,False
+current,2026-10-15,12X,1328030,0,Transit Center,10:55:00,True
+current,2026-10-15,12X,1717030,0,Transit Center,07:25:00,False
+current,2026-10-15,12X,1314030,0,Transit Center,13:50:00,True
+current,2026-10-15,12X,526030,0,Transit Center,06:05:00,False
+current,2026-10-15,12X,1051030,0,Transit Center,06:30:00,False
+current,2026-10-15,14,1068030,1,North Jameson & Sheffield,08:11:00,False
+current,2026-10-15,14,1120030,1,North Jameson & Sheffield,14:11:00,False
+current,2026-10-15,14,807030,1,North Jameson & Sheffield,10:11:00,True
+current,2026-10-15,14,109030,1,North Jameson & Sheffield,12:11:00,True
+current,2026-10-15,14,1169030,1,North Jameson & Sheffield,17:11:00,False
+current,2026-10-15,14,577030,1,North Jameson & Sheffield,07:11:00,False
+current,2026-10-15,14,703030,1,North Jameson & Sheffield,16:11:00,False
+current,2026-10-15,14,278030,1,North Jameson & Sheffield,13:11:00,True
+current,2026-10-15,14,1274030,1,North Jameson & Sheffield,15:11:00,False
+current,2026-10-15,14,1232030,1,North Jameson & Sheffield,09:11:00,False
+current,2026-10-15,14,2164030,0,Transit Center,14:30:00,False
+current,2026-10-15,14,1561030,0,Transit Center,09:30:00,False
+current,2026-10-15,14,286030,0,Transit Center,13:30:00,True
+current,2026-10-15,14,790030,0,Transit Center,08:30:00,False
+current,2026-10-15,14,1150030,0,Transit Center,16:30:00,False
+current,2026-10-15,14,507030,0,Transit Center,17:30:00,False
+current,2026-10-15,14,1923030,0,Transit Center,12:30:00,True
+current,2026-10-15,14,2014030,0,Transit Center,06:30:00,False
+current,2026-10-15,14,1962030,0,Transit Center,07:30:00,False
+current,2026-10-15,14,2474030,0,Transit Center,15:30:00,False
+current,2026-10-15,14,798030,0,Transit Center,11:30:00,True
+current,2026-10-15,15X,819030,1,UCSB North Hall Outbound,12:24:00,True
+current,2026-10-15,15X,1170030,1,UCSB North Hall Outbound,11:30:00,True
+current,2026-10-15,15X,1241030,1,UCSB North Hall Outbound,10:11:00,True
+current,2026-10-15,15X,1600030,1,UCSB North Hall Outbound,08:40:00,False
+current,2026-10-15,15X,263030,1,UCSB North Hall Outbound,10:36:00,True
+current,2026-10-15,15X,1549030,1,UCSB North Hall Outbound,14:12:00,False
+current,2026-10-15,15X,2059030,1,UCSB North Hall Outbound,17:10:00,False
+current,2026-10-15,15X,2041030,1,UCSB North Hall Outbound,09:42:00,False
+current,2026-10-15,15X,56030,1,UCSB North Hall Outbound,20:16:00,False
+current,2026-10-15,15X,1737030,1,UCSB North Hall Outbound,07:38:00,False
+current,2026-10-15,15X,657030,1,UCSB North Hall Outbound,15:06:00,False
+current,2026-10-15,15X,1715030,1,UCSB North Hall Outbound,07:07:00,False
+current,2026-10-15,15X,2016030,1,UCSB North Hall Outbound,13:18:00,True
+current,2026-10-15,15X,861030,1,UCSB North Hall Outbound,08:09:00,False
+current,2026-10-15,15X,264030,1,UCSB North Hall Outbound,09:11:00,False
+current,2026-10-15,15X,1231030,1,UCSB North Hall Outbound,18:12:00,False
+current,2026-10-15,15X,2065030,1,UCSB North Hall Outbound,16:08:00,False
+current,2026-10-15,15X,2218030,1,UCSB North Hall Outbound,19:14:00,False
+current,2026-10-15,15X,1295030,0,Cliff & Loma Alta,07:47:00,False
+current,2026-10-15,15X,2469030,0,Cliff & Loma Alta,12:04:00,True
+current,2026-10-15,15X,1653030,0,Cliff & Loma Alta,07:16:00,False
+current,2026-10-15,15X,2485030,0,Cliff & Loma Alta,18:52:00,False
+current,2026-10-15,15X,1936030,0,Cliff & Loma Alta,10:45:00,True
+current,2026-10-15,15X,2277030,0,Cliff & Loma Alta,12:58:00,True
+current,2026-10-15,15X,2069030,0,Cliff & Loma Alta,11:10:00,True
+current,2026-10-15,15X,2505030,0,Cliff & Loma Alta,16:48:00,False
+current,2026-10-15,15X,1835030,0,Cliff & Loma Alta,08:18:00,False
+current,2026-10-15,15X,32030,0,Cliff & Loma Alta,15:46:00,False
+current,2026-10-15,15X,1643030,0,Cliff & Loma Alta,13:52:00,True
+current,2026-10-15,15X,897030,0,Cliff & Loma Alta,19:54:00,False
+current,2026-10-15,15X,984030,0,Cliff & Loma Alta,09:20:00,False
+current,2026-10-15,15X,394030,0,Cliff & Loma Alta,10:16:00,True
+current,2026-10-15,15X,142030,0,Cliff & Loma Alta,14:46:00,False
+current,2026-10-15,15X,2159030,0,Cliff & Loma Alta,08:49:00,False
+current,2026-10-15,15X,604030,0,Cliff & Loma Alta,17:50:00,False
+current,2026-10-15,15X,755030,0,Cliff & Loma Alta,09:51:00,False
+current,2026-10-15,15X,656030,0,Cliff & Loma Alta,21:15:00,False
+current,2026-10-15,17,2496030,1,Cliff & Loma Alta,10:31:00,True
+current,2026-10-15,17,255030,1,Cliff & Loma Alta,17:31:00,False
+current,2026-10-15,17,543030,1,Cliff & Loma Alta,14:36:00,False
+current,2026-10-15,17,792030,1,Cliff & Loma Alta,16:21:00,False
+current,2026-10-15,17,2200030,1,Cliff & Loma Alta,18:41:00,False
+current,2026-10-15,17,856030,1,Cliff & Loma Alta,20:31:00,False
+current,2026-10-15,17,291030,1,Cliff & Loma Alta,08:06:00,False
+current,2026-10-15,17,1084030,1,Cliff & Loma Alta,15:11:00,False
+current,2026-10-15,17,2096030,1,Cliff & Loma Alta,07:31:00,False
+current,2026-10-15,17,277030,1,Cliff & Loma Alta,09:21:00,False
+current,2026-10-15,17,2220030,1,Cliff & Loma Alta,11:41:00,True
+current,2026-10-15,17,2313030,1,Cliff & Loma Alta,19:31:00,False
+current,2026-10-15,17,2338030,1,Cliff & Loma Alta,15:46:00,False
+current,2026-10-15,17,1039030,1,Cliff & Loma Alta,09:56:00,False
+current,2026-10-15,17,834030,1,Cliff & Loma Alta,18:06:00,False
+current,2026-10-15,17,471030,1,Cliff & Loma Alta,14:01:00,False
+current,2026-10-15,17,360030,1,Cliff & Loma Alta,12:51:00,True
+current,2026-10-15,17,2108030,1,Cliff & Loma Alta,12:16:00,True
+current,2026-10-15,17,1535030,1,Cliff & Loma Alta,06:56:00,False
+current,2026-10-15,17,2375030,1,Cliff & Loma Alta,08:46:00,False
+current,2026-10-15,17,934030,1,Cliff & Loma Alta,11:06:00,True
+current,2026-10-15,17,602030,1,Cliff & Loma Alta,13:26:00,True
+current,2026-10-15,17,2393030,1,Cliff & Loma Alta,16:56:00,False
+current,2026-10-15,17,1254030,0,Transit Center,12:55:00,True
+current,2026-10-15,17,2026030,0,Transit Center,11:45:00,True
+current,2026-10-15,17,2258030,0,Transit Center,18:45:00,False
+current,2026-10-15,17,576030,0,Transit Center,08:15:00,False
+current,2026-10-15,17,597030,0,Transit Center,14:05:00,False
+current,2026-10-15,17,2355030,0,Transit Center,16:25:00,False
+current,2026-10-15,17,839030,0,Transit Center,14:40:00,False
+current,2026-10-15,17,1075030,0,Transit Center,10:35:00,True
+current,2026-10-15,17,2115030,0,Transit Center,12:20:00,True
+current,2026-10-15,17,1876030,0,Transit Center,11:10:00,True
+current,2026-10-15,17,2224030,0,Transit Center,15:15:00,False
+current,2026-10-15,17,2437030,0,Transit Center,13:30:00,True
+current,2026-10-15,17,2028030,0,Transit Center,09:25:00,False
+current,2026-10-15,17,1377030,0,Transit Center,06:25:00,False
+current,2026-10-15,17,1363030,0,Transit Center,17:00:00,False
+current,2026-10-15,17,158030,0,Transit Center,07:00:00,False
+current,2026-10-15,17,2373030,0,Transit Center,20:45:00,False
+current,2026-10-15,17,759030,0,Transit Center,18:10:00,False
+current,2026-10-15,17,1915030,0,Transit Center,17:35:00,False
+current,2026-10-15,17,810030,0,Transit Center,08:50:00,False
+current,2026-10-15,17,1310030,0,Transit Center,07:35:00,False
+current,2026-10-15,17,1490030,0,Transit Center,15:50:00,False
+current,2026-10-15,17,1868030,0,Transit Center,10:00:00,True
+current,2026-10-15,17,1416030,0,Transit Center,19:45:00,False
+current,2026-10-15,19X,813030,1,Cliff & Loma Alta,16:30:00,False
+current,2026-10-15,19X,869030,1,Cliff & Loma Alta,12:40:00,True
+current,2026-10-15,19X,1928030,1,Cliff & Loma Alta,17:30:00,False
+current,2026-10-15,19X,124030,0,Carpinteria & Palm,08:00:00,False
+current,2026-10-15,19X,1265030,0,Carpinteria & Palm,07:00:00,False
+current,2026-10-15,19X,2020030,0,Carpinteria & Palm,11:45:00,True
+current,2026-10-15,2,1255030,1,Punta Gorda & Salinas,11:52:00,True
+current,2026-10-15,2,1618030,1,Punta Gorda & Salinas,11:32:00,True
+current,2026-10-15,2,1589030,1,Punta Gorda & Salinas,14:12:00,False
+current,2026-10-15,2,2005030,1,Punta Gorda & Salinas,15:32:00,False
+current,2026-10-15,2,2402030,1,Punta Gorda & Salinas,13:52:00,True
+current,2026-10-15,2,34030,1,Punta Gorda & Salinas,17:12:00,False
+current,2026-10-15,2,1890030,1,Punta Gorda & Salinas,15:52:00,False
+current,2026-10-15,2,1581030,1,Punta Gorda & Salinas,08:52:00,False
+current,2026-10-15,2,1525030,1,Punta Gorda & Salinas,10:52:00,True
+current,2026-10-15,2,1425030,1,Punta Gorda & Salinas,10:32:00,True
+current,2026-10-15,2,627030,1,Punta Gorda & Salinas,17:52:00,False
+current,2026-10-15,2,504030,1,Punta Gorda & Salinas,09:12:00,False
+current,2026-10-15,2,257030,1,Punta Gorda & Salinas,09:52:00,False
+current,2026-10-15,2,1640030,1,Punta Gorda & Salinas,06:32:00,False
+current,2026-10-15,2,60030,1,Punta Gorda & Salinas,17:32:00,False
+current,2026-10-15,2,1966030,1,Punta Gorda & Salinas,16:52:00,False
+current,2026-10-15,2,218030,1,Punta Gorda & Salinas,20:11:00,False
+current,2026-10-15,2,782030,1,Punta Gorda & Salinas,14:52:00,False
+current,2026-10-15,2,1908030,1,Punta Gorda & Salinas,06:52:00,False
+current,2026-10-15,2,1652030,1,Punta Gorda & Salinas,19:12:00,False
+current,2026-10-15,2,773030,1,Punta Gorda & Salinas,16:12:00,False
+current,2026-10-15,2,1776030,1,Punta Gorda & Salinas,15:12:00,False
+current,2026-10-15,2,1806030,1,Punta Gorda & Salinas,11:12:00,True
+current,2026-10-15,2,1011030,1,Punta Gorda & Salinas,07:12:00,False
+current,2026-10-15,2,324030,1,Punta Gorda & Salinas,12:52:00,True
+current,2026-10-15,2,826030,1,Punta Gorda & Salinas,12:32:00,True
+current,2026-10-15,2,46030,1,Punta Gorda & Salinas,21:25:00,False
+current,2026-10-15,2,932030,1,Punta Gorda & Salinas,13:12:00,True
+current,2026-10-15,2,2189030,1,Punta Gorda & Salinas,19:32:00,False
+current,2026-10-15,2,2394030,1,Punta Gorda & Salinas,12:12:00,True
+current,2026-10-15,2,1932030,1,Punta Gorda & Salinas,18:52:00,False
+current,2026-10-15,2,2216030,1,Punta Gorda & Salinas,20:48:00,False
+current,2026-10-15,2,1762030,1,Punta Gorda & Salinas,09:32:00,False
+current,2026-10-15,2,2056030,1,Punta Gorda & Salinas,16:32:00,False
+current,2026-10-15,2,1327030,1,Punta Gorda & Salinas,10:12:00,True
+current,2026-10-15,2,1783030,1,Punta Gorda & Salinas,14:32:00,False
+current,2026-10-15,2,1747030,1,Punta Gorda & Salinas,07:52:00,False
+current,2026-10-15,2,246030,1,Punta Gorda & Salinas,08:32:00,False
+current,2026-10-15,2,2195030,1,Punta Gorda & Salinas,06:12:00,False
+current,2026-10-15,2,618030,1,Punta Gorda & Salinas,05:52:00,False
+current,2026-10-15,2,13030,1,Punta Gorda & Salinas,07:32:00,False
+current,2026-10-15,2,1979030,1,Punta Gorda & Salinas,18:12:00,False
+current,2026-10-15,2,1694030,1,Punta Gorda & Salinas,13:32:00,True
+current,2026-10-15,2,2479030,1,Punta Gorda & Salinas,22:02:00,False
+current,2026-10-15,2,107030,1,Punta Gorda & Salinas,18:32:00,False
+current,2026-10-15,2,284030,1,Punta Gorda & Salinas,08:12:00,False
+current,2026-10-15,2,16030,0,Transit Center,14:33:00,False
+current,2026-10-15,2,1907030,0,Transit Center,18:13:00,False
+current,2026-10-15,2,276030,0,Transit Center,09:33:00,False
+current,2026-10-15,2,245030,0,Transit Center,12:13:00,True
+current,2026-10-15,2,873030,0,Transit Center,19:53:00,False
+current,2026-10-15,2,1030,0,Transit Center,20:30:00,False
+current,2026-10-15,2,1550030,0,Transit Center,21:07:00,False
+current,2026-10-15,2,739030,0,Transit Center,21:44:00,False
+current,2026-10-15,2,1833030,0,Transit Center,09:13:00,False
+current,2026-10-15,2,702030,0,Transit Center,17:13:00,False
+current,2026-10-15,2,1388030,0,Transit Center,11:53:00,True
+current,2026-10-15,2,1664030,0,Transit Center,07:33:00,False
+current,2026-10-15,2,2354030,0,Transit Center,16:33:00,False
+current,2026-10-15,2,348030,0,Transit Center,10:33:00,True
+current,2026-10-15,2,765030,0,Transit Center,11:13:00,True
+current,2026-10-15,2,1539030,0,Transit Center,07:53:00,False
+current,2026-10-15,2,156030,0,Transit Center,15:13:00,False
+current,2026-10-15,2,514030,0,Transit Center,17:53:00,False
+current,2026-10-15,2,1837030,0,Transit Center,15:53:00,False
+current,2026-10-15,2,1057030,0,Transit Center,19:13:00,False
+current,2026-10-15,2,379030,0,Transit Center,10:53:00,True
+current,2026-10-15,2,1160030,0,Transit Center,17:33:00,False
+current,2026-10-15,2,2080030,0,Transit Center,13:33:00,True
+current,2026-10-15,2,1913030,0,Transit Center,13:13:00,True
+current,2026-10-15,2,26030,0,Transit Center,10:13:00,True
+current,2026-10-15,2,558030,0,Transit Center,06:33:00,False
+current,2026-10-15,2,407030,0,Transit Center,16:13:00,False
+current,2026-10-15,2,480030,0,Transit Center,15:33:00,False
+current,2026-10-15,2,2057030,0,Transit Center,12:53:00,True
+current,2026-10-15,2,1031030,0,Montecito & Milpas,06:06:00,False
+current,2026-10-15,2,925030,0,Montecito & Milpas,05:46:00,False
+current,2026-10-15,2,646030,0,Transit Center,08:13:00,False
+current,2026-10-15,2,800030,0,Transit Center,13:53:00,True
+current,2026-10-15,2,1714030,0,Transit Center,08:53:00,False
+current,2026-10-15,2,630030,0,Transit Center,14:53:00,False
+current,2026-10-15,2,1422030,0,Transit Center,12:33:00,True
+current,2026-10-15,2,2223030,0,Transit Center,07:13:00,False
+current,2026-10-15,2,1538030,0,Montecito & Milpas,06:26:00,False
+current,2026-10-15,2,524030,0,Transit Center,09:53:00,False
+current,2026-10-15,2,769030,0,Transit Center,11:33:00,True
+current,2026-10-15,2,1438030,0,Transit Center,18:33:00,False
+current,2026-10-15,2,495030,0,Transit Center,06:53:00,False
+current,2026-10-15,2,493030,0,Transit Center,16:53:00,False
+current,2026-10-15,2,891030,0,Transit Center,08:33:00,False
+current,2026-10-15,2,122030,0,Transit Center,14:13:00,False
+current,2026-10-15,2,673030,0,Transit Center,18:53:00,False
+current,2026-10-15,20,1187030,1,Transit Center,15:00:00,False
+current,2026-10-15,20,2385030,1,Transit Center,06:00:00,False
+current,2026-10-15,20,595030,1,Transit Center,18:00:00,False
+current,2026-10-15,20,1301030,1,Transit Center,19:00:00,False
+current,2026-10-15,20,1891030,1,Transit Center,12:00:00,True
+current,2026-10-15,20,1251030,1,Transit Center,15:30:00,False
+current,2026-10-15,20,2170030,1,Transit Center,11:00:00,True
+current,2026-10-15,20,14030,1,Transit Center,17:30:00,False
+current,2026-10-15,20,2149030,1,Transit Center,08:30:00,False
+current,2026-10-15,20,1180030,1,Transit Center,16:30:00,False
+current,2026-10-15,20,2018030,1,Transit Center,13:00:00,True
+current,2026-10-15,20,137030,1,Transit Center,07:00:00,False
+current,2026-10-15,20,209030,1,Transit Center,21:00:00,False
+current,2026-10-15,20,1992030,1,Transit Center,17:00:00,False
+current,2026-10-15,20,699030,1,Transit Center,16:00:00,False
+current,2026-10-15,20,1667030,1,Transit Center,14:00:00,False
+current,2026-10-15,20,28030,1,Transit Center,09:00:00,False
+current,2026-10-15,20,1312030,1,Transit Center,22:00:00,False
+current,2026-10-15,20,1883030,1,Transit Center,20:00:00,False
+current,2026-10-15,20,249030,1,Transit Center,05:30:00,False
+current,2026-10-15,20,1148030,1,Transit Center,18:30:00,False
+current,2026-10-15,20,2079030,1,Transit Center,10:00:00,True
+current,2026-10-15,20,1053030,1,Transit Center,06:30:00,False
+current,2026-10-15,20,999030,1,Transit Center,07:30:00,False
+current,2026-10-15,20,1510030,1,Transit Center,08:00:00,False
+current,2026-10-15,20,2361030,0,Via Real & Mark,17:30:00,False
+current,2026-10-15,20,1543030,0,Via Real & Mark,15:00:00,False
+current,2026-10-15,20,1626030,0,Via Real & Mark,07:00:00,False
+current,2026-10-15,20,1672030,0,Via Real & Mark,07:30:00,False
+current,2026-10-15,20,1647030,0,Via Real & Mark,22:45:00,False
+current,2026-10-15,20,959030,0,Via Real & Mark,05:30:00,False
+current,2026-10-15,20,2490030,0,Via Real & Mark,13:00:00,True
+current,2026-10-15,20,1662030,0,Via Real & Mark,15:30:00,False
+current,2026-10-15,20,2153030,0,Via Real & Mark,22:00:00,False
+current,2026-10-15,20,2126030,0,Via Real & Mark,17:00:00,False
+current,2026-10-15,20,2042030,0,Via Real & Mark,19:00:00,False
+current,2026-10-15,20,580030,0,Via Real & Mark,09:00:00,False
+current,2026-10-15,20,384030,0,Via Real & Mark,21:00:00,False
+current,2026-10-15,20,2345030,0,Via Real & Mark,08:00:00,False
+current,2026-10-15,20,352030,0,Via Real & Mark,20:00:00,False
+current,2026-10-15,20,768030,0,Via Real & Mark,18:00:00,False
+current,2026-10-15,20,1784030,0,Via Real & Mark,08:30:00,False
+current,2026-10-15,20,2183030,0,Via Real & Mark,12:00:00,True
+current,2026-10-15,20,1449030,0,Via Real & Mark,14:00:00,False
+current,2026-10-15,20,2320030,0,Via Real & Mark,10:00:00,True
+current,2026-10-15,20,1330030,0,Via Real & Mark,06:30:00,False
+current,2026-10-15,20,662030,0,Via Real & Mark,11:00:00,True
+current,2026-10-15,20,344030,0,Via Real & Mark,16:00:00,False
+current,2026-10-15,20,1147030,0,Via Real & Mark,16:30:00,False
+current,2026-10-15,20,2413030,0,Via Real & Mark,06:00:00,False
+current,2026-10-15,2110,1869030,1,Cota & Quarantina,15:10:11,False
+current,2026-10-15,23,947030,1,Winchester Canyon & Bradford,09:54:00,False
+current,2026-10-15,23,696030,1,Winchester Canyon & Bradford,15:54:00,False
+current,2026-10-15,23,483030,1,Winchester Canyon & Bradford,16:54:00,False
+current,2026-10-15,23,650030,1,Winchester Canyon & Bradford,17:54:00,False
+current,2026-10-15,23,1926030,1,Winchester Canyon & Bradford,11:54:00,True
+current,2026-10-15,23,2201030,1,Winchester Canyon & Bradford,13:54:00,True
+current,2026-10-15,23,1047030,1,Winchester Canyon & Bradford,08:54:00,False
+current,2026-10-15,23,2207030,1,Winchester Canyon & Bradford,06:54:00,False
+current,2026-10-15,23,735030,1,Winchester Canyon & Bradford,12:54:00,True
+current,2026-10-15,23,883030,1,Winchester Canyon & Bradford,18:54:00,False
+current,2026-10-15,23,2103030,1,Winchester Canyon & Bradford,07:54:00,False
+current,2026-10-15,23,2476030,1,Winchester Canyon & Bradford,06:24:00,False
+current,2026-10-15,23,692030,1,Winchester Canyon & Bradford,08:24:00,False
+current,2026-10-15,23,728030,1,Winchester Canyon & Bradford,14:54:00,False
+current,2026-10-15,23,266030,1,Winchester Canyon & Bradford,05:54:00,False
+current,2026-10-15,23,2495030,1,Winchester Canyon & Bradford,10:54:00,True
+current,2026-10-15,23,1321030,1,Winchester Canyon & Bradford,07:24:00,False
+current,2026-10-15,23,310030,0,Storke & Hollister 108,07:40:00,False
+current,2026-10-15,23,1479030,0,Storke & Hollister 108,21:40:00,False
+current,2026-10-15,23,1811030,0,Storke & Hollister 108,21:10:00,False
+current,2026-10-15,23,1515030,0,Storke & Hollister 108,10:10:00,True
+current,2026-10-15,23,1233030,0,Storke & Hollister 108,19:55:00,False
+current,2026-10-15,23,357030,0,Storke & Hollister 108,16:10:00,False
+current,2026-10-15,23,1186030,0,Storke & Hollister 108,12:10:00,True
+current,2026-10-15,23,1032030,0,Storke & Hollister 108,17:10:00,False
+current,2026-10-15,23,2481030,0,Storke & Hollister 108,15:10:00,False
+current,2026-10-15,23,643030,0,Storke & Hollister 108,08:40:00,False
+current,2026-10-15,23,1999030,0,Storke & Hollister 108,09:10:00,False
+current,2026-10-15,23,2150030,0,Storke & Hollister 108,11:10:00,True
+current,2026-10-15,23,1496030,0,Storke & Hollister 108,19:10:00,False
+current,2026-10-15,23,1485030,0,Storke & Hollister 108,13:10:00,True
+current,2026-10-15,23,596030,0,Storke & Hollister 108,18:10:00,False
+current,2026-10-15,23,1870030,0,Storke & Hollister 108,08:10:00,False
+current,2026-10-15,23,171030,0,Storke & Hollister 108,07:10:00,False
+current,2026-10-15,23,1842030,0,Storke & Hollister 108,14:10:00,False
+current,2026-10-15,2410,1487030,0,Foothill & La Colina JHS,15:20:00,False
+current,2026-10-15,2410,280030,1,Turnpike & Ukiah,07:50:00,False
+current,2026-10-15,2420,2187030,0,Foothill & La Colina JHS,15:20:00,False
+current,2026-10-15,2420,1077030,1,University & Patterson,08:00:00,False
+current,2026-10-15,2430,262030,1,Foothill & La Colina JHS,15:20:00,False
+current,2026-10-15,2430,1710030,0,Hollister & San Ricardo,07:50:00,False
+current,2026-10-15,24X,820030,0,Storke & Hollister,14:57:00,False
+current,2026-10-15,24X,2286030,0,Storke & Hollister,20:37:00,False
+current,2026-10-15,24X,2447030,0,Storke & Hollister,16:07:00,False
+current,2026-10-15,24X,2120030,0,Storke & Hollister,13:47:00,True
+current,2026-10-15,24X,1836030,0,Storke & Hollister,15:32:00,False
+current,2026-10-15,24X,736030,0,Storke & Hollister,07:57:00,False
+current,2026-10-15,24X,1433030,0,Storke & Hollister,20:52:00,False
+current,2026-10-15,24X,2048030,0,Storke & Hollister,21:12:00,False
+current,2026-10-15,24X,1275030,0,Storke & Hollister,09:07:00,False
+current,2026-10-15,24X,91030,0,Storke & Hollister,10:27:00,True
+current,2026-10-15,24X,489030,0,Storke & Hollister,20:02:00,False
+current,2026-10-15,24X,1397030,0,Storke & Hollister,21:47:00,False
+current,2026-10-15,24X,1111030,0,Storke & Hollister,10:17:00,True
+current,2026-10-15,24X,1912030,0,Storke & Hollister,14:22:00,False
+current,2026-10-15,24X,1786030,0,Storke & Hollister,22:02:00,False
+current,2026-10-15,24X,2483030,0,Storke & Hollister,09:17:00,False
+current,2026-10-15,24X,1000030,0,Storke & Hollister,12:37:00,True
+current,2026-10-15,24X,1136030,0,Storke & Hollister,13:12:00,True
+current,2026-10-15,24X,914030,0,Storke & Hollister,11:27:00,True
+current,2026-10-15,24X,1192030,0,Storke & Hollister,17:17:00,False
+current,2026-10-15,24X,2473030,0,Storke & Hollister,22:57:00,False
+current,2026-10-15,24X,505030,0,Storke & Hollister,18:27:00,False
+current,2026-10-15,24X,2392030,0,Storke & Hollister,18:37:00,False
+current,2026-10-15,24X,2215030,0,Storke & Hollister,16:56:00,False
+current,2026-10-15,24X,1851030,0,Storke & Hollister,12:02:00,True
+current,2026-10-15,24X,1622030,0,Storke & Hollister,22:22:00,False
+current,2026-10-15,24X,855030,0,Storke & Hollister,19:37:00,False
+current,2026-10-15,24X,160030,0,Storke & Hollister,17:27:00,False
+current,2026-10-15,24X,1293030,1,Transit Center,09:10:00,False
+current,2026-10-15,24X,387030,1,Transit Center,13:50:00,True
+current,2026-10-15,24X,1557030,1,Transit Center,13:15:00,True
+current,2026-10-15,24X,1959030,1,Transit Center,09:45:00,False
+current,2026-10-15,24X,487030,1,Transit Center,20:05:00,False
+current,2026-10-15,24X,847030,1,Transit Center,15:00:00,False
+current,2026-10-15,24X,811030,1,Transit Center,08:35:00,False
+current,2026-10-15,24X,2027030,1,Transit Center,21:50:00,False
+current,2026-10-15,24X,174030,1,Transit Center,11:30:00,True
+current,2026-10-15,24X,1758030,1,Transit Center,12:40:00,True
+current,2026-10-15,24X,1368030,1,Transit Center,07:25:00,False
+current,2026-10-15,24X,1498030,1,Transit Center,19:30:00,False
+current,2026-10-15,24X,1920030,1,Transit Center,21:15:00,False
+current,2026-10-15,24X,161030,1,Transit Center,18:30:00,False
+current,2026-10-15,24X,51030,1,Transit Center,17:20:00,False
+current,2026-10-15,24X,2228030,1,Transit Center,23:00:00,False
+current,2026-10-15,24X,2456030,1,Transit Center,14:25:00,False
+current,2026-10-15,24X,1727030,1,Transit Center,16:10:00,False
+current,2026-10-15,24X,835030,1,Transit Center,12:05:00,True
+current,2026-10-15,24X,578030,1,Transit Center,21:30:00,False
+current,2026-10-15,24X,1481030,1,Transit Center,17:55:00,False
+current,2026-10-15,24X,1264030,1,Transit Center,15:35:00,False
+current,2026-10-15,24X,1709030,1,Transit Center,19:00:00,False
+current,2026-10-15,24X,684030,1,Transit Center,10:20:00,True
+current,2026-10-15,24X,1588030,1,Transit Center,16:45:00,False
+current,2026-10-15,24X,707030,1,Transit Center,20:20:00,False
+current,2026-10-15,24X,1146030,1,Transit Center,22:25:00,False
+current,2026-10-15,24X,1219030,1,Transit Center,08:00:00,False
+current,2026-10-15,24X,2401030,1,Transit Center,20:40:00,False
+current,2026-10-15,25,1502030,1,Calle Real & Winchester,13:32:00,True
+current,2026-10-15,25,2492030,1,Calle Real & Winchester,16:32:00,False
+current,2026-10-15,25,475030,1,Calle Real & Winchester,11:32:00,True
+current,2026-10-15,25,1359030,1,Calle Real & Winchester,20:13:00,False
+current,2026-10-15,25,1298030,1,Calle Real & Winchester,06:02:00,False
+current,2026-10-15,25,2452030,1,Calle Real & Winchester,18:32:00,False
+current,2026-10-15,25,2205030,1,Calle Real & Winchester,14:32:00,False
+current,2026-10-15,25,2316030,1,Calle Real & Winchester,08:32:00,False
+current,2026-10-15,25,822030,1,Calle Real & Winchester,10:32:00,True
+current,2026-10-15,25,1919030,1,Calle Real & Winchester,19:28:00,False
+current,2026-10-15,25,325030,1,Calle Real & Winchester,09:32:00,False
+current,2026-10-15,25,397030,1,Calle Real & Winchester,09:02:00,False
+current,2026-10-15,25,557030,1,Calle Real & Winchester,15:32:00,False
+current,2026-10-15,25,1746030,1,Calle Real & Winchester,05:32:00,False
+current,2026-10-15,25,824030,1,Calle Real & Winchester,07:32:00,False
+current,2026-10-15,25,545030,1,Calle Real & Winchester,08:02:00,False
+current,2026-10-15,25,2249030,1,Calle Real & Winchester,17:32:00,False
+current,2026-10-15,25,756030,1,Calle Real & Winchester,07:02:00,False
+current,2026-10-15,25,661030,1,Calle Real & Winchester,21:58:00,False
+current,2026-10-15,25,1736030,1,Calle Real & Winchester,06:32:00,False
+current,2026-10-15,25,992030,1,Calle Real & Winchester,21:28:00,False
+current,2026-10-15,25,1302030,1,Calle Real & Winchester,12:32:00,True
+current,2026-10-15,25,1081030,0,Hollister & Storke 928,18:40:00,False
+current,2026-10-15,25,991030,0,Hollister & Storke 928,13:40:00,True
+current,2026-10-15,25,789030,0,Hollister & Storke 928,08:40:00,False
+current,2026-10-15,25,459030,0,Hollister & Storke 928,08:10:00,False
+current,2026-10-15,25,572030,0,Hollister & Storke 928,09:40:00,False
+current,2026-10-15,25,1228030,0,Hollister & Storke 928,10:40:00,True
+current,2026-10-15,25,1860030,0,Hollister & Storke 928,17:40:00,False
+current,2026-10-15,25,128030,0,Hollister & Storke 928,12:40:00,True
+current,2026-10-15,25,1195030,0,Hollister & Storke 928,16:40:00,False
+current,2026-10-15,25,1748030,0,Hollister & Storke 928,14:40:00,False
+current,2026-10-15,25,1888030,0,Hollister & Storke 928,11:40:00,True
+current,2026-10-15,25,1901030,0,Hollister & Storke 928,07:40:00,False
+current,2026-10-15,25,146030,0,Hollister & Storke 928,07:10:00,False
+current,2026-10-15,25,424030,0,Hollister & Storke 928,15:40:00,False
+current,2026-10-15,2510,351030,1,Rancheria & Gutierrez,08:45:00,False
+current,2026-10-15,2510,2262030,1,Rancheria & Gutierrez,08:45:00,False
+current,2026-10-15,2510,1066030,0,San Marcos High School,14:15:00,False
+current,2026-10-15,2510,640030,0,San Marcos High School,15:50:00,False
+current,2026-10-15,2510,1958030,0,San Marcos High School,15:50:00,False
+current,2026-10-15,2520,2283030,1,Carrillo & Bath,16:09:01,False
+current,2026-10-15,2520,1712030,0,Transit Center,08:55:00,False
+current,2026-10-15,2530,678030,1,Carrillo & San Andres,08:42:00,False
+current,2026-10-15,2530,428030,0,Modoc & La Cumbre Country Club,15:56:10,False
+current,2026-10-15,2540,1590030,1,Haley & Bath,08:35:00,False
+current,2026-10-15,2610,196030,1,Fairview & Encina,15:11:00,False
+current,2026-10-15,2610,1493030,0,Hollister & Kellogg,08:18:00,False
+current,2026-10-15,2620,2239030,0,Cathedral Oaks & Windsor,15:07:36,False
+current,2026-10-15,2620,1831030,1,Winchester Canyon & Bradford,08:03:00,False
+current,2026-10-15,2630,529030,0,Hollister & Cathedral Oaks,08:04:00,False
+current,2026-10-15,2630,1569030,1,Hollister & Cathedral Oaks,15:19:36,False
+current,2026-10-15,2650,1469030,1,Camino Pescadero & El Colegio 59,08:05:00,False
+current,2026-10-15,2650,1873030,0,Storke & Hollister,15:18:00,False
+current,2026-10-15,27,2292030,1,UCSB North Hall Outbound,12:00:00,True
+current,2026-10-15,27,771030,1,UCSB North Hall Outbound,07:40:00,False
+current,2026-10-15,27,2141030,1,UCSB North Hall Outbound,08:20:00,False
+current,2026-10-15,27,2202030,1,UCSB North Hall Outbound,12:20:00,True
+current,2026-10-15,27,279030,1,UCSB North Hall Outbound,15:20:00,False
+current,2026-10-15,27,682030,1,UCSB North Hall Outbound,17:00:00,False
+current,2026-10-15,27,519030,1,UCSB North Hall Outbound,19:20:00,False
+current,2026-10-15,27,1091030,1,UCSB North Hall Outbound,13:40:00,True
+current,2026-10-15,27,926030,1,UCSB North Hall Outbound,20:00:00,False
+current,2026-10-15,27,1706030,1,UCSB North Hall Outbound,07:20:00,False
+current,2026-10-15,27,1201030,1,UCSB North Hall Outbound,17:40:00,False
+current,2026-10-15,27,582030,1,UCSB North Hall Outbound,18:20:00,False
+current,2026-10-15,27,1788030,1,UCSB North Hall Outbound,15:00:00,False
+current,2026-10-15,27,599030,1,UCSB North Hall Outbound,09:20:00,False
+current,2026-10-15,27,2441030,1,UCSB North Hall Outbound,13:00:00,True
+current,2026-10-15,27,734030,1,UCSB North Hall Outbound,15:40:00,False
+current,2026-10-15,27,943030,1,UCSB North Hall Outbound,16:40:00,False
+current,2026-10-15,27,751030,1,UCSB North Hall Outbound,07:00:00,False
+current,2026-10-15,27,92030,1,UCSB North Hall Outbound,11:00:00,True
+current,2026-10-15,27,973030,1,UCSB North Hall Outbound,09:00:00,False
+current,2026-10-15,27,942030,1,UCSB North Hall Outbound,13:20:00,True
+current,2026-10-15,27,1133030,1,UCSB North Hall Outbound,14:40:00,False
+current,2026-10-15,27,1576030,1,UCSB North Hall Outbound,19:00:00,False
+current,2026-10-15,27,521030,1,UCSB North Hall Outbound,10:20:00,True
+current,2026-10-15,27,994030,1,UCSB North Hall Outbound,10:00:00,True
+current,2026-10-15,27,194030,1,UCSB North Hall Outbound,08:00:00,False
+current,2026-10-15,27,525030,1,UCSB North Hall Outbound,19:40:00,False
+current,2026-10-15,27,1190030,1,UCSB North Hall Outbound,18:00:00,False
+current,2026-10-15,27,903030,1,UCSB North Hall Outbound,10:40:00,True
+current,2026-10-15,27,2253030,1,UCSB North Hall Outbound,16:00:00,False
+current,2026-10-15,27,52030,1,UCSB North Hall Outbound,14:00:00,False
+current,2026-10-15,27,948030,1,UCSB North Hall Outbound,14:20:00,False
+current,2026-10-15,27,77030,1,UCSB North Hall Outbound,12:40:00,True
+current,2026-10-15,27,1070030,1,UCSB North Hall Outbound,11:40:00,True
+current,2026-10-15,27,1619030,1,UCSB North Hall Outbound,08:40:00,False
+current,2026-10-15,27,447030,1,UCSB North Hall Outbound,20:40:00,False
+current,2026-10-15,27,502030,1,UCSB North Hall Outbound,18:40:00,False
+current,2026-10-15,27,2076030,1,UCSB North Hall Outbound,20:20:00,False
+current,2026-10-15,27,147030,0,Storke & Marketplace,06:43:00,False
+current,2026-10-15,27,978030,0,Santa Felicia & Marketplace,18:00:00,False
+current,2026-10-15,27,155030,0,Santa Felicia & Marketplace,15:20:00,False
+current,2026-10-15,27,287030,0,Santa Felicia & Marketplace,11:40:00,True
+current,2026-10-15,27,1751030,0,Storke & Marketplace,07:03:00,False
+current,2026-10-15,27,1434030,0,Santa Felicia & Marketplace,17:20:00,False
+current,2026-10-15,27,1116030,0,Santa Felicia & Marketplace,11:20:00,True
+current,2026-10-15,27,2288030,0,Santa Felicia & Marketplace,08:40:00,False
+current,2026-10-15,27,476030,0,Santa Felicia & Marketplace,09:00:00,False
+current,2026-10-15,27,1924030,0,Santa Felicia & Marketplace,14:40:00,False
+current,2026-10-15,27,1309030,0,Santa Felicia & Marketplace,19:00:00,False
+current,2026-10-15,27,153030,0,Santa Felicia & Marketplace,19:40:00,False
+current,2026-10-15,27,740030,0,Santa Felicia & Marketplace,20:20:00,False
+current,2026-10-15,27,2060030,0,Santa Felicia & Marketplace,13:20:00,True
+current,2026-10-15,27,1585030,0,Santa Felicia & Marketplace,15:40:00,False
+current,2026-10-15,27,1886030,0,Santa Felicia & Marketplace,12:00:00,True
+current,2026-10-15,27,1927030,0,Santa Felicia & Marketplace,16:40:00,False
+current,2026-10-15,27,189030,0,Santa Felicia & Marketplace,08:20:00,False
+current,2026-10-15,27,1159030,0,Santa Felicia & Marketplace,09:40:00,False
+current,2026-10-15,27,1790030,0,Santa Felicia & Marketplace,10:00:00,True
+current,2026-10-15,27,2369030,0,Santa Felicia & Marketplace,18:20:00,False
+current,2026-10-15,27,2410030,0,Santa Felicia & Marketplace,15:00:00,False
+current,2026-10-15,27,1807030,0,Santa Felicia & Marketplace,10:40:00,True
+current,2026-10-15,27,779030,0,Santa Felicia & Marketplace,17:40:00,False
+current,2026-10-15,27,1164030,0,Santa Felicia & Marketplace,07:20:00,False
+current,2026-10-15,27,182030,0,Santa Felicia & Marketplace,14:00:00,False
+current,2026-10-15,27,1214030,0,Santa Felicia & Marketplace,12:40:00,True
+current,2026-10-15,27,1155030,0,Santa Felicia & Marketplace,18:40:00,False
+current,2026-10-15,27,518030,0,Santa Felicia & Marketplace,14:20:00,False
+current,2026-10-15,27,1720030,0,Santa Felicia & Marketplace,12:20:00,True
+current,2026-10-15,27,1808030,0,Santa Felicia & Marketplace,20:00:00,False
+current,2026-10-15,27,1267030,0,Santa Felicia & Marketplace,13:40:00,True
+current,2026-10-15,27,1772030,0,Santa Felicia & Marketplace,10:20:00,True
+current,2026-10-15,27,969030,0,Santa Felicia & Marketplace,08:00:00,False
+current,2026-10-15,27,1208030,0,Santa Felicia & Marketplace,19:20:00,False
+current,2026-10-15,27,2054030,0,Santa Felicia & Marketplace,07:40:00,False
+current,2026-10-15,27,2332030,0,Santa Felicia & Marketplace,13:00:00,True
+current,2026-10-15,27,1556030,0,Santa Felicia & Marketplace,16:20:00,False
+current,2026-10-15,2710,1283030,1,Camino Pescadero & El Colegio 59,08:45:00,False
+current,2026-10-15,2710,1761030,0,Alameda & Padova 590,15:50:00,False
+current,2026-10-15,2720,763030,1,Hollister & Kellogg,08:48:00,False
+current,2026-10-15,2720,1989030,1,Hollister & Turnpike,08:37:00,False
+current,2026-10-15,2720,1010030,0,Alameda & Padova 590,15:50:00,False
+current,2026-10-15,2720,2186030,0,Alameda & Padova 590,15:50:00,False
+current,2026-10-15,2730,892030,0,Alameda & Padova 590,15:50:00,False
+current,2026-10-15,2730,749030,1,State & La Cumbre,08:18:00,False
+current,2026-10-15,2740,2360030,1,Los Carneros & Karl Storz Outbound,08:42:00,False
+current,2026-10-15,2740,967030,0,Alameda & Padova 590,15:50:00,False
+current,2026-10-15,28,985030,1,UCSB North Hall Outbound,15:01:00,False
+current,2026-10-15,28,635030,1,UCSB North Hall Outbound,19:49:00,False
+current,2026-10-15,28,398030,1,UCSB North Hall Outbound,10:31:00,True
+current,2026-10-15,28,468030,1,UCSB North Hall Outbound,09:19:00,False
+current,2026-10-15,28,1827030,1,UCSB North Hall Outbound,20:25:00,False
+current,2026-10-15,28,743030,1,UCSB North Hall Outbound,22:49:00,False
+current,2026-10-15,28,313030,1,UCSB North Hall Outbound,14:07:00,False
+current,2026-10-15,28,1847030,1,UCSB North Hall Outbound,10:13:00,True
+current,2026-10-15,28,2326030,1,UCSB North Hall Outbound,21:01:00,False
+current,2026-10-15,28,35030,1,UCSB North Hall Outbound,19:13:00,False
+current,2026-10-15,28,1056030,1,UCSB North Hall Outbound,12:37:00,True
+current,2026-10-15,28,1910030,1,UCSB North Hall Outbound,07:31:00,False
+current,2026-10-15,28,2232030,1,UCSB North Hall Outbound,12:19:00,True
+current,2026-10-15,28,2428030,1,UCSB North Hall Outbound,08:25:00,False
+current,2026-10-15,28,1437030,1,UCSB North Hall Outbound,22:13:00,False
+current,2026-10-15,28,402030,1,UCSB North Hall Outbound,11:07:00,True
+current,2026-10-15,28,2270030,1,UCSB North Hall Outbound,09:55:00,False
+current,2026-10-15,28,1389030,1,UCSB North Hall Outbound,09:37:00,False
+current,2026-10-15,28,905030,1,UCSB North Hall Outbound,08:43:00,False
+current,2026-10-15,28,1787030,1,UCSB North Hall Outbound,21:37:00,False
+current,2026-10-15,28,698030,1,UCSB North Hall Outbound,23:25:00,False
+current,2026-10-15,28,1646030,1,UCSB North Hall Outbound,16:13:00,False
+current,2026-10-15,28,110030,1,UCSB North Hall Outbound,08:07:00,False
+current,2026-10-15,28,473030,1,UCSB North Hall Outbound,14:43:00,False
+current,2026-10-15,28,1402030,1,UCSB North Hall Outbound,12:01:00,True
+current,2026-10-15,28,1506030,1,UCSB North Hall Outbound,11:25:00,True
+current,2026-10-15,28,979030,1,UCSB North Hall Outbound,15:37:00,False
+current,2026-10-15,28,451030,1,UCSB North Hall Outbound,12:55:00,True
+current,2026-10-15,28,1104030,1,UCSB North Hall Outbound,13:31:00,True
+current,2026-10-15,28,1757030,1,UCSB North Hall Outbound,09:01:00,False
+current,2026-10-15,28,949030,1,UCSB North Hall Outbound,18:01:00,False
+current,2026-10-15,28,793030,1,UCSB North Hall Outbound,14:25:00,False
+current,2026-10-15,28,574030,1,UCSB North Hall Outbound,13:49:00,True
+current,2026-10-15,28,1004030,1,UCSB North Hall Outbound,17:25:00,False
+current,2026-10-15,28,2010030,1,UCSB North Hall Outbound,16:49:00,False
+current,2026-10-15,28,712030,1,UCSB North Hall Outbound,13:13:00,True
+current,2026-10-15,28,593030,1,UCSB North Hall Outbound,07:49:00,False
+current,2026-10-15,28,2184030,0,Santa Felicia & Marketplace,12:00:00,True
+current,2026-10-15,28,2439030,0,Santa Felicia & Marketplace,14:42:00,False
+current,2026-10-15,28,1617030,0,Santa Felicia & Marketplace,09:00:00,False
+current,2026-10-15,28,1465030,0,Santa Felicia & Marketplace,09:36:00,False
+current,2026-10-15,28,30030,0,Santa Felicia & Marketplace,11:42:00,True
+current,2026-10-15,28,2084030,0,Santa Felicia & Marketplace,18:54:00,False
+current,2026-10-15,28,902030,0,Santa Felicia & Marketplace,13:30:00,True
+current,2026-10-15,28,1508030,0,Santa Felicia & Marketplace,11:06:00,True
+current,2026-10-15,28,2411030,0,Santa Felicia & Marketplace,10:12:00,True
+current,2026-10-15,28,1613030,0,Santa Felicia & Marketplace,19:30:00,False
+current,2026-10-15,28,1899030,0,Santa Felicia & Marketplace,15:18:00,False
+current,2026-10-15,28,2259030,0,Santa Felicia & Marketplace,22:30:00,False
+current,2026-10-15,28,1933030,0,Santa Felicia & Marketplace,21:18:00,False
+current,2026-10-15,28,336030,0,Santa Felicia & Marketplace,12:18:00,True
+current,2026-10-15,28,2347030,0,Santa Felicia & Marketplace,17:42:00,False
+current,2026-10-15,28,1866030,0,Santa Felicia & Marketplace,07:12:00,False
+current,2026-10-15,28,165030,0,Santa Felicia & Marketplace,20:06:00,False
+current,2026-10-15,28,1097030,0,Santa Felicia & Marketplace,13:12:00,True
+current,2026-10-15,28,1547030,0,Santa Felicia & Marketplace,14:06:00,False
+current,2026-10-15,28,962030,0,Santa Felicia & Marketplace,12:36:00,True
+current,2026-10-15,28,1889030,0,Santa Felicia & Marketplace,12:54:00,True
+current,2026-10-15,28,1356030,0,Santa Felicia & Marketplace,15:54:00,False
+current,2026-10-15,28,2287030,0,Santa Felicia & Marketplace,08:42:00,False
+current,2026-10-15,28,639030,0,Santa Felicia & Marketplace,14:24:00,False
+current,2026-10-15,28,1308030,0,Santa Felicia & Marketplace,08:06:00,False
+current,2026-10-15,28,802030,0,Santa Felicia & Marketplace,13:48:00,True
+current,2026-10-15,28,1512030,0,Santa Felicia & Marketplace,17:06:00,False
+current,2026-10-15,28,938030,0,Santa Felicia & Marketplace,07:30:00,False
+current,2026-10-15,28,340030,0,Santa Felicia & Marketplace,07:48:00,False
+current,2026-10-15,28,638030,0,Santa Felicia & Marketplace,21:54:00,False
+current,2026-10-15,28,444030,0,Santa Felicia & Marketplace,09:54:00,False
+current,2026-10-15,28,1946030,0,Santa Felicia & Marketplace,10:48:00,True
+current,2026-10-15,28,1100030,0,Santa Felicia & Marketplace,20:42:00,False
+current,2026-10-15,28,2418030,0,Santa Felicia & Marketplace,09:18:00,False
+current,2026-10-15,28,184030,0,Santa Felicia & Marketplace,16:30:00,False
+current,2026-10-15,28,2275030,0,Santa Felicia & Marketplace,08:24:00,False
+current,2026-10-15,28,400030,0,Santa Felicia & Marketplace,23:06:00,False
+current,2026-10-15,3,87030,1,Foothill & Cieneguitas,15:45:00,False
+current,2026-10-15,3,2434030,1,Foothill & Cieneguitas,14:45:00,False
+current,2026-10-15,3,916030,1,Foothill & Cieneguitas,10:15:00,True
+current,2026-10-15,3,1341030,1,Foothill & Cieneguitas,15:15:00,False
+current,2026-10-15,3,1037030,1,Foothill & Cieneguitas,08:15:00,False
+current,2026-10-15,3,2128030,1,Foothill & Cieneguitas,16:45:00,False
+current,2026-10-15,3,531030,1,Foothill & Cieneguitas,11:15:00,True
+current,2026-10-15,3,383030,1,State & La Cumbre 156,06:30:00,False
+current,2026-10-15,3,1645030,1,Foothill & Cieneguitas,07:45:00,False
+current,2026-10-15,3,1223030,1,Foothill & Cieneguitas,16:15:00,False
+current,2026-10-15,3,1064030,1,State & La Cumbre 156,07:00:00,False
+current,2026-10-15,3,17030,1,State & La Cumbre 156,19:00:00,False
+current,2026-10-15,3,2161030,1,State & La Cumbre 156,18:00:00,False
+current,2026-10-15,3,1633030,1,Foothill & Cieneguitas,09:45:00,False
+current,2026-10-15,3,1501030,1,Foothill & Cieneguitas,14:15:00,False
+current,2026-10-15,3,544030,1,Foothill & Cieneguitas,12:45:00,True
+current,2026-10-15,3,2405030,1,Foothill & Cieneguitas,13:15:00,True
+current,2026-10-15,3,1675030,1,Foothill & Cieneguitas,10:45:00,True
+current,2026-10-15,3,628030,1,Foothill & Cieneguitas,12:15:00,True
+current,2026-10-15,3,1323030,1,Foothill & Cieneguitas,13:45:00,True
+current,2026-10-15,3,860030,1,State & La Cumbre 156,18:30:00,False
+current,2026-10-15,3,442030,1,Foothill & Cieneguitas,11:45:00,True
+current,2026-10-15,3,10030,1,Foothill & Cieneguitas,09:15:00,False
+current,2026-10-15,3,236030,1,State & La Cumbre 156,07:30:00,False
+current,2026-10-15,3,2091030,1,Foothill & Cieneguitas,17:15:00,False
+current,2026-10-15,3,679030,1,Foothill & Cieneguitas,08:45:00,False
+current,2026-10-15,3,1030030,0,Transit Center,15:30:00,False
+current,2026-10-15,3,1166030,0,Transit Center,08:30:00,False
+current,2026-10-15,3,1998030,0,Transit Center,10:30:00,True
+current,2026-10-15,3,512030,0,Transit Center,12:30:00,True
+current,2026-10-15,3,435030,0,Transit Center,14:30:00,False
+current,2026-10-15,3,349030,0,Transit Center,11:00:00,True
+current,2026-10-15,3,868030,0,Transit Center,11:30:00,True
+current,2026-10-15,3,1086030,0,Transit Center,07:00:00,False
+current,2026-10-15,3,1728030,0,Transit Center,07:30:00,False
+current,2026-10-15,3,1796030,0,Transit Center,13:00:00,True
+current,2026-10-15,3,957030,0,Transit Center,08:00:00,False
+current,2026-10-15,3,2106030,0,Transit Center,15:00:00,False
+current,2026-10-15,3,372030,0,Transit Center,10:00:00,True
+current,2026-10-15,3,733030,0,Transit Center,16:30:00,False
+current,2026-10-15,3,99030,0,Transit Center,09:00:00,False
+current,2026-10-15,3,1969030,0,Transit Center,13:30:00,True
+current,2026-10-15,3,453030,0,Transit Center,09:30:00,False
+current,2026-10-15,3,1769030,0,Transit Center,12:00:00,True
+current,2026-10-15,3,1451030,0,Transit Center,14:00:00,False
+current,2026-10-15,3,2300030,0,Transit Center,16:00:00,False
+current,2026-10-15,3,1446030,0,Transit Center,19:00:00,False
+current,2026-10-15,3,853030,0,Transit Center,06:30:00,False
+current,2026-10-15,3,204030,0,Transit Center,18:30:00,False
+current,2026-10-15,3,47030,0,Transit Center,18:00:00,False
+current,2026-10-15,3,1062030,0,Transit Center,17:30:00,False
+current,2026-10-15,3,1558030,0,Transit Center,06:00:00,False
+current,2026-10-15,3,2188030,0,Transit Center,17:00:00,False
+current,2026-10-15,4,2097030,1,Cliff & Loma Alta,20:57:00,False
+current,2026-10-15,4,214030,1,Cliff & Loma Alta,14:51:00,False
+current,2026-10-15,4,758030,1,Cliff & Loma Alta,09:36:00,False
+current,2026-10-15,4,1719030,1,Cliff & Loma Alta,18:21:00,False
+current,2026-10-15,4,1731030,1,Cliff & Loma Alta,09:01:00,False
+current,2026-10-15,4,752030,1,Cliff & Loma Alta,17:11:00,False
+current,2026-10-15,4,966030,1,Cliff & Loma Alta,10:11:00,True
+current,2026-10-15,4,1620030,1,Cliff & Loma Alta,08:26:00,False
+current,2026-10-15,4,2082030,1,Cliff & Loma Alta,07:46:00,False
+current,2026-10-15,4,470030,1,Cliff & Loma Alta,06:36:00,False
+current,2026-10-15,4,2109030,1,Cliff & Loma Alta,07:11:00,False
+current,2026-10-15,4,1270030,1,Cliff & Loma Alta,19:57:00,False
+current,2026-10-15,4,536030,1,Cliff & Loma Alta,17:46:00,False
+current,2026-10-15,4,1415030,1,Cliff & Loma Alta,10:46:00,True
+current,2026-10-15,4,960030,1,Cliff & Loma Alta,12:31:00,True
+current,2026-10-15,4,2167030,1,Cliff & Loma Alta,13:41:00,True
+current,2026-10-15,4,510030,1,Cliff & Loma Alta,18:57:00,False
+current,2026-10-15,4,2416030,1,Cliff & Loma Alta,14:16:00,False
+current,2026-10-15,4,866030,1,Cliff & Loma Alta,15:26:00,False
+current,2026-10-15,4,169030,1,Cliff & Loma Alta,11:56:00,True
+current,2026-10-15,4,1130030,1,Cliff & Loma Alta,16:01:00,False
+current,2026-10-15,4,1221030,1,Cliff & Loma Alta,16:36:00,False
+current,2026-10-15,4,1818030,1,Cliff & Loma Alta,11:21:00,True
+current,2026-10-15,4,1467030,1,Cliff & Loma Alta,13:06:00,True
+current,2026-10-15,4,1217030,0,Transit Center,12:35:00,True
+current,2026-10-15,4,610030,0,Transit Center,07:50:00,False
+current,2026-10-15,4,1152030,0,Transit Center,09:40:00,False
+current,2026-10-15,4,1514030,0,Transit Center,09:05:00,False
+current,2026-10-15,4,553030,0,Transit Center,08:30:00,False
+current,2026-10-15,4,527030,0,Transit Center,13:45:00,True
+current,2026-10-15,4,22030,0,Transit Center,16:40:00,False
+current,2026-10-15,4,1382030,0,Transit Center,19:15:00,False
+current,2026-10-15,4,548030,0,Transit Center,15:30:00,False
+current,2026-10-15,4,40030,0,Transit Center,14:55:00,False
+current,2026-10-15,4,2094030,0,Transit Center,06:40:00,False
+current,2026-10-15,4,849030,0,Transit Center,10:15:00,True
+current,2026-10-15,4,1108030,0,Transit Center,20:15:00,False
+current,2026-10-15,4,909030,0,Transit Center,17:15:00,False
+current,2026-10-15,4,390030,0,Transit Center,16:05:00,False
+current,2026-10-15,4,1497030,0,Transit Center,12:00:00,True
+current,2026-10-15,4,1237030,0,Transit Center,11:25:00,True
+current,2026-10-15,4,72030,0,Transit Center,10:50:00,True
+current,2026-10-15,4,2302030,0,Transit Center,17:50:00,False
+current,2026-10-15,4,2180030,0,Transit Center,07:15:00,False
+current,2026-10-15,4,320030,0,Transit Center,13:10:00,True
+current,2026-10-15,4,93030,0,Transit Center,14:20:00,False
+current,2026-10-15,4,2147030,0,Transit Center,18:25:00,False
+current,2026-10-15,5,2003030,0,Transit Center,07:00:00,False
+current,2026-10-15,5,2139030,1,State & La Cumbre 156,12:45:00,True
+current,2026-10-15,5,935030,1,State & La Cumbre 156,16:45:00,False
+current,2026-10-15,5,1101030,1,State & La Cumbre 156,13:45:00,True
+current,2026-10-15,5,2435030,1,State & La Cumbre 156,11:45:00,True
+current,2026-10-15,5,2450030,1,State & La Cumbre 156,15:45:00,False
+current,2026-10-15,5,694030,1,State & La Cumbre 156,09:45:00,False
+current,2026-10-15,5,1082030,1,Arroyo Burro Beach Park,07:20:00,False
+current,2026-10-15,5,2446030,1,State & La Cumbre 156,19:15:00,False
+current,2026-10-15,5,1658030,1,State & La Cumbre 156,08:45:00,False
+current,2026-10-15,5,2032030,1,State & La Cumbre 156,10:45:00,True
+current,2026-10-15,5,858030,1,State & La Cumbre 156,14:45:00,False
+current,2026-10-15,5,319030,1,Torino & Calle De Los Amigos,19:56:00,False
+current,2026-10-15,5,358030,1,State & La Cumbre 156,17:45:00,False
+current,2026-10-15,5,1185030,0,Transit Center,19:30:00,False
+current,2026-10-15,5,1244030,0,Transit Center,20:30:00,False
+current,2026-10-15,5,2318030,0,Transit Center,10:00:00,True
+current,2026-10-15,5,2349030,0,Transit Center,08:00:00,False
+current,2026-10-15,5,2085030,0,Transit Center,14:00:00,False
+current,2026-10-15,5,1225030,0,Transit Center,16:00:00,False
+current,2026-10-15,5,2138030,0,Transit Center,18:30:00,False
+current,2026-10-15,5,1680030,0,Transit Center,12:00:00,True
+current,2026-10-15,5,1234030,0,Transit Center,09:00:00,False
+current,2026-10-15,5,1665030,0,Transit Center,15:00:00,False
+current,2026-10-15,5,730030,0,Transit Center,17:00:00,False
+current,2026-10-15,5,2438030,0,Transit Center,11:00:00,True
+current,2026-10-15,5,2263030,0,Transit Center,13:00:00,True
+current,2026-10-15,6,1113030,1,Transit Center,08:45:00,False
+current,2026-10-15,6,1455030,1,Transit Center,14:45:00,False
+current,2026-10-15,6,2132030,1,Transit Center,12:45:00,True
+current,2026-10-15,6,1041030,1,Transit Center,13:45:00,True
+current,2026-10-15,6,425030,1,Transit Center,12:15:00,True
+current,2026-10-15,6,1319030,1,Transit Center,13:15:00,True
+current,2026-10-15,6,2453030,1,Transit Center,15:45:00,False
+current,2026-10-15,6,508030,1,Transit Center,16:45:00,False
+current,2026-10-15,6,1828030,1,Transit Center,06:15:00,False
+current,2026-10-15,6,956030,1,Transit Center,14:15:00,False
+current,2026-10-15,6,1606030,1,Hollister & Turnpike,15:45:00,False
+current,2026-10-15,6,1684030,1,Transit Center,09:15:00,False
+current,2026-10-15,6,2155030,1,Transit Center,08:15:00,False
+current,2026-10-15,6,2143030,1,Transit Center,17:45:00,False
+current,2026-10-15,6,1797030,1,Transit Center,17:15:00,False
+current,2026-10-15,6,1207030,1,Transit Center,18:15:00,False
+current,2026-10-15,6,1794030,1,Transit Center,11:15:00,True
+current,2026-10-15,6,2017030,1,Transit Center,16:15:00,False
+current,2026-10-15,6,125030,1,Transit Center,07:45:00,False
+current,2026-10-15,6,1431030,1,Transit Center,09:45:00,False
+current,2026-10-15,6,1530030,1,Transit Center,07:15:00,False
+current,2026-10-15,6,312030,1,Transit Center,06:45:00,False
+current,2026-10-15,6,1592030,1,Transit Center,10:15:00,True
+current,2026-10-15,6,1109030,1,Transit Center,15:15:00,False
+current,2026-10-15,6,1532030,1,Transit Center,11:45:00,True
+current,2026-10-15,6,346030,1,Transit Center,10:45:00,True
+current,2026-10-15,6,1997030,0,Hollister & Storke,16:17:00,False
+current,2026-10-15,6,704030,0,Hollister & Storke,14:17:00,False
+current,2026-10-15,6,785030,0,Hollister & Storke,12:17:00,True
+current,2026-10-15,6,2105030,0,Hollister & Storke,15:47:00,False
+current,2026-10-15,6,479030,0,Hollister & Storke,20:10:00,False
+current,2026-10-15,6,561030,0,Hollister & Storke,18:47:00,False
+current,2026-10-15,6,1196030,0,Hollister & Storke,19:40:00,False
+current,2026-10-15,6,2372030,0,Hollister & Storke,06:47:00,False
+current,2026-10-15,6,1580030,0,Hollister & Storke,12:47:00,True
+current,2026-10-15,6,2312030,0,Hollister & Storke,15:17:00,False
+current,2026-10-15,6,945030,0,Hollister & Storke,09:17:00,False
+current,2026-10-15,6,1957030,0,Hollister & Turnpike,15:48:00,False
+current,2026-10-15,6,1956030,0,Hollister & Storke,07:17:00,False
+current,2026-10-15,6,1432030,0,Hollister & Storke,18:17:00,False
+current,2026-10-15,6,1623030,0,Hollister & Storke,10:47:00,True
+current,2026-10-15,6,1597030,0,Hollister & Storke,14:47:00,False
+current,2026-10-15,6,104030,0,Hollister & Storke,08:17:00,False
+current,2026-10-15,6,315030,0,Hollister & Storke,17:47:00,False
+current,2026-10-15,6,303030,0,Hollister & Storke,13:47:00,True
+current,2026-10-15,6,18030,0,Hollister & Storke,11:17:00,True
+current,2026-10-15,6,256030,0,Hollister & Storke,06:17:00,False
+current,2026-10-15,6,2304030,0,Hollister & Storke,08:47:00,False
+current,2026-10-15,6,337030,0,Hollister & Storke,19:17:00,False
+current,2026-10-15,6,1161030,0,Hollister & Storke,11:47:00,True
+current,2026-10-15,6,1316030,0,Hollister & Storke,05:47:00,False
+current,2026-10-15,6,413030,0,Hollister & Storke,13:17:00,True
+current,2026-10-15,6,581030,0,Hollister & Storke,09:47:00,False
+current,2026-10-15,6,302030,0,Hollister & Storke,10:17:00,True
+current,2026-10-15,6,206030,0,Hollister & Storke,17:17:00,False
+current,2026-10-15,6,1741030,0,Hollister & Storke,07:47:00,False
+current,2026-10-15,6,721030,0,Hollister & Storke,16:47:00,False
+current,2026-10-15,7,995030,1,Hollister & Kellogg,12:22:00,True
+current,2026-10-15,7,2043030,1,Hollister & Kellogg,11:52:00,True
+current,2026-10-15,7,250030,1,Hollister & Kellogg,14:52:00,False
+current,2026-10-15,7,986030,1,Hollister & Kellogg,07:22:00,False
+current,2026-10-15,7,1698030,1,Hollister & Kellogg,10:52:00,True
+current,2026-10-15,7,2489030,1,Hollister & Kellogg,14:22:00,False
+current,2026-10-15,7,804030,1,Hollister & Kellogg,17:22:00,False
+current,2026-10-15,7,1733030,1,Hollister & Kellogg,15:52:00,False
+current,2026-10-15,7,86030,1,Hollister & Kellogg,11:22:00,True
+current,2026-10-15,7,2301030,1,Hollister & Kellogg,08:22:00,False
+current,2026-10-15,7,1132030,1,Hollister & Kellogg,10:22:00,True
+current,2026-10-15,7,2276030,1,Hollister & Kellogg,18:02:00,False
+current,2026-10-15,7,1511030,1,Hollister & Kellogg,15:22:00,False
+current,2026-10-15,7,1369030,1,Hollister & Kellogg,13:22:00,True
+current,2026-10-15,7,584030,1,Hollister & Kellogg,07:52:00,False
+current,2026-10-15,7,1424030,1,Hollister & Kellogg,06:32:00,False
+current,2026-10-15,7,126030,1,Hollister & Kellogg,16:22:00,False
+current,2026-10-15,7,865030,1,Hollister & Kellogg,12:52:00,True
+current,2026-10-15,7,1121030,1,Hollister & Kellogg,09:52:00,False
+current,2026-10-15,7,1591030,1,Hollister & Kellogg,19:07:00,False
+current,2026-10-15,7,1276030,1,Hollister & Kellogg,06:52:00,False
+current,2026-10-15,7,334030,1,Hollister & Kellogg,13:52:00,True
+current,2026-10-15,7,2294030,1,Hollister & Kellogg,09:22:00,False
+current,2026-10-15,7,317030,1,Hollister & Kellogg,16:52:00,False
+current,2026-10-15,7,131030,1,Hollister & Kellogg,08:52:00,False
+current,2026-10-15,7,1654030,0,Transit Center,13:00:00,True
+current,2026-10-15,7,1799030,0,Transit Center,17:30:00,False
+current,2026-10-15,7,915030,0,Transit Center,16:00:00,False
+current,2026-10-15,7,290030,0,Transit Center,09:00:00,False
+current,2026-10-15,7,43030,0,Transit Center,18:15:00,False
+current,2026-10-15,7,2260030,0,Transit Center,12:30:00,True
+current,2026-10-15,7,1006030,0,Transit Center,11:30:00,True
+current,2026-10-15,7,1112030,0,Transit Center,17:10:00,False
+current,2026-10-15,7,1944030,0,Transit Center,12:00:00,True
+current,2026-10-15,7,987030,0,Transit Center,15:30:00,False
+current,2026-10-15,7,658030,0,Transit Center,14:00:00,False
+current,2026-10-15,7,1887030,0,Transit Center,14:30:00,False
+current,2026-10-15,7,620030,0,Transit Center,11:00:00,True
+current,2026-10-15,7,391030,0,Transit Center,06:00:00,False
+current,2026-10-15,7,2443030,0,Transit Center,15:00:00,False
+current,2026-10-15,7,1753030,0,Transit Center,08:00:00,False
+current,2026-10-15,7,461030,0,Transit Center,09:30:00,False
+current,2026-10-15,7,380030,0,Transit Center,08:30:00,False
+current,2026-10-15,7,1596030,0,Transit Center,19:10:00,False
+current,2026-10-15,7,1342030,0,Transit Center,13:30:00,True
+current,2026-10-15,7,573030,0,Transit Center,07:30:00,False
+current,2026-10-15,7,1819030,0,Transit Center,10:00:00,True
+current,2026-10-15,7,806030,0,Transit Center,16:30:00,False
+current,2026-10-15,7,2121030,0,Transit Center,06:45:00,False
+current,2026-10-15,7,1688030,0,Transit Center,10:30:00,True
+current,2026-10-15,90,1763030,1,Hollister & Palo Alto,15:58:00,False
+current,2026-10-15,90,466030,0,Amtrak Goleta,08:14:00,False
+current,2026-10-15,91,49030,1,Amtrak Goleta,08:14:00,False
+current,2026-10-15,91,2125030,0,UCSB North Hall Inbound,15:50:00,False
+current,2026-10-15,92,611030,1,Amtrak Santa Barbara,07:59:00,False
+current,2026-10-15,92,2269030,0,Pueblo & Castillo Cottage Hospital,16:05:00,False

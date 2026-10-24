@@ -1,0 +1,25 @@
+line,reported_name,annual_boardings,annual_boardings_per_revenue_hour,q4_boardings,q4_boardings_per_revenue_hour,scope
+1,West Santa Barbara,225669,22.3,57201,22.5,regular
+2,East Santa Barbara,354870,22.3,89309,22.3,regular
+3,Oak Park,137291,14.4,35048,14.5,regular
+4,Mesa / SBCC,84839,18.8,20853,18.3,regular
+5,Mesa / La Cumbre,76886,12.4,18905,12.1,regular
+6,Goleta,418667,24.5,104895,24.4,regular
+7,County Health / Fairview,219266,14.5,54438,14.2,regular
+11,UCSB,871906,33.9,226403,35.0,regular
+12X,Goleta Express,126956,19.1,31212,18.8,regular
+14,Montecito,59230,11.9,15283,12.1,regular
+15X,SBCC / UCSB Express,102730,24.3,23796,21.2,regular
+17,Lower West / SBCC,97871,29.1,23245,27.3,regular
+19X,SBCC / East SB Express,5722,6.4,1336,5.4,regular
+20,Carpinteria,245096,15.4,61661,15.3,regular
+23,Winchester Canyon,50150,11.8,13157,12.3,regular
+24X,UCSB Express,442905,39.8,116039,41.4,regular
+25,Elwood,49877,17.8,13203,18.7,regular
+27,Isla Vista Shuttle,368857,60.7,103715,63.3,regular
+28,UCSB Shuttle,399952,65.5,115606,70.2,regular
+33,Downtown Waterfront Shuttle,9489,8.9,2649,6.8,seasonal
+90,West Goleta Amtrak Shuttle,607,27.2,607,27.2,amtrak_partial_year
+91,East Goleta Amtrak Shuttle,921,32.9,921,32.9,amtrak_partial_year
+92,Santa Barbara Amtrak Shuttle,450,15.3,450,15.3,amtrak_partial_year
+BOOSTERS,Booster Services aggregate,174761,64.8,42366,59.0,aggregate_not_individual_lines

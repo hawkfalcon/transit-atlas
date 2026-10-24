@@ -1,0 +1,43 @@
+{
+  "reason": "A direction needs at least two midday departures before showing a typical midday interval.",
+  "source_data_unchanged": true,
+  "geometry_unchanged": true,
+  "changes": [
+    {
+      "record": "historic/10/0",
+      "field": "headway",
+      "before": 352.0,
+      "after": null
+    },
+    {
+      "record": "historic/10/0",
+      "field": "gapMin",
+      "before": 352.0,
+      "after": null
+    },
+    {
+      "record": "historic/10/0",
+      "field": "gapMax",
+      "before": 352.0,
+      "after": null
+    },
+    {
+      "record": "historic/10/1",
+      "field": "headway",
+      "before": 425.0,
+      "after": null
+    },
+    {
+      "record": "historic/10/1",
+      "field": "gapMin",
+      "before": 425.0,
+      "after": null
+    },
+    {
+      "record": "historic/10/1",
+      "field": "gapMax",
+      "before": 425.0,
+      "after": null
+    }
+  ]
+}

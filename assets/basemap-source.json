@@ -1,0 +1,17 @@
+{
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer?f=json",
+  "attribution": "Esri, HERE, Garmin, (c) OpenStreetMap contributors, and the GIS user community",
+  "description": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>This map draws attention to your thematic content by providing a neutral background with minimal colors, labels, and features. Only key information is represented to provide geographic context, allowing your data to come to the foreground. This light gray map supports any strong colors, creating a visually compelling map graphic which helps your reader see the patterns intended. This map was developed by Esri using HERE data, Garmin basemap layers, OpenStreetMap contributors, Esri basemap data, and select data from the GIS user community. Worldwide coverage is provided from Level 0 (1:591M scale) through Level 13 (1:72k scale). In North America (Canada, Mexico, United States), Europe, India, South America and Central America, Africa, most of the Middle east, and Australia &amp; New Zealand coverage is provided from Level 14 (1:36k scale) through Level 16 (1:9k scale). For more information on this map, including our terms of use, visit us online at https://goto.arcgisonline.com/maps/World_Light_Gray_Base</SPAN></P></DIV>",
+  "embeddedZoom": "12 context / 13 network detail",
+  "bounds": [
+    [
+      34.089061315849946,
+      -120.146484375
+    ],
+    [
+      34.74161249883172,
+      -119.267578125
+    ]
+  ],
+  "waterTint": "Light aqua editorial recoloring of water pixels; geographic features unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "sha256": "2772f947f91ff1876cdf7340c51728cee08487f89ffbf2e1ec6f6eb8069e7d3f",
+  "scope": "Original route objects and IDs after the independently verified line 10 direction-detail correction. Prose annotations excluded.",
+  "before_direction_detail_fix_sha256": "19179a3fcc0112d70c0323ff060000f62589b9678224ede8dd76ff5d40a96309",
+  "geometry_sha256": "d61b0714cbf103ef3844079b209804ab1a299206068b032947c159e8890a03e3",
+  "audit_date": "2026-10-24"
+}

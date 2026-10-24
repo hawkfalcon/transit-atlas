@@ -1,0 +1,25 @@
+line,current_name,reported_name,annual_boardings,annual_boardings_per_revenue_hour,q4_boardings,q4_boardings_per_revenue_hour,scope,active_2026_10_15,period_start,period_end,source_url,boardings_pdf_page,productivity_pdf_page
+1,West Santa Barbara,West Santa Barbara,225669,22.3,57201,22.5,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+2,East Santa Barbara,East Santa Barbara,354870,22.3,89309,22.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+3,Oak Park,Oak Park,137291,14.4,35048,14.5,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+4,Mesa/SBCC,Mesa / SBCC,84839,18.8,20853,18.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+5,Mesa/La Cumbre,Mesa / La Cumbre,76886,12.4,18905,12.1,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+6,Goleta,Goleta,418667,24.5,104895,24.4,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+7,Goleta Old Town,County Health / Fairview,219266,14.5,54438,14.2,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+11,UCSB,UCSB,871906,33.9,226403,35.0,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+12X,Goleta Express,Goleta Express,126956,19.1,31212,18.8,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+14,Montecito,Montecito,59230,11.9,15283,12.1,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+15X,SBCC/UCSB Express,SBCC / UCSB Express,102730,24.3,23796,21.2,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+17,Lower West/SBCC,Lower West / SBCC,97871,29.1,23245,27.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+19X,Carpinteria/SBCC Express,SBCC / East SB Express,5722,6.4,1336,5.4,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+20,Carpinteria,Carpinteria,245096,15.4,61661,15.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+23,El Encanto Heights,Winchester Canyon,50150,11.8,13157,12.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+24X,UCSB Express,UCSB Express,442905,39.8,116039,41.4,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+25,Ellwood / Winchester,Elwood,49877,17.8,13203,18.7,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+27,Isla Vista Shuttle,Isla Vista Shuttle,368857,60.7,103715,63.3,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+28,UCSB Shuttle,UCSB Shuttle,399952,65.5,115606,70.2,regular,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+33,Downtown Waterfront,Downtown Waterfront Shuttle,9489,8.9,2649,6.8,seasonal,False,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+90,West Goleta Amtrak Shuttle,West Goleta Amtrak Shuttle,607,27.2,607,27.2,amtrak_partial_year,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+91,East Goleta/UCSB Amtrak Shuttle,East Goleta Amtrak Shuttle,921,32.9,921,32.9,amtrak_partial_year,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+92,Santa Barbara Amtrak Shuttle,Santa Barbara Amtrak Shuttle,450,15.3,450,15.3,amtrak_partial_year,True,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3
+BOOSTERS,Booster Services aggregate,Booster Services aggregate,174761,64.8,42366,59.0,aggregate_not_individual_lines,False,2025-07-01,2026-06-30,https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf,2,3

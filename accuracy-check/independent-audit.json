@@ -1,0 +1,882 @@
+{
+  "checked_local_date": "2026-10-24",
+  "method": "Separate parser of original GTFS ZIPs; direct PDF word-coordinate extraction; no production functions imported.",
+  "source_integrity": [
+    {
+      "period": "historic",
+      "sha1": "9babdd55bd0af8e510597e6906d896365f24cfcb",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "period": "current",
+      "sha1": "27d4bbfde509193669f1c01ce30d045f9ef3585d",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "source": "performance",
+      "sha256_matches": true
+    },
+    {
+      "source": "budget",
+      "sha256_matches": true
+    },
+    {
+      "source": "campus",
+      "sha256_matches": true
+    }
+  ],
+  "metric_differences": [],
+  "direction_differences": [],
+  "geometry": [
+    {
+      "period": "historic",
+      "line": "1",
+      "source_shape_count": 2,
+      "displayed_path_count": 5,
+      "hausdorff_distance_m": 1.989,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "10",
+      "source_shape_count": 3,
+      "displayed_path_count": 16,
+      "hausdorff_distance_m": 2.7196,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "11",
+      "source_shape_count": 4,
+      "displayed_path_count": 19,
+      "hausdorff_distance_m": 2.7056,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "12X",
+      "source_shape_count": 4,
+      "displayed_path_count": 8,
+      "hausdorff_distance_m": 2.7578,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "14",
+      "source_shape_count": 4,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.5225,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "15X",
+      "source_shape_count": 2,
+      "displayed_path_count": 11,
+      "hausdorff_distance_m": 2.7578,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "16",
+      "source_shape_count": 2,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.5263,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "17",
+      "source_shape_count": 2,
+      "displayed_path_count": 7,
+      "hausdorff_distance_m": 2.316,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2",
+      "source_shape_count": 3,
+      "displayed_path_count": 5,
+      "hausdorff_distance_m": 2.5449,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "20",
+      "source_shape_count": 2,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.713,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2010",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.6586,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2110",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 1.5877,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "23",
+      "source_shape_count": 3,
+      "displayed_path_count": 9,
+      "hausdorff_distance_m": 2.6087,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2410",
+      "source_shape_count": 2,
+      "displayed_path_count": 4,
+      "hausdorff_distance_m": 2.7196,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2420",
+      "source_shape_count": 2,
+      "displayed_path_count": 2,
+      "hausdorff_distance_m": 2.7196,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2430",
+      "source_shape_count": 2,
+      "displayed_path_count": 3,
+      "hausdorff_distance_m": 2.7196,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "24X",
+      "source_shape_count": 8,
+      "displayed_path_count": 22,
+      "hausdorff_distance_m": 2.7578,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "25",
+      "source_shape_count": 3,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.4006,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2510",
+      "source_shape_count": 2,
+      "displayed_path_count": 3,
+      "hausdorff_distance_m": 2.7083,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2520",
+      "source_shape_count": 2,
+      "displayed_path_count": 2,
+      "hausdorff_distance_m": 2.7083,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2530",
+      "source_shape_count": 2,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.717,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2540",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.468,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2610",
+      "source_shape_count": 2,
+      "displayed_path_count": 4,
+      "hausdorff_distance_m": 2.2881,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2620",
+      "source_shape_count": 2,
+      "displayed_path_count": 7,
+      "hausdorff_distance_m": 2.6358,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2630",
+      "source_shape_count": 2,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.7404,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2650",
+      "source_shape_count": 2,
+      "displayed_path_count": 7,
+      "hausdorff_distance_m": 2.7404,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2660",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.6087,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "27",
+      "source_shape_count": 3,
+      "displayed_path_count": 7,
+      "hausdorff_distance_m": 2.7513,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2710",
+      "source_shape_count": 2,
+      "displayed_path_count": 9,
+      "hausdorff_distance_m": 2.5643,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2720",
+      "source_shape_count": 3,
+      "displayed_path_count": 7,
+      "hausdorff_distance_m": 2.5899,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2730",
+      "source_shape_count": 2,
+      "displayed_path_count": 9,
+      "hausdorff_distance_m": 2.7135,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "2740",
+      "source_shape_count": 2,
+      "displayed_path_count": 4,
+      "hausdorff_distance_m": 2.6087,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "28",
+      "source_shape_count": 2,
+      "displayed_path_count": 5,
+      "hausdorff_distance_m": 2.6352,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "3",
+      "source_shape_count": 7,
+      "displayed_path_count": 15,
+      "hausdorff_distance_m": 2.7196,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "30",
+      "source_shape_count": 5,
+      "displayed_path_count": 5,
+      "hausdorff_distance_m": 2.4095,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "34",
+      "source_shape_count": 6,
+      "displayed_path_count": 5,
+      "hausdorff_distance_m": 2.5242,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "36",
+      "source_shape_count": 2,
+      "displayed_path_count": 4,
+      "hausdorff_distance_m": 2.7395,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "37",
+      "source_shape_count": 3,
+      "displayed_path_count": 6,
+      "hausdorff_distance_m": 2.3487,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "4",
+      "source_shape_count": 2,
+      "displayed_path_count": 4,
+      "hausdorff_distance_m": 2.7569,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "5",
+      "source_shape_count": 6,
+      "displayed_path_count": 14,
+      "hausdorff_distance_m": 2.5263,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "6",
+      "source_shape_count": 7,
+      "displayed_path_count": 3,
+      "hausdorff_distance_m": 2.6861,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "7",
+      "source_shape_count": 3,
+      "displayed_path_count": 24,
+      "hausdorff_distance_m": 2.7319,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "90",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.0649,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "91",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 2.7562,
+      "within_3_2_m": true
+    },
+    {
+      "period": "historic",
+      "line": "92",
+      "source_shape_count": 1,
+      "displayed_path_count": 1,
+      "hausdorff_distance_m": 1.6114,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "1",
+      "source_shape_count": 2,
+      "displayed_path_count": 118,
+      "hausdorff_distance_m": 2.3242,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "11",
+      "source_shape_count": 6,
+      "displayed_path_count": 929,
+      "hausdorff_distance_m": 2.7192,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "12X",
+      "source_shape_count": 3,
+      "displayed_path_count": 44,
+      "hausdorff_distance_m": 2.7129,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "14",
+      "source_shape_count": 2,
+      "displayed_path_count": 323,
+      "hausdorff_distance_m": 2.6296,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "15X",
+      "source_shape_count": 2,
+      "displayed_path_count": 41,
+      "hausdorff_distance_m": 2.6227,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "17",
+      "source_shape_count": 2,
+      "displayed_path_count": 152,
+      "hausdorff_distance_m": 2.5358,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "19X",
+      "source_shape_count": 2,
+      "displayed_path_count": 86,
+      "hausdorff_distance_m": 2.7287,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2",
+      "source_shape_count": 3,
+      "displayed_path_count": 120,
+      "hausdorff_distance_m": 2.5746,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "20",
+      "source_shape_count": 2,
+      "displayed_path_count": 571,
+      "hausdorff_distance_m": 2.6974,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2110",
+      "source_shape_count": 1,
+      "displayed_path_count": 15,
+      "hausdorff_distance_m": 2.1103,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "23",
+      "source_shape_count": 2,
+      "displayed_path_count": 135,
+      "hausdorff_distance_m": 2.4101,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2410",
+      "source_shape_count": 2,
+      "displayed_path_count": 44,
+      "hausdorff_distance_m": 2.7597,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2420",
+      "source_shape_count": 2,
+      "displayed_path_count": 213,
+      "hausdorff_distance_m": 2.5836,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2430",
+      "source_shape_count": 2,
+      "displayed_path_count": 79,
+      "hausdorff_distance_m": 2.7057,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "24X",
+      "source_shape_count": 5,
+      "displayed_path_count": 1081,
+      "hausdorff_distance_m": 2.6863,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "25",
+      "source_shape_count": 3,
+      "displayed_path_count": 210,
+      "hausdorff_distance_m": 2.4636,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2510",
+      "source_shape_count": 2,
+      "displayed_path_count": 134,
+      "hausdorff_distance_m": 2.6013,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2520",
+      "source_shape_count": 2,
+      "displayed_path_count": 11,
+      "hausdorff_distance_m": 2.6162,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2530",
+      "source_shape_count": 2,
+      "displayed_path_count": 307,
+      "hausdorff_distance_m": 2.4664,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2540",
+      "source_shape_count": 1,
+      "displayed_path_count": 41,
+      "hausdorff_distance_m": 2.6013,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2610",
+      "source_shape_count": 2,
+      "displayed_path_count": 24,
+      "hausdorff_distance_m": 2.2965,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2620",
+      "source_shape_count": 2,
+      "displayed_path_count": 224,
+      "hausdorff_distance_m": 2.748,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2630",
+      "source_shape_count": 2,
+      "displayed_path_count": 62,
+      "hausdorff_distance_m": 2.5972,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2650",
+      "source_shape_count": 2,
+      "displayed_path_count": 83,
+      "hausdorff_distance_m": 2.5316,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "27",
+      "source_shape_count": 3,
+      "displayed_path_count": 96,
+      "hausdorff_distance_m": 2.4712,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2710",
+      "source_shape_count": 2,
+      "displayed_path_count": 72,
+      "hausdorff_distance_m": 2.24,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2720",
+      "source_shape_count": 3,
+      "displayed_path_count": 57,
+      "hausdorff_distance_m": 2.6488,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2730",
+      "source_shape_count": 2,
+      "displayed_path_count": 339,
+      "hausdorff_distance_m": 2.6106,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "2740",
+      "source_shape_count": 2,
+      "displayed_path_count": 92,
+      "hausdorff_distance_m": 2.6823,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "28",
+      "source_shape_count": 2,
+      "displayed_path_count": 32,
+      "hausdorff_distance_m": 2.219,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "3",
+      "source_shape_count": 6,
+      "displayed_path_count": 211,
+      "hausdorff_distance_m": 2.582,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "33",
+      "source_shape_count": 5,
+      "displayed_path_count": 432,
+      "hausdorff_distance_m": 2.4693,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "4",
+      "source_shape_count": 2,
+      "displayed_path_count": 226,
+      "hausdorff_distance_m": 2.3242,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "5",
+      "source_shape_count": 7,
+      "displayed_path_count": 450,
+      "hausdorff_distance_m": 2.6331,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "6",
+      "source_shape_count": 6,
+      "displayed_path_count": 633,
+      "hausdorff_distance_m": 2.6488,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "7",
+      "source_shape_count": 2,
+      "displayed_path_count": 270,
+      "hausdorff_distance_m": 2.7407,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "90",
+      "source_shape_count": 2,
+      "displayed_path_count": 30,
+      "hausdorff_distance_m": 2.7441,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "91",
+      "source_shape_count": 2,
+      "displayed_path_count": 57,
+      "hausdorff_distance_m": 2.692,
+      "within_3_2_m": true
+    },
+    {
+      "period": "current",
+      "line": "92",
+      "source_shape_count": 2,
+      "displayed_path_count": 50,
+      "hausdorff_distance_m": 2.4868,
+      "within_3_2_m": true
+    }
+  ],
+  "stops": [
+    {
+      "period": "historic",
+      "checked": 690,
+      "mismatches": []
+    },
+    {
+      "period": "current",
+      "checked": 608,
+      "mismatches": []
+    }
+  ],
+  "performance_differences": [],
+  "summary": {
+    "historic": {
+      "regular_lines": 24,
+      "midday_departures": 392,
+      "frequent_lines": [
+        "1",
+        "2",
+        "28",
+        "30"
+      ],
+      "route_records": 46,
+      "active_route_records": 45
+    },
+    "current": {
+      "regular_lines": 19,
+      "midday_departures": 258,
+      "frequent_lines": [],
+      "route_records": 39,
+      "active_route_records": 38
+    },
+    "seasonal_33_october_weekdays_with_trips": [],
+    "decline_departures": 134,
+    "decline_percent": 34.183673469387756,
+    "missing_2019_regular_routes": [
+      "10",
+      "16",
+      "30",
+      "34",
+      "36",
+      "37"
+    ],
+    "6_11_tc_gaps_min": [
+      15.0
+    ],
+    "tc_departures": [
+      {
+        "line": "11",
+        "seconds": 36000
+      },
+      {
+        "line": "6",
+        "seconds": 36900
+      },
+      {
+        "line": "11",
+        "seconds": 37800
+      },
+      {
+        "line": "6",
+        "seconds": 38700
+      },
+      {
+        "line": "11",
+        "seconds": 39600
+      },
+      {
+        "line": "6",
+        "seconds": 40500
+      },
+      {
+        "line": "11",
+        "seconds": 41400
+      },
+      {
+        "line": "6",
+        "seconds": 42300
+      },
+      {
+        "line": "11",
+        "seconds": 43200
+      },
+      {
+        "line": "6",
+        "seconds": 44100
+      },
+      {
+        "line": "11",
+        "seconds": 45000
+      },
+      {
+        "line": "6",
+        "seconds": 45900
+      },
+      {
+        "line": "11",
+        "seconds": 46800
+      },
+      {
+        "line": "6",
+        "seconds": 47700
+      },
+      {
+        "line": "11",
+        "seconds": 48600
+      },
+      {
+        "line": "6",
+        "seconds": 49500
+      }
+    ],
+    "performance_rows_checked": 24,
+    "annual_fixed_route_boardings": 4524968,
+    "q4_fixed_route_boardings": 1172298,
+    "lowest_pph": [
+      {
+        "line": "19X",
+        "pph": 6.4
+      },
+      {
+        "line": "23",
+        "pph": 11.8
+      },
+      {
+        "line": "14",
+        "pph": 11.9
+      },
+      {
+        "line": "5",
+        "pph": 12.4
+      },
+      {
+        "line": "3",
+        "pph": 14.4
+      }
+    ],
+    "highest_pph": [
+      {
+        "line": "28",
+        "pph": 65.5
+      },
+      {
+        "line": "27",
+        "pph": 60.7
+      },
+      {
+        "line": "24X",
+        "pph": 39.8
+      },
+      {
+        "line": "11",
+        "pph": 33.9
+      },
+      {
+        "line": "17",
+        "pph": 29.1
+      }
+    ],
+    "ucsb_route_boardings": 2083620.0,
+    "ucsb_route_boarding_share": 0.46047176466220313,
+    "geometry_max_difference_m": 2.7597,
+    "geometry_profiles_checked": 84
+  },
+  "source_warnings": [],
+  "financial_checks": {
+    "budget_4935532": true,
+    "budget_14_percent": true,
+    "relief_exhaustion_FY2028_29": true,
+    "fee_18_76": true,
+    "proposed_fee_45": true,
+    "proposed_vote_spring_2027": true,
+    "annual_COLA_0_to_4_percent": true
+  },
+  "result": "pass"
+}

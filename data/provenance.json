@@ -1,0 +1,73 @@
+{
+  "retrieved_as_of_local_date": "2026-10-15",
+  "sources": {
+    "historic": {
+      "url": "https://openmobilitydata-data.s3-us-west-1.amazonaws.com/public/feeds/santa-barbara-mtd/1156/20190819/gtfs.zip",
+      "file": "historic-feed-20190819.zip",
+      "sha1": "9babdd55bd0af8e510597e6906d896365f24cfcb",
+      "sha256": "73c1108b82fdd68838749c266f2f2af5a0eaf8f09c9e8d1ff6e853da9972e2d1",
+      "bytes": 971757,
+      "feed_info": {
+        "feed_publisher_name": "Santa Barbara MTD",
+        "feed_publisher_url": "http://www.sbmtd.gov",
+        "feed_lang": "en",
+        "feed_start_date": "20190819",
+        "feed_end_date": "20191201",
+        "feed_version": "190819 August 19_20190712"
+      },
+      "sample_date": "20191015",
+      "active_service_ids": [
+        "1",
+        "1101",
+        "24801",
+        "25101",
+        "25501",
+        "25601",
+        "25801",
+        "26001",
+        "26201",
+        "26401",
+        "26701",
+        "26801",
+        "27101",
+        "30701",
+        "3501",
+        "43001",
+        "7501"
+      ]
+    },
+    "current": {
+      "url": "https://www.sbmtd.gov/google_transit/feed.zip",
+      "file": "current-feed.zip",
+      "sha1": "27d4bbfde509193669f1c01ce30d045f9ef3585d",
+      "sha256": "12d3aa31357051e804ac8ff94c639f27251edea9865442d0f7576b52fad10c6a",
+      "bytes": 2833444,
+      "feed_info": {
+        "feed_publisher_name": "SBMTD",
+        "feed_publisher_url": "https://sbmtd.gov",
+        "feed_lang": "en",
+        "feed_start_date": "20260817",
+        "feed_end_date": "20261129",
+        "feed_version": "S1000262",
+        "feed_contact_email": "info1@sbmtd.gov",
+        "feed_contact_url": "https://sbmtd.gov/gtfs"
+      },
+      "sample_date": "20261015",
+      "active_service_ids": [
+        "11"
+      ]
+    }
+  },
+  "methods": {
+    "asOf": "2026-10-15",
+    "historicDate": "2019-10-15",
+    "currentDate": "2026-10-15",
+    "windowStart": 36000,
+    "windowEnd": 50400,
+    "windowLabel": "Weekday daytime \u00b7 10 am\u20132 pm",
+    "historicLabel": "Fall 2019",
+    "currentLabel": "October 2026",
+    "historicBasis": "A real pre-pandemic high-service benchmark, not a proven all-time maximum or a best-of-every-line composite.",
+    "frequencyMethod": "Median of positive, consecutive first-boardable-stop departure gaps, separately by direction and then pooled, whose midpoint falls from 10:00 to 14:00. At least two departures within the window in a direction are required. Both directions are shown in details."
+  }
+}
