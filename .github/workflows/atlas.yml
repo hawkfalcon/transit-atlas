@@ -1,0 +1,119 @@
+name: Atlas checks and Pages deploy
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: atlas-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Browser regression tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Rebuild the atlas from its sources
+        run: python scripts/build_atlas.py
+
+      - name: Fail if the committed build is stale
+        run: |
+          if ! git diff --exit-code -- index.html Santa-Barbara-Transit-Atlas.html; then
+            echo "::error::index.html does not match assets/. Run 'python scripts/build_atlas.py' and commit the result."
+            exit 1
+          fi
+
+      - name: Serve the atlas
+        run: |
+          python -m http.server 8000 --bind 127.0.0.1 &
+          for _ in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8000/ > /dev/null && exit 0
+            sleep 1
+          done
+          echo "::error::Local preview server did not start on port 8000."
+          exit 1
+
+      - name: Run the regression suite
+        run: python tests/test_atlas.py
+
+      - name: Upload the test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: tests/test-report.json
+          if-no-files-found: warn
+
+      - name: Stage the deployable page
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp NOTICE.md _site/NOTICE.md
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-site
+          path: _site
+          if-no-files-found: error
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: checks
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check whether Pages is enabled
+        id: pages
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api "repos/${{ github.repository }}/pages" --jq '.html_url'
+
+      - name: Pages is not enabled yet
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo "::notice::GitHub Pages is not enabled for this repository, so nothing was published."
+          echo "Enable Settings → Pages → Source: GitHub Actions (the repository must be public, or on a plan that allows private Pages). The next push to main will publish automatically."
+
+      - uses: actions/download-artifact@v4
+        if: steps.pages.outcome == 'success'
+        with:
+          name: atlas-site
+          path: _site
+
+      - uses: actions/configure-pages@v5
+        if: steps.pages.outcome == 'success'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pages.outcome == 'success'
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        if: steps.pages.outcome == 'success'

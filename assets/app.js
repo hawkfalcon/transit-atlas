@@ -20,6 +20,26 @@
   return {rec,active:!!rec?.active,h:rec?.active&&rec.headway!=null?rec.headway:null,min:rec?.gapMin??null,max:rec?.gapMax??null,mid:rec?.middayTrips??0,day:rec?.dayTrips??0};
  }
  function color(m){return !m.active?colors.ghost:m.h==null?colors.limited:m.h<=15?colors.frequent:m.h<=30?colors.moderate:m.h<=45?colors.halfHourly:m.h<=60?colors.hourly:colors.infrequent;}
+
+ // Route colours are chosen for the map strokes, not for 9-11px text. Where a
+ // palette colour is used as a label, darken it (hue and saturation preserved)
+ // only as far as 4.6:1 on the panel background. Purple/teal/maroon already
+ // pass and are returned unchanged.
+ function textInk(c){
+  if(!/^#[0-9a-f]{6}$/i.test(c||''))return c;
+  const ch=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)/255);
+  const lum=h=>{const [r,g,b]=ch(h).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return .2126*r+.7152*g+.0722*b;};
+  const ratio=(a,b)=>{const x=lum(a),y=lum(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);};
+  const bg='#fdfcf8';if(ratio(c,bg)>=4.6)return c;
+  const [r0,g0,b0]=ch(c),mx=Math.max(r0,g0,b0),mn=Math.min(r0,g0,b0),l=(mx+mn)/2;
+  const sat=mx===mn?0:l>.5?(mx-mn)/(2-mx-mn):(mx-mn)/(mx+mn);
+  const hue=mx===mn?0:mx===r0?((g0-b0)/(mx-mn)+(g0<b0?6:0))/6:mx===g0?((b0-r0)/(mx-mn)+2)/6:((r0-g0)/(mx-mn)+4)/6;
+  const f=(q,p,t)=>{if(t<0)t+=1;if(t>1)t-=1;if(t<1/6)return q+(p-q)*6*t;if(t<1/2)return p;if(t<2/3)return q+(p-q)*(2/3-t)*6;return q;};
+  for(let i=1;i<=40;i++){const ll=Math.max(0,l-i*.015),q=ll<.5?ll*(1+sat):ll+sat-ll*sat,pp=2*ll-q;
+   const n='#'+[f(q,pp,hue+1/3),f(q,pp,hue),f(q,pp,hue-1/3)].map(v=>Math.round(v*255).toString(16).padStart(2,'0')).join('');
+   if(ratio(n,bg)>=4.6)return n;}
+  return '#10201a';
+ }
  function variable(m){return m.h!=null&&m.min!==m.max;}
  function value(m,units=true){if(!m.active)return 'No trips';if(m.h==null)return 'Limited';return `${variable(m)?'~':''}${fmt(m.h)}${units?' min':''}`;}
  function range(m){return m.min==null?'No regular midday interval':m.min===m.max?`${fmt(m.min)} min`:`${fmt(m.min)}–${fmt(m.max)} min`;}
@@ -99,7 +119,7 @@
    if(!choice)continue;
    used.push(choice.pt);
    const wide=x.r.id.length>3;
-   const marker=L.marker(choice.ll,{pane:'routeBadges',keyboard:true,title:`Line ${x.r.id}: ${x.r.name}${x.ghost?' · '+referenceLabel(x.r):x.m.h==null?' · Limited / timed service':''}`,icon:L.divIcon({className:'route-map-icon',iconSize:[wide?36:29,22],iconAnchor:[wide?18:14.5,11],html:`<span class="map-route-badge ${wide?'wide':''} ${x.ghost?'ghost':x.m.h==null?'limited':''}" style="--route:${x.color}">${esc(x.r.id)}${!x.ghost&&x.m.h==null?'<span class="badge-clock" aria-hidden="true"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="4"/><path d="M6 3.3V6l1.8 1.1"/></svg></span>':''}</span>`})});
+   const marker=L.marker(choice.ll,{pane:'routeBadges',keyboard:true,title:`Line ${x.r.id}: ${x.r.name}${x.ghost?' · '+referenceLabel(x.r):x.m.h==null?' · Limited / timed service':''}`,icon:L.divIcon({className:'route-map-icon',iconSize:[wide?36:29,22],iconAnchor:[wide?18:14.5,11],html:`<span class="map-route-badge ${wide?'wide':''} ${x.ghost?'ghost':x.m.h==null?'limited':''}" style="--route:${x.color};--route-text:${textInk(x.color)}">${esc(x.r.id)}${!x.ghost&&x.m.h==null?'<span class="badge-clock" aria-hidden="true"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="4"/><path d="M6 3.3V6l1.8 1.1"/></svg></span>':''}</span>`})});
    marker.on('click',()=>selectRoute(x.r.id,false));marker.addTo(badgesGroup);
   }
  }
@@ -131,6 +151,7 @@
   el.querySelector('[data-return-saving]').onclick=()=>setTab('saving');el.querySelector('[data-clear-focus]').onclick=clearSelection;
  }
  function renderList(){
+  const keepFocus=$('routeList').contains(document.activeElement)?document.activeElement.dataset.line:null;
   let list=D.routes.filter(r=>state.filter==='extras'||r.kind==='regular'||r.kind==='amtrak'&&state.amtrak||r.kind==='booster'&&state.extras);
   if(state.query)list=list.filter(r=>[r.id,r.name,r.historicName||''].join(' ').toLowerCase().includes(state.query.toLowerCase()));
   if(state.filter==='changed')list=list.filter(r=>r.historic?.active&&(!r.current?.active||r.current.headway!=null&&r.historic.headway!=null&&r.current.headway>r.historic.headway));
@@ -145,9 +166,12 @@
    if(r.id==='33')sub='Seasonal · No October weekday trips';
    let trend='';
    if(h?.headway!=null&&c?.headway!=null&&h.active&&c.active){const change=c.headway-h.headway;trend=change===0?'Same interval':change>0?`${fmt(h.headway)} → ${fmt(c.headway)} min`:`${fmt(h.headway)} → ${fmt(c.headway)} min`;}
-   return `<button class="route-row ${!m.active?'ghost':m.h==null?'limited':''} ${r.id===state.selected||state.focus.includes(r.id)?'selected':''}" data-line="${esc(r.id)}" aria-pressed="${r.id===state.selected||state.focus.includes(r.id)}"><span class="route-chip" style="--route:${color(m)}">${esc(r.id)}</span><span class="route-name"><strong>${esc(currName)}</strong><small>${esc(sub|| (variable(m)?'Uneven midday gaps':'Weekday daytime'))}</small></span><span class="route-frequency" style="color:${color(m)}">${esc(value(m))}<small class="${h?.headway&&c?.headway<h.headway?'improved':''}">${esc(trend)}</small></span></button>`;
+   return `<button class="route-row ${!m.active?'ghost':m.h==null?'limited':''} ${r.id===state.selected||state.focus.includes(r.id)?'selected':''}" data-line="${esc(r.id)}" aria-pressed="${r.id===state.selected||state.focus.includes(r.id)}"><span class="route-chip" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(r.id)}</span><span class="route-name"><strong>${esc(currName)}</strong><small>${esc(sub|| (variable(m)?'Uneven midday gaps':'Weekday daytime'))}</small></span><span class="route-frequency" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(value(m))}<small class="${h?.headway&&c?.headway<h.headway?'improved':''}">${esc(trend)}</small></span></button>`;
   }).join(''):'<div class="empty-list">No lines match this filter.<br>Try another search or network.</div>';
   document.querySelectorAll('#routeList [data-line]').forEach(b=>b.addEventListener('click',()=>selectRoute(b.dataset.line,false,true)));
+  // Re-rendering replaces the button that had keyboard focus. Put focus back on
+  // the same line so Enter/Space keeps working from the directory.
+  if(keepFocus){const again=$('routeList').querySelector(`[data-line="${CSS.escape(keepFocus)}"]`);if(again)again.focus({preventScroll:true});}
   $('clearSelectionTop').hidden=!state.selected&&!state.focus.length;
  }
  function renderCard(){
@@ -156,7 +180,7 @@
   el.hidden=false;el.classList.toggle('is-limited',m.active&&m.h==null);el.classList.toggle('is-inactive',!m.active);
   const cards=['historic','current'].map((mode,i)=>{const a=metric(r,mode),num=a.h!=null;return `<div class="mini ${!a.active?'inactive':a.h==null?'limited':''} ${state.mode===mode?'active':''}"><span>${['2019','TODAY'][i]}</span><strong class="${num?'':'word'}">${esc(num?`${variable(a)?'~':''}${fmt(a.h)}`:value(a))}</strong><small>${num?'min between buses':a.active?'Trips run · limited/timed':'No departures'}</small></div>`;}).join('');
   const directions=(rec?.directions||[]).map(dir=>`<div class="direction-row"><strong>${esc(dir.headsign||`Direction ${dir.id}`)}</strong><small>${dir.headway==null||dir.middayTrips<2?`${fmt(dir.dayTrips)} ${dir.dayTrips===1?'departure':'departures'} that day · ${fmt(dir.middayTrips)} at midday`:`Typical ${fmt(dir.headway)} min · gaps ${fmt(dir.gapMin)}–${fmt(dir.gapMax)} min<br>${fmt(dir.middayTrips)} midday departures`}</small></div>`).join('');
-  el.innerHTML=`<div class="card-top"><span class="route-chip" style="--route:${color(m)}">${esc(r.id)}</span><div><h3>${esc(rec?.name||r.historic?.name||r.name)}</h3><div class="card-kicker">${kind}</div>${m.active&&m.h==null?'<span class="service-status limited">Runs · limited/timed trips</span>':!m.active?'<span class="service-status inactive">No trips in this timetable</span>':''}</div><button class="card-close" aria-label="Close line details">×</button></div><div class="card-comparison">${cards}</div><p class="gap-note">${m.active&&m.h!=null?`<b>${esc(range(m))}</b> between departures. ~ means the gaps vary.`:m.active?'Scheduled trips, with no regular midday interval.':state.mode==='current'&&r.historic?.active?'This route ran in 2019. The dark dashes follow its old path.':state.mode==='historic'?'This route wasn’t in the 2019 timetable. The dashes show its 2026 path.':'No departures on this date.'}</p>${r.note?`<p class="card-note">${esc(r.note)}</p>`:''}<div class="card-detail-row"><span>Midday departures</span><b>${fmt(m.mid)}<br><small>10 am–2 pm · both directions</small></b></div><div class="card-detail-row"><span>Trips that day</span><b>${fmt(m.day)}</b></div>${rec?.active?`<div class="card-detail-row"><span>First → last bus</span><b>${clock(rec.first)} → ${clock(rec.last)}</b></div>`:''}${directions}<div class="card-actions"><button class="zoom-line">Zoom to line ↗</button><button class="clear-line">Show all lines</button></div>`;
+  el.innerHTML=`<div class="card-top"><span class="route-chip" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(r.id)}</span><div><h3>${esc(rec?.name||r.historic?.name||r.name)}</h3><div class="card-kicker">${kind}</div>${m.active&&m.h==null?'<span class="service-status limited">Runs · limited/timed trips</span>':!m.active?'<span class="service-status inactive">No trips in this timetable</span>':''}</div><button class="card-close" aria-label="Close line details">×</button></div><div class="card-comparison">${cards}</div><p class="gap-note">${m.active&&m.h!=null?`<b>${esc(range(m))}</b> between departures. ~ means the gaps vary.`:m.active?'Scheduled trips, with no regular midday interval.':state.mode==='current'&&r.historic?.active?'This route ran in 2019. The dark dashes follow its old path.':state.mode==='historic'?'This route wasn’t in the 2019 timetable. The dashes show its 2026 path.':'No departures on this date.'}</p>${r.note?`<p class="card-note">${esc(r.note)}</p>`:''}<div class="card-detail-row"><span>Midday departures</span><b>${fmt(m.mid)}<br><small>10 am–2 pm · both directions</small></b></div><div class="card-detail-row"><span>Trips that day</span><b>${fmt(m.day)}</b></div>${rec?.active?`<div class="card-detail-row"><span>First → last bus</span><b>${clock(rec.first)} → ${clock(rec.last)}</b></div>`:''}${directions}<div class="card-actions"><button class="zoom-line">Zoom to line ↗</button><button class="clear-line">Show all lines</button></div>`;
   el.querySelector('.card-close').onclick=clearSelection;el.querySelector('.clear-line').onclick=clearSelection;el.querySelector('.zoom-line').onclick=()=>fitRoute(r);
  }
  function fitRoute(r){const paths=routePaths(r);if(!paths.length)return;const bb=L.latLngBounds(paths.flat());const mobile=innerWidth<=760;map.fitBounds(bb,{paddingTopLeft:[35,mobile?115:120],paddingBottomRight:[mobile?35:Math.min(340,map.getSize().x*.4),mobile?150:175],maxZoom:14.5,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});}
@@ -178,7 +202,7 @@
  function gotoRegion(key){map.fitBounds(regions[key]||regions.all,{paddingTopLeft:[25,125],paddingBottomRight:[32,165],animate:false});}
  function openDialog(id){$(id).showModal();$('layersPanel').hidden=true;$('layersBtn').setAttribute('aria-expanded','false');}
  function tableCell(r,mode){const m=metric(r,mode);return `<td><span class="table-value ${!m.active?'inactive-status':m.h==null?'limited-status':''}">${esc(value(m))}</span>${m.active&&m.h==null?'<small class="limited-explainer">Trips run · no regular midday interval</small>':m.h!=null&&variable(m)?`<small>gaps ${esc(range(m))}</small>`:''}</td>`;}
- function renderTable(){const list=D.routes.filter(r=>$('tableExtras').checked||r.kind==='regular');$('compareBody').innerHTML=list.map(r=>`<tr data-line="${esc(r.id)}" tabindex="0" aria-label="Show line ${esc(r.id)} on map" class="${r.kind==='regular'?'':'row-extra'}"><td><span class="route-chip ${!metric(r).active?'inactive-status':metric(r).h==null?'limited-status':''}" style="--route:${color(metric(r))}">${esc(r.id)}</span><div><strong>${esc(r.name)}</strong><small>${esc(r.historicName&&r.historicName!==r.name?`2019: ${r.historicName}`:r.kind==='regular'?'Regular line':r.kind==='amtrak'?'Amtrak shuttle':'School & special trips')}</small></div></td>${tableCell(r,'historic')}${tableCell(r,'current')}</tr>`).join('');$('compareBody').querySelectorAll('tr[data-line]').forEach(el=>{const go=()=>{$('compareDialog').close();selectRoute(el.dataset.line,true);};el.onclick=go;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};});}
+ function renderTable(){const list=D.routes.filter(r=>$('tableExtras').checked||r.kind==='regular');$('compareBody').innerHTML=list.map(r=>`<tr data-line="${esc(r.id)}" tabindex="0" aria-label="Show line ${esc(r.id)} on map" class="${r.kind==='regular'?'':'row-extra'}"><td><span class="route-chip ${!metric(r).active?'inactive-status':metric(r).h==null?'limited-status':''}" style="--route:${color(metric(r))};--route-text:${textInk(color(metric(r)))}">${esc(r.id)}</span><div><strong>${esc(r.name)}</strong><small>${esc(r.historicName&&r.historicName!==r.name?`2019: ${r.historicName}`:r.kind==='regular'?'Regular line':r.kind==='amtrak'?'Amtrak shuttle':'School & special trips')}</small></div></td>${tableCell(r,'historic')}${tableCell(r,'current')}</tr>`).join('');$('compareBody').querySelectorAll('tr[data-line]').forEach(el=>{const go=()=>{$('compareDialog').close();selectRoute(el.dataset.line,true);};el.onclick=go;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};});}
  function downloadCSV(){const s=atob('/*CSV_B64*/'),bytes=Uint8Array.from(s,c=>c.charCodeAt(0)),blob=new Blob([new Uint8Array([239,187,191]),bytes],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='SBMTD-line-comparison.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
  document.querySelectorAll('[role="tab"][data-tab]').forEach(b=>{b.onclick=()=>setTab(b.dataset.tab);b.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tab=e.key==='Home'?'network':e.key==='End'?'saving':b.dataset.tab==='network'?'saving':'network';setTab(tab);$(tab==='network'?'networkTab':'savingTab').focus();}};});
  document.querySelectorAll('.scenario').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
@@ -195,7 +219,7 @@
  document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).close());
  document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}}));
  document.addEventListener('click',e=>{if(!e.target.closest('.map-tools')){$('layersPanel').hidden=true;$('layersBtn').setAttribute('aria-expanded','false');}});
- document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]'))return;if(state.tab==='network'&&e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)){e.preventDefault();$('routeSearch').focus();}if(e.key==='Escape'){if(!$('layersPanel').hidden){$('layersPanel').hidden=true;$('layersBtn').setAttribute('aria-expanded','false');}else if(state.selected||state.focus.length)clearSelection();}});
+ document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]'))return;if(state.tab==='network'&&e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)){e.preventDefault();$('routeSearch').focus();}if(e.key==='Escape'){if(!$('layersPanel').hidden){$('layersPanel').hidden=true;$('layersBtn').setAttribute('aria-expanded','false');$('layersBtn').focus();}else if(state.selected||state.focus.length)clearSelection();}});
  document.querySelector('.brand').onclick=e=>{e.preventDefault();state.selected=null;state.focus=[];setTab('network');setMode('historic');gotoRegion('all');};
  map.on('moveend',()=>{renderBadges();renderStops();renderPlaces();});
  let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(state.tab==='network'){map.invalidateSize();renderBadges();}},150);});

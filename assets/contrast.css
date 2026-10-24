@@ -1,0 +1,61 @@
+/* Final stylesheet pass. It is appended after app.css and saving.css by
+   scripts/build_atlas.py so these declarations win without !important.
+   Two jobs: keep muted supporting text legible, and give interactive controls
+   at least a 24x24 CSS-pixel target (WCAG 2.2 AA 2.5.8). Colours preserve the
+   original hue and only reduce lightness; nothing here changes layout,
+   typography or the meaning of any label. */
+
+/* Supporting text: 4.5:1 or better on the surface it sits on. */
+.intro p{color:#66766b}
+.scenario-note{color:#687767}
+.route-name small{color:#6A7764}
+.route-frequency small{color:#697761}
+.legend-note{color:#73866a}
+.map-title-card p{color:#667e65}
+.brand-sub{color:#617872}
+.eyebrow{color:#666c63}
+.step-tag{color:#6c7669}
+.directory-head p{color:#6e756a}
+.sidebar-foot{color:#6e7664}
+
+/* Controls and their labels, including the small print inside buttons. */
+.workspace-tab{color:#637063}
+.workspace-tab small{color:#64705c}
+.workspace-tab.active small{color:#587d5d}
+.strategy-status button{color:#627c4f}
+.tiny-link{color:#687858}
+#performanceCsvBtn{color:#5e774b}
+.performance-filters button span{color:#616f4e}
+.trace-row-button{color:#677a52}
+.performance-line strong{color:#607b4a}
+.planning-sources a,.planning-sources button{color:#60764f}
+
+/* 24x24 minimum target size for controls that are not inline prose links. */
+.strategy-status button{min-height:24px;padding:4px 2px}
+.trace-row-button{display:inline-flex;align-items:center;min-height:24px;padding:4px 2px}
+.planning-sources a,.planning-sources button{display:inline-flex;align-items:center;min-height:24px;padding:2px 0}
+.performance-footnotes summary{display:flex;align-items:center;min-height:24px}
+#performanceCsvBtn{min-height:24px}
+.tiny-link{min-height:24px}
+
+/* Route-coloured text keeps its band colour but steps down in lightness
+   (app.js textInk) until it clears 4.5:1. Map lines, chips borders and
+   strokes keep the original palette. Without JS the CSS fallback is a 70%
+   mix toward ink, and without color-mix() support it is inherited ink. */
+.route-frequency{color:var(--route-text,var(--route,#203a3a))}
+.route-chip{color:var(--route-text,color-mix(in srgb,var(--route,#7f8794) 68%,#10201a))}
+.map-route-badge{color:var(--route-text,var(--route,#203a3a))}
+
+/* Label inside the selected planning card sits on the dark green card. */
+.strategy-card.selected .strategy-card-top>span{color:#cfe0c9}
+
+/* Visually-hidden suffixes inside the performance table resolved against the
+   initial containing block (the cells were unpositioned), which inflated the
+   document scroll height on the saving view. Positioned cells contain them;
+   no visual change. */
+.performance-table td,.performance-table th{position:relative}
+
+/* Small but real controls get a 24px touch height. Inline text links inside
+   paragraphs keep their natural box (WCAG 2.5.8 exempts inline links). */
+#routeSearch{min-height:24px}
+#backToMapBtn{display:inline-flex;align-items:center;min-height:24px}
