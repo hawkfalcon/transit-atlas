@@ -1,6 +1,6 @@
 """V2 regression tests: factual map, separate planning, offline and mobile."""
 from pathlib import Path
-import json,html,csv,io,hashlib
+import json,html,csv,io,hashlib,os
 from playwright.sync_api import sync_playwright,expect
 ROOT=Path(__file__).resolve().parents[1]
 report={'version':2,'errors':[],'checks':[]}
@@ -18,7 +18,9 @@ check(audit['result']=='pass','Independent raw-GTFS and PDF audit has no remaini
 geo=hashlib.sha256(json.dumps([(r['id'],(r['historic'] or {}).get('paths'),(r['current'] or {}).get('paths')) for r in network['routes']],sort_keys=True,separators=(',',':')).encode()).hexdigest()
 check(geo==json.loads((ROOT/'tests/timetable-fingerprint.json').read_text())['geometry_sha256'],'Original route geometry is unchanged by the accuracy corrections')
 with sync_playwright() as p:
-    browser=p.chromium.launch(headless=True,args=['--no-sandbox'])
+    launch={'headless':True,'args':['--no-sandbox']}
+    if os.environ.get('PLAYWRIGHT_CHROMIUM_EXECUTABLE'):launch['executable_path']=os.environ['PLAYWRIGHT_CHROMIUM_EXECUTABLE']
+    browser=p.chromium.launch(**launch)
     ctx=browser.new_context(viewport={'width':1440,'height':960},device_scale_factor=1,reduced_motion='reduce')
     page=ctx.new_page();page.on('pageerror',lambda e:report['errors'].append(str(e)))
     page.goto('http://127.0.0.1:8000/',wait_until='networkidle')

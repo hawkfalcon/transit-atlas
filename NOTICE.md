@@ -34,6 +34,12 @@ Copyright © the Manrope project authors. SIL Open Font License 1.1. Full licens
 
 https://github.com/google/fonts/tree/main/ofl/manrope
 
+## axe-core (tests only)
+
+The accessibility regression test uses **axe-core 4.14.0**, Copyright © Deque Systems, Inc., licensed under MPL-2.0. It is vendored unmodified at `tests/axe/axe.min.js` with its license and is executed only by `tests/test_accessibility.py`. Nothing from axe-core is inlined into the published HTML, and it adds no runtime dependency.
+
+https://github.com/dequelabs/axe-core
+
 ## Independent visualization
 
 The application code and explanatory text are original work created for this project. No third-party data ownership, agency endorsement or budget forecast is claimed. The main comparison contains only the two real GTFS networks. The separate Saving MTD notebook uses published route-performance and budget reports, preserving their periods and provenance. Network changes are independent study concepts; the specifically attributed student-pass fee item is a published staff proposal, not secured new funding. No quantified savings or implementable future timetable is claimed. The prior uniform 20% model is retired as a network mode and retained only as collapsed explanatory context in the planning notebook.
