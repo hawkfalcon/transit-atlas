@@ -14,7 +14,7 @@ Open **`Santa-Barbara-Transit-Atlas.html`** in a modern browser. The identical *
 2. starts a local server and runs the browser suite in `tests/test_atlas.py`;
 3. on a push to `main`, uploads the finished `index.html` and publishes it with GitHub Pages.
 
-Pages has to be switched on once, by a repository admin: **Settings → Pages → Source: GitHub Actions**. Pages on a private repository needs a paid plan, so keep the repository private but unpublished, or make it public and the next push to `main` publishes at `https://<owner>.github.io/transit-atlas/`. Until then the deploy job only posts a notice and skips publishing; the test job still runs and must stay green.
+Pages has to be switched on once, by a repository admin: **Settings → Pages → Source: GitHub Actions**. Pages on a private repository needs a paid plan, so keep the repository private but unpublished, or make it public and the next push to `main` publishes at `https://<owner>.github.io/transit-atlas/`. Until then the deploy job posts a notice and skips publishing; the test job still runs and must stay green. The check distinguishes a missing site (404, skip with a notice) from a token that cannot read the Pages settings (403, warning) and from any other error (the job fails rather than skipping silently).
 
 The published page is only `index.html`. It is self-contained—CSS, JavaScript, font, basemap and route data are inlined—so no other file is uploaded and no server-side code is involved. `NOTICE.md` is published alongside it for source credits.
 
@@ -159,7 +159,11 @@ Do not edit `index.html` or `Santa-Barbara-Transit-Atlas.html` by hand: the buil
 
 To rerun browser tests: install `playwright`, install Chromium with `python -m playwright install chromium` (and dependencies if needed), start the preview server, then run `python tests/test_atlas.py`.
 
-GitHub Actions runs exactly that sequence on every push and pull request (`.github/workflows/atlas.yml`), uploads `tests/test-report.json` as an artifact, and blocks publication when the suite fails or `index.html` is out of date.
+`tests/test_accessibility.py` audits the same page with the vendored **axe-core 4.14.0** (`tests/axe/`) at desktop 1440×960 and mobile 390×844, on both tabs, against WCAG 2.0/2.1/2.2 levels A and AA; it also walks every tab stop and fails if a focus indicator disappears. Run it after `tests/test_atlas.py` with the same preview server, or set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` to use a local Chromium build. Its report is written to `tests/accessibility-report.json`.
+
+`python scripts/check_links.py` requests every external link embedded in `index.html` and reports anything that moved; 403/429 responses count as warnings because agencies block automated clients. It runs weekly in `.github/workflows/link-check.yml` (and on demand from the Actions tab), never on pull requests, so a remote outage cannot block a code change.
+
+GitHub Actions runs exactly that sequence on every push and pull request (`.github/workflows/atlas.yml`), uploads the test reports as artifacts, and blocks publication when the suite fails or `index.html` is out of date.
 
 `python scripts/package_project.py` creates **`Santa-Barbara-Transit-Atlas-Project.zip`**, with the app, source files and data. It also refreshes the older `SBMTD-Atlas-Project.zip` download as an identical copy. A pre-revision backup is retained separately under `revisions/`; it is not included in the current deliverable.
 
@@ -172,6 +176,8 @@ GitHub Actions runs exactly that sequence on every push and pull request (`.gith
 - `data/planning.json` — separate planning evidence, definitions, limits, source metadata and current GTFS trunk-departure check.
 - `sources/` — original GTFS ZIPs, captured official performance/budget/funding PDFs and verified transcription.
 - `assets/app.*` — factual-map source; `assets/saving.*` and `assets/saving-tab.html` — the independent notebook.
+- `assets/contrast.css` — final build pass for readable label colours, 24px touch targets and focus rings.
+- `tests/axe/` — vendored axe-core for the accessibility audit; `.github/workflows/` — the checks and the weekly link check.
 - `scripts/` — reproducible data, build and package scripts.
 - `NOTICE.md` — source terms and third-party credits.
 

@@ -6,6 +6,8 @@ venv/
 
 # Browser-test screenshots and scratch output
 tests/v2-*.png
+tests/accessibility-report.json
+tests/link-report.json
 playwright-report/
 
 # OS cruft

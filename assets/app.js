@@ -119,7 +119,7 @@
    if(!choice)continue;
    used.push(choice.pt);
    const wide=x.r.id.length>3;
-   const marker=L.marker(choice.ll,{pane:'routeBadges',keyboard:true,title:`Line ${x.r.id}: ${x.r.name}${x.ghost?' · '+referenceLabel(x.r):x.m.h==null?' · Limited / timed service':''}`,icon:L.divIcon({className:'route-map-icon',iconSize:[wide?36:29,22],iconAnchor:[wide?18:14.5,11],html:`<span class="map-route-badge ${wide?'wide':''} ${x.ghost?'ghost':x.m.h==null?'limited':''}" style="--route:${x.color};--route-text:${textInk(x.color)}">${esc(x.r.id)}${!x.ghost&&x.m.h==null?'<span class="badge-clock" aria-hidden="true"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="4"/><path d="M6 3.3V6l1.8 1.1"/></svg></span>':''}</span>`})});
+   const marker=L.marker(choice.ll,{pane:'routeBadges',keyboard:true,title:`Line ${x.r.id}: ${x.r.name}${x.ghost?' · '+referenceLabel(x.r):x.m.h==null?' · Limited / timed service':''}`,icon:L.divIcon({className:'route-map-icon',iconSize:[wide?36:29,24],iconAnchor:[wide?18:14.5,12],html:`<span class="map-route-badge ${wide?'wide':''} ${x.ghost?'ghost':x.m.h==null?'limited':''}" style="--route:${x.color};--route-text:${textInk(x.color)}">${esc(x.r.id)}${!x.ghost&&x.m.h==null?'<span class="badge-clock" aria-hidden="true"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="4"/><path d="M6 3.3V6l1.8 1.1"/></svg></span>':''}</span>`})});
    marker.on('click',()=>selectRoute(x.r.id,false));marker.addTo(badgesGroup);
   }
  }

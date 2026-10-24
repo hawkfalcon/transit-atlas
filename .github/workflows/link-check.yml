@@ -1,0 +1,39 @@
+name: Link check
+
+# Source documents move without warning: agencies re-post PDFs and the GTFS
+# feed URL drifts. This runs weekly and on demand so a dead source is noticed
+# while the committed atlas is still green. It is deliberately separate from
+# the pull-request checks; a remote outage must not block a code change.
+on:
+  schedule:
+    - cron: '17 6 * * 1'   # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    name: External sources still resolve
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild the page under test
+        run: python scripts/build_atlas.py
+
+      - name: Check every external link in the atlas
+        run: python scripts/check_links.py
+
+      - name: Upload the link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: tests/link-report.json
+          if-no-files-found: warn
