@@ -1,0 +1,12 @@
+# Local Python environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Browser-test screenshots and scratch output
+tests/v2-*.png
+playwright-report/
+
+# OS cruft
+.DS_Store

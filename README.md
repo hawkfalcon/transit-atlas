@@ -6,6 +6,20 @@ An independent, offline-capable comparison of Santa Barbara MTD’s original **f
 
 Open **`Santa-Barbara-Transit-Atlas.html`** in a modern browser. The identical **`index.html`** is ready for static hosting. Both include the data, basemap, font and code—no account, API key, server or internet is required. Source links need internet when clicked.
 
+## Publishing (GitHub Pages)
+
+`.github/workflows/atlas.yml` runs on every push and pull request:
+
+1. rebuilds `index.html` from `assets/` and fails if the committed build is stale;
+2. starts a local server and runs the browser suite in `tests/test_atlas.py`;
+3. on a push to `main`, uploads the finished `index.html` and publishes it with GitHub Pages.
+
+Pages has to be switched on once, by a repository admin: **Settings → Pages → Source: GitHub Actions**. Pages on a private repository needs a paid plan, so keep the repository private but unpublished, or make it public and the next push to `main` publishes at `https://<owner>.github.io/transit-atlas/`. Until then the deploy job only posts a notice and skips publishing; the test job still runs and must stay green.
+
+The published page is only `index.html`. It is self-contained—CSS, JavaScript, font, basemap and route data are inlined—so no other file is uploaded and no server-side code is involved. `NOTICE.md` is published alongside it for source credits.
+
+Only `main` deploys. To publish a change, merge it to `main`; branch pushes and pull requests get the tests but not a deployment.
+
 ### Tab 1: 2019 ↔ Today
 
 - Only **two actual GTFS networks**, with original paths and comparable weekday frequency metrics.
@@ -122,11 +136,30 @@ python -m http.server 8000 --bind 0.0.0.0
 
 Route geometry is source GTFS, dissolved within each line and simplified by approximately 2–3 meters. Stops use source coordinates. The embedded contemporary basemap is a reference, not a historic street reconstruction; water tint and softened contextual-image transitions are cartographic styling only.
 
+### Update the data
+
+The atlas is a frozen snapshot, not a live feed. Every date in it is recorded in `data/provenance.json`; rebuilding with newer sources means changing those dates deliberately.
+
+1. Replace the inputs in `sources/`: the two GTFS ZIPs (`historic-feed-20190819.zip`, `current-feed.zip`), the captured PDFs and `fy2025-26-route-performance.csv`. Keep the file names or update them in the scripts and in `scripts/package_project.py`.
+2. Run `python scripts/prepare_data.py` and `python scripts/prepare_planning.py`. They record source URLs, SHA-1/SHA-256 hashes, feed versions, sample dates and the calendar of active services in `data/provenance.json` and `data/planning.json`.
+3. Update the dates and wording that are written into the markup, not derived from the data:
+   - `assets/index.template.html`: the two scenario labels, `#focusBanner` (“Existing routes · October 2026 timetable”), the snapshot dates in the intro and footer, and the `June 30, 2026` performance period;
+   - `assets/saving-tab.html`: the same snapshot and performance dates;
+   - `assets/app.js`: the current-period label (`October 2026`);
+   - regenerated `data/*.json` labels, if the scripts expose them as options.
+4. Re-run `python scripts/build_atlas.py`, then `python tests/test_atlas.py` with the preview server running.
+5. Expect the integrity checks to fail until the new baseline is recorded: `tests/timetable-fingerprint.json` pins the route data and geometry, `accuracy-check/independent-audit.json` records the published-source audit, and several tests assert exact counts and figures (`19` regular lines, `258` midday departures, the `4,524,968` boardings total, the five-line performance ordering). Re-run `python accuracy-check/audit_atlas.py`, review its output, and update those baselines only after confirming the new numbers against the source documents by hand.
+6. `python scripts/package_project.py` rebuilds the downloadable project ZIP once `tests/test-report.json` is regenerated without errors.
+
+Do not edit `index.html` or `Santa-Barbara-Transit-Atlas.html` by hand: the build overwrites both from `assets/`, and CI fails when they do not match.
+
 ### Tests and package
 
 `tests/test_atlas.py` checks the two factual views, removal of modeled columns, all route records, the planning options and evidence, links back to unchanged current geometry, legacy cut-URL migration, CSV downloads, mobile layout, offline use and a scripts-only opaque iframe. Current results: `tests/test-report.json`.
 
 To rerun browser tests: install `playwright`, install Chromium with `python -m playwright install chromium` (and dependencies if needed), start the preview server, then run `python tests/test_atlas.py`.
+
+GitHub Actions runs exactly that sequence on every push and pull request (`.github/workflows/atlas.yml`), uploads `tests/test-report.json` as an artifact, and blocks publication when the suite fails or `index.html` is out of date.
 
 `python scripts/package_project.py` creates **`Santa-Barbara-Transit-Atlas-Project.zip`**, with the app, source files and data. It also refreshes the older `SBMTD-Atlas-Project.zip` download as an identical copy. A pre-revision backup is retained separately under `revisions/`; it is not included in the current deliverable.
 
