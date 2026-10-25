@@ -35,7 +35,7 @@ Only `main` deploys. To publish a change, merge it to `main`; branch pushes and 
 Four service and funding options, with supporting data and the checks needed before making changes:
 
 1. **Busy routes:** review crowding, school connections and minimum operating hours and coverage.
-2. **Route overlaps:** compare paid vehicle and driver hours on shared corridors. Lines 6 and 11 are an example to study; they already alternate 15-minute midday departures from Transit Center toward Goleta/UCSB.
+2. **Route overlaps:** a GTFS screen for corridors that could actually be cut or merged. All 19 current lines are compared on shared geometry (shapes within 25 m), shared stops and shared bus blocks. Pairs already interlined on one bus—including 6 and 11, which alternate 15-minute midday departures—are set aside because renaming them saves no vehicle or driver hour. Seven separate-block pairs remain as the study list, led by 15X/24X (30.3 km shared) and 20/19X (22.4 km). Freeway-only overlap with no shared stop is excluded.
 3. **Trip-level review:** use official boardings per revenue hour to identify where to request trip-level evidence first. It is not a cancellation list.
 4. **Recurring funding:** show the actual budgeted federal-relief bridge and the specifically attributed UCSB fee staff proposal, without assuming that a future vote or new revenue is secured.
 
@@ -109,6 +109,30 @@ The comparable ranking includes the **19 current regular lines**. Seasonal 33, t
 These are **not recommended cancellations**. The figures cover all fiscal-year operating days/times and **predate August 2026’s service reductions**. They cannot identify the weakest individual departures, establish post-cut performance, quantify equity effects or predict financial savings. Ranking by total riders alone would also ignore differences in service supplied.
 
 High annual productivity on 28 (65.5), 27 (60.7), 24X (39.8) and 11 (33.9) is a capacity-protection signal, not permission to abandon neighborhoods with fewer alternatives. School boosters as an aggregate had 64.8 boardings/hour. The 25.9 system reference includes all fixed-route services; it is not a cancellation threshold.
+
+### Route overlap screen
+
+The Saving MTD overlap option is computed by `scripts/prepare_planning.py` from the bundled current GTFS feed (no inferred demand), using three independent signals for every pair of the 19 regular lines on the October 15, 2026 weekday:
+
+- **Geometry:** current shapes dissolved per line in a local metre projection; shared length is one route’s geometry inside a 25-metre buffer around the other, both directions included.
+- **Shared stops:** stops served by both lines in `stop_times.txt`. Shared freeway mileage with no shared stop is not rider-substitutable.
+- **Bus blocks:** `trips.block_id` values used by both lines. A shared block means one bus and one driver already run both routes (interlining).
+
+A **cut/merge candidate** needs at least 10 km of shared corridor, at least five shared stops and no more than one shared bus block. The screen yields seven pairs:
+
+| Pair | Shared corridor | Shared stops | Midday trips (each line) | Shared bus blocks |
+|---|---:|---:|---:|---:|
+| 15X + 24X | 30.3 km | 7 | 11 / 13 | 0 |
+| 20 + 19X | 22.4 km | 12 | 8 / 2 | 0 |
+| 11 + 24X | 15.5 km | 16 | 16 / 13 | 1 |
+| 7 + 12X | 15.2 km | 7 | 16 / 11 | 1 |
+| 11 + 15X | 14.5 km | 12 | 16 / 11 | 0 |
+| 6 + 12X | 14.4 km | 20 | 16 / 11 | 1 |
+| 14 + 20 | 11.5 km | 23 | 6 / 8 | 0 |
+
+Nine pairs are **already interlined** on three or more shared blocks, led by 6/11 (41.1 km shared, 76 shared stops, 14 shared blocks; the 6/11/23/25 Goleta block family), 12X/24X (6 blocks), 1/2 (5), 4/17 (4) and 5/14 (3). Combining their line numbers would remove no bus or driver shift. 12X/15X and 7/15X follow the same freeway for 12–22 km but share no stops, so they are excluded rather than counted as duplicates.
+
+This is a screening list, not a cut recommendation: express and local routes do not serve identical stops, and any change still needs trip-level loads, block/crew costing, access and Title VI review, and a reversible trial. The Wave on-demand service covers Goleta/Isla Vista and Carpinteria but has no fixed headway and is not treated as a like-for-like replacement.
 
 ### Published budget and funding option
 
