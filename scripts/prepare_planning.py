@@ -6,7 +6,7 @@ published system total. Special/aggregate services are kept, but not mixed into 
 19-current-regular-line screening ranking. No operating-cost savings are invented.
 """
 from pathlib import Path
-import csv,json,statistics,hashlib
+import csv,json,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'data/network.json').read_text())
 source='https://sbmtd.gov/wp-content/uploads/2026/07/Q4_FY26Report.pdf'

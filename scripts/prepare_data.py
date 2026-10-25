@@ -1,9 +1,9 @@
 """Reproducible SBMTD comparison from original GTFS ZIPs; no API key required."""
 from pathlib import Path
 from datetime import datetime
-import csv, io, json, zipfile, hashlib, statistics, math
+import csv, io, json, zipfile, hashlib, statistics
 from collections import defaultdict, Counter
-from shapely.geometry import LineString, MultiLineString
+from shapely.geometry import LineString
 from shapely.ops import unary_union, linemerge
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,7 +38,7 @@ all_shapes_raw = {}
 for period, spec in FILES.items():
     raw = (ROOT/'sources'/spec['file']).read_bytes()
     z = zipfile.ZipFile(io.BytesIO(raw))
-    def rows(name):
+    def rows(name, z=z):
         return list(csv.DictReader(io.StringIO(z.read(name+'.txt').decode('utf-8-sig')))) if name+'.txt' in z.namelist() else []
     info = rows('feed_info')[0]
     day = spec['date']
@@ -173,4 +173,4 @@ assert networks['current']['routes']['1']['headway']==20
 assert networks['historic']['routes']['28']['headway']==10
 assert networks['current']['routes']['33']['active'] is False
 assert len(route_summary)==48
-print('Wrote',OUT/'network.json',(OUT/'network.json').stat().st_size,'bytes')
+print('Wrote',(OUT/'network.json').relative_to(ROOT),(OUT/'network.json').stat().st_size,'bytes')

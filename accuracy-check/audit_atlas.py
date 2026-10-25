@@ -4,7 +4,7 @@ Needs Shapely and PyMuPDF. Does not edit the app or re-download sources.
 """
 from pathlib import Path
 from datetime import date
-from collections import defaultdict,Counter
+from collections import defaultdict
 from statistics import median
 import csv,io,json,zipfile,math,hashlib,re
 import pymupdf
@@ -30,10 +30,10 @@ for period,filename,iso in [('historic','historic-feed-20190819.zip','2019-10-15
     raw=(ROOT/'sources'/filename).read_bytes();source=D['sources'][period]
     report['source_integrity'].append({'period':period,'sha1':hashlib.sha1(raw).hexdigest(),'sha256_matches':hashlib.sha256(raw).hexdigest()==source['sha256'],'bytes_match':len(raw)==source['bytes']})
     z=zipfile.ZipFile(io.BytesIO(raw))
-    def table(name):
+    def table(name, z=z):
         return list(csv.DictReader(io.StringIO(z.read(name+'.txt').decode('utf-8-sig')))) if name+'.txt' in z.namelist() else []
     calendars=table('calendar');exceptions=table('calendar_dates')
-    def services(iso_day):
+    def services(iso_day, calendars=calendars, exceptions=exceptions):
         day=date.fromisoformat(iso_day);key=day.strftime('%Y%m%d');wd=('monday','tuesday','wednesday','thursday','friday','saturday','sunday')[day.weekday()]
         selected=set()
         for c in calendars:
@@ -123,7 +123,7 @@ for key,src in P['sources'].items():
 pdf=pymupdf.open(ROOT/'sources/Q4-FY26-ridership.pdf')
 def pdf_values(page_number):
     words=pdf[page_number-1].get_text('words');result={}
-    for x0,y0,x1,y1,text,*_ in words:
+    for x0,y0,_,_,text,*_ in words:
         rid=text.upper()
         if not (95<y0<550):continue
         if not ((45<x0<73 and re.fullmatch(r'\d{1,2}X?',rid)) or (rid=='BOOSTER' and 70<x0<85)):continue
@@ -153,6 +153,7 @@ report['summary']['geometry_profiles_checked']=len(report['geometry'])
 report['result']='pass' if not (report['metric_differences'] or report['direction_differences'] or report['performance_differences'] or any(not x['within_3_2_m'] for x in report['geometry']) or any(x['mismatches'] for x in report['stops']) or not all(report['financial_checks'].values()) or any(not s['sha256_matches'] for s in report['source_integrity'])) else 'corrections-needed'
 OUT.mkdir(exist_ok=True)
 (OUT/'independent-audit.json').write_text(json.dumps(report,indent=2))
-with (OUT/'source-departures.csv').open('w',newline='') as f:
-    w=csv.DictWriter(f,fieldnames=list(trip_export[0]));w.writeheader();w.writerows(trip_export)
+with (OUT/'source-departures.csv').open('w',newline='',encoding='utf-8') as f:
+    # LF endings so a fresh run reproduces the committed file byte for byte.
+    w=csv.DictWriter(f,fieldnames=list(trip_export[0]),lineterminator='\n');w.writeheader();w.writerows(trip_export)
 print(json.dumps({k:v for k,v in report.items() if k not in ('geometry',)},indent=2))

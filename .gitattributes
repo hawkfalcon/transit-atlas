@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalise text to LF in the repository and in every checkout. The build
+# inlines the CSVs verbatim, so a CRLF working tree would otherwise produce a
+# different index.html from a fresh clone (scripts/build_atlas.py also
+# normalises, as a second line of defence).
+* text=auto eol=lf
+
+# Binary inputs and published artifacts: never diff, merge or convert these.
+*.zip   binary
+*.pdf   binary
+*.webp  binary
+*.ttf   binary
+*.png   binary

@@ -97,7 +97,7 @@ with sync_playwright() as p:
         )
         page = ctx.new_page()
         errors = []
-        page.on('pageerror', lambda e: errors.append(str(e)))
+        page.on('pageerror', lambda e, sink=errors: sink.append(str(e)))
         page.goto(URL, wait_until='networkidle')
         page.wait_for_function('window.ATLAS && window.ATLAS_SAVING')
         page.evaluate('document.fonts.ready')
