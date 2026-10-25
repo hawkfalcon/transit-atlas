@@ -44,4 +44,4 @@ current 6 Goleta active True day 57 mid 16 h 30.0 range 30.0 30.0
 current 7 Goleta Old Town active True day 50 mid 16 h 30.0 range 30.0 30.0
 TOTAL historic regular lines 24 midday trips 392 <=15 min 4
 TOTAL current regular lines 19 midday trips 258 <=15 min 0
-Wrote /home/user/sb-transit/data/network.json 804524 bytes
+Wrote data/network.json 804008 bytes

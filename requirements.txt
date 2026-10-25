@@ -1,3 +1,6 @@
-# Needed only to recalculate the comparison from the two original GTFS ZIPs.
-# No installation is required to open the finished HTML.
+# Recalculating the comparison from the two original GTFS ZIPs.
+# Opening the finished HTML requires no installation.
 shapely>=2.0,<3
+
+# Re-running accuracy-check/audit_atlas.py, which reads the captured PDFs.
+pymupdf>=1.24

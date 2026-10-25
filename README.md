@@ -2,6 +2,8 @@
 
 An independent, offline-capable comparison of Santa Barbara MTD’s original **fall 2019** fixed-route network and **October 2026** service, with service and funding options in a separate **Saving MTD** tab.
 
+![The 2019 network view: the route directory on the left, the map with frequency-coloured routes and the legend on the right](assets/preview.png)
+
 ## Open it
 
 Open **`Santa-Barbara-Transit-Atlas.html`** in a modern browser. The identical **`index.html`** is ready for static hosting. Both include the data, basemap, font and code—no account, API key, server or internet is required. Source links need internet when clicked.
@@ -163,9 +165,11 @@ To rerun browser tests: install `playwright`, install Chromium with `python -m p
 
 `python scripts/check_links.py` requests every external link embedded in `index.html` and reports anything that moved; 403/429 responses count as warnings because agencies block automated clients. It runs weekly in `.github/workflows/link-check.yml` (and on demand from the Actions tab), never on pull requests, so a remote outage cannot block a code change.
 
-GitHub Actions runs exactly that sequence on every push and pull request (`.github/workflows/atlas.yml`), uploads the test reports as artifacts, and blocks publication when the suite fails or `index.html` is out of date.
+`ruff check` (configuration in `pyproject.toml`) lints the build, test and audit scripts for undefined names, unused imports and bug-prone patterns such as closures that late-bind loop variables.
 
-`python scripts/package_project.py` creates **`Santa-Barbara-Transit-Atlas-Project.zip`**, with the app, source files and data. It also refreshes the older `SBMTD-Atlas-Project.zip` download as an identical copy. A pre-revision backup is retained separately under `revisions/`; it is not included in the current deliverable.
+GitHub Actions runs linting, the browser suite and the accessibility audit on every push and pull request (`.github/workflows/atlas.yml`), uploads the test reports as artifacts, and blocks publication when anything fails or `index.html` is out of date.
+
+`python scripts/package_project.py` creates **`Santa-Barbara-Transit-Atlas-Project.zip`** with the app, its sources, the original GTFS/PDF inputs and the audit trail. It refuses to package unless `tests/test-report.json` is a clean version-2 report and the independent audit still passes.
 
 ## Important files
 
@@ -179,7 +183,8 @@ GitHub Actions runs exactly that sequence on every push and pull request (`.gith
 - `assets/contrast.css` — final build pass for readable label colours, 24px touch targets and focus rings.
 - `tests/axe/` — vendored axe-core for the accessibility audit; `.github/workflows/` — the checks and the weekly link check.
 - `scripts/` — reproducible data, build and package scripts.
-- `NOTICE.md` — source terms and third-party credits.
+- `NOTICE.md` — source terms and third-party credits. `LICENSE` — MIT for the original code, with the third-party components listed separately.
+- `pyproject.toml` — lint configuration for the scripts.
 
 Independent civic visualization, not affiliated with or endorsed by MTD. Consult official timetables for travel. Snapshot date: **October 15, 2026**.
 
@@ -204,3 +209,8 @@ The headline results hold: 392 → 258 midday departures; six missing 2019 route
 
 Repeat the independent check with `python -m pip install shapely pymupdf`, then `python accuracy-check/audit_atlas.py`. It does not import the production calculation functions. Before/after findings, exact corrections, live-source hashes, source-link checks and source departure records are preserved in `accuracy-check/`.
 
+## License and reuse
+
+The application code, build scripts, tests and explanatory text are released under the **MIT License** (see `LICENSE`). The third-party pieces keep their own terms: Leaflet is BSD-2-Clause, Manrope is SIL OFL 1.1, the vendored test-only axe-core is MPL-2.0, and the embedded basemap is subject to its providers' terms. MTD's GTFS data and the figures transcribed from its reports remain MTD's; `NOTICE.md` records each source.
+
+Corrections are welcome, especially ones backed by a source document. Data changes need a rebuilt baseline: see *Update the data* above.

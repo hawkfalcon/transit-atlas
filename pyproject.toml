@@ -1,0 +1,18 @@
+# Lint configuration for the build, test and audit scripts.
+# The hand-written sources in assets/ are plain HTML/CSS/JS and are not linted here.
+[tool.ruff]
+target-version = "py310"
+line-length = 160
+
+[tool.ruff.lint]
+# F: real errors (undefined names, unused imports). E9: syntax.
+# B: bugbear patterns such as closures that late-bind loop variables.
+select = ["F", "E9", "B"]
+ignore = [
+  "B905",   # zip(strict=) is a style nudge; the sequences are known-equal here
+  "BLE001", # check_links.py must treat DNS/TLS/timeout failures alike
+]
+
+[tool.ruff.lint.per-file-ignores]
+# The accuracy audit is a one-off script that prints a JSON report to stdout.
+"accuracy-check/audit_atlas.py" = ["B007"]
