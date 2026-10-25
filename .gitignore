@@ -17,3 +17,6 @@ playwright-report/
 *.zip
 !sources/*.zip
 Santa-Barbara-Transit-Atlas-Project.zip.tmp
+
+# Ruff cache
+.ruff_cache/
