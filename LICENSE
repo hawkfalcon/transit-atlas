@@ -19,19 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This license covers the original application code, build scripts, tests and
-explanatory text in this repository.
-
-It does not cover the third-party components or the source data:
-
-- Santa Barbara MTD GTFS data, and the route-performance and budget material
-  transcribed from MTD reports, remain MTD's. See NOTICE.md.
-- Leaflet 1.9.4 is BSD-2-Clause (assets/leaflet-license.txt).
-- Manrope is licensed under the SIL Open Font License 1.1
-  (assets/manrope-license.txt).
-- axe-core is MPL-2.0 (tests/axe/LICENSE).
-- The embedded basemap comes from Esri/ArcGIS with OpenStreetMap contributors
-  and is subject to its providers' terms; see NOTICE.md.

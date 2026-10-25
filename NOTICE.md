@@ -1,5 +1,7 @@
 # Source data and third-party notices
 
+The project's own code, scripts, tests and explanatory text are MIT-licensed; see `LICENSE`. The components and data below keep their own terms, and the MIT license does not override them.
+
 ## Santa Barbara MTD GTFS
 
 Bus routes, service calendars, trip times and stops are Santa Barbara Metropolitan Transit District data. Historical data were retrieved from the publicly available OpenMobilityData archive; current data were retrieved from MTD’s official feed. Original ZIPs are preserved with hashes in `data/provenance.json`.
