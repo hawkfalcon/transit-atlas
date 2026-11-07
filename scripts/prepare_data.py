@@ -141,7 +141,7 @@ notes={
 '30':'This was the Downtown Shuttle. Today’s seasonal Downtown–Waterfront line 33 is a different route, with no October weekday trips.',
 '34':'This was the Waterfront Shuttle. Seasonal line 33 is a separate route and has no trips on the October comparison weekday.',
 '36':'The Seaside Shuttle is gone from the fixed-route timetable. Carpinteria now also has The Wave, which you book on demand.',
-'37':'The Crosstown Shuttle is missing from today’s timetable. The dark dashes show its 2019 route.',
+'37':'The Crosstown Shuttle is missing from today’s timetable. Its 2019 path is shown with a dashed line.',
 '33':'This is a seasonal shuttle. There are no trips on October 15, 2026.',
 '1001':'Carp Standby appears in the source data, with no scheduled trips on the 2019 comparison date.'
 }
