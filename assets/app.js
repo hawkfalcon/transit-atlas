@@ -5,7 +5,7 @@
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const fmt=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
  const rowById=new Map(D.routes.map(r=>[r.id,r]));
- const state={tab:'network',mode:'historic',selected:null,focus:[],plan:'protect',performanceSort:'review',query:'',filter:'all',lost:true,amtrak:true,extras:false,stops:false};
+ const state={tab:'network',mode:'historic',selected:null,focus:[],proposal:null,plan:'protect',performanceSort:'review',query:'',filter:'all',lost:true,amtrak:true,extras:false,stops:false};
  const params=new URLSearchParams(location.hash.slice(1));
  if(['historic','current'].includes(params.get('view')))state.mode=params.get('view');
  if(params.get('tab')==='saving'||params.get('view')==='cut')state.tab='saving';
@@ -57,7 +57,7 @@
  L.control.zoom({position:'bottomright'}).addTo(map);
  L.control.scale({position:'bottomleft',imperial:false,maxWidth:90}).addTo(map);
  L.control.attribution({prefix:'<a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>'}).addAttribution('Esri, HERE, Garmin, © OpenStreetMap contributors, GIS user community').addTo(map);
- let routesGroup=L.layerGroup().addTo(map),badgesGroup=L.layerGroup().addTo(map),stopsGroup=L.layerGroup().addTo(map),placesGroup=L.layerGroup().addTo(map);
+ let routesGroup=L.layerGroup().addTo(map),proposalGroup=L.layerGroup().addTo(map),badgesGroup=L.layerGroup().addTo(map),stopsGroup=L.layerGroup().addTo(map),placesGroup=L.layerGroup().addTo(map);
  let drawn=[];
  const regions={all:[[34.356,-119.929],[34.479,-119.47]],sb:[[34.39,-119.755],[34.461,-119.64]],goleta:[[34.405,-119.927],[34.476,-119.778]],carp:[[34.367,-119.556],[34.421,-119.465]]};
  const places=[['GOLETA',34.466,-119.836,''],['SANTA BARBARA',34.456,-119.712,''],['CARPINTERIA',34.405,-119.505,''],['MONTECITO',34.439,-119.642,'small'],['SUMMERLAND',34.428,-119.595,'small'],['ISLA VISTA',34.396,-119.861,'small'],['UCSB',34.407,-119.844,'campus'],['SBCC',34.397,-119.699,'campus'],['TRANSIT CENTER',34.4255,-119.7003,'campus'],['SANTA BARBARA CHANNEL',34.358,-119.715,'ocean']];
@@ -67,7 +67,7 @@
  function width(m){return m.h==null?3.2:Math.max(2.8,6.8-Math.log2(Math.max(m.h,8)/10)*.9);}
  function referenceLabel(r){return state.mode==='historic'?'Not in the 2019 timetable · 2026 path':r.historic?.active?'2019 route · no trips today':'No trips on this date';}
  function renderMap(){
-  routesGroup.clearLayers();badgesGroup.clearLayers();drawn=[];
+  routesGroup.clearLayers();proposalGroup.clearLayers();badgesGroup.clearLayers();drawn=[];
   let candidates=[];
   for(const r of D.routes){
    if(!permitted(r)&&r.id!==state.selected&&!state.focus.includes(r.id))continue;
@@ -89,6 +89,10 @@
    layer.on('mouseover',()=>{if(!state.selected&&!state.focus.length)layer.setStyle({weight:w+1.5,opacity:1});});
    layer.on('mouseout',()=>{if(!state.selected&&!state.focus.length)layer.setStyle({weight:w,opacity});});
    layer.addTo(routesGroup);if(layer.getElement())layer.getElement().dataset.line=r.id;drawn.push({...x,layer,color:c});
+  }
+  if(state.proposal?.paths?.length){
+   L.polyline(state.proposal.paths,{pane:'routeCasing',interactive:false,color:'#fffef8',weight:10,opacity:.98,smoothFactor:.5,lineCap:'round',lineJoin:'round'}).addTo(proposalGroup);
+   L.polyline(state.proposal.paths,{pane:'routeLines',interactive:false,color:'#247451',weight:6.3,opacity:1,className:'route-proposal',smoothFactor:.5,lineCap:'round',lineJoin:'round'}).addTo(proposalGroup);
   }
   if(state.selected){const s=drawn.find(x=>x.r.id===state.selected);if(s)s.layer.bringToFront();}
   renderBadges();renderStops();renderPlaces();renderFocus();
@@ -147,7 +151,7 @@
  function renderFocus(){
   const el=$('focusBanner');el.hidden=!state.focus.length;
   if(!state.focus.length){el.innerHTML='';return;}
-  el.innerHTML=`<div><b>${state.mode==='historic'?'2019':'CURRENT'} ROUTES · ${state.focus.map(esc).join(' + ')}</b><span>${state.mode==='historic'?'October 2019 timetable.':'Existing routes · October 2026 timetable.'}</span></div><div class="focus-actions"><button data-return-saving>Back to Saving MTD ↗</button><button data-clear-focus aria-label="Clear group focus">×</button></div>`;
+  el.innerHTML=`<div><b>${state.proposal?'PROPOSED ROUTE · '+esc(state.proposal.label):`${state.mode==='historic'?'2019':'CURRENT'} ROUTES · ${state.focus.map(esc).join(' + ')}`}</b><span>${state.proposal?'Concept alignment overlaid on the October 2026 network; current routes remain visible for comparison.':state.mode==='historic'?'October 2019 timetable.':'Existing routes · October 2026 timetable.'}</span></div><div class="focus-actions"><button data-return-saving>Back to Saving MTD ↗</button><button data-clear-focus aria-label="Clear group focus">×</button></div>`;
   el.querySelector('[data-return-saving]').onclick=()=>setTab('saving');el.querySelector('[data-clear-focus]').onclick=clearSelection;
  }
  function renderList(){
@@ -184,11 +188,12 @@
   el.querySelector('.card-close').onclick=clearSelection;el.querySelector('.clear-line').onclick=clearSelection;el.querySelector('.zoom-line').onclick=()=>fitRoute(r);
  }
  function fitRoute(r){const paths=routePaths(r);if(!paths.length)return;const bb=L.latLngBounds(paths.flat());const mobile=innerWidth<=760;map.fitBounds(bb,{paddingTopLeft:[35,mobile?115:120],paddingBottomRight:[mobile?35:Math.min(340,map.getSize().x*.4),mobile?150:175],maxZoom:14.5,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});}
- function selectRoute(id,zoom=false,fromList=false){if(!rowById.has(id))return;state.selected=id;state.focus=[];if(state.tab!=='network')setTab('network');renderList();renderCard();renderMap();updateHash();if(zoom)fitRoute(rowById.get(id));if(fromList&&innerWidth<=760)$('map').closest('.map-area').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
- function clearSelection(){state.selected=null;state.focus=[];renderList();renderCard();renderMap();updateHash();}
- function setMode(mode){if(!['historic','current'].includes(mode))return false;state.mode=mode;renderTitles();renderStats();renderList();renderCard();renderMap();updateHash();return true;}
+ function selectRoute(id,zoom=false,fromList=false){if(!rowById.has(id))return;state.proposal=null;state.selected=id;state.focus=[];if(state.tab!=='network')setTab('network');renderList();renderCard();renderMap();updateHash();if(zoom)fitRoute(rowById.get(id));if(fromList&&innerWidth<=760)$('map').closest('.map-area').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
+ function clearSelection(){state.selected=null;state.focus=[];state.proposal=null;renderList();renderCard();renderMap();updateHash();}
+ function setMode(mode){if(!['historic','current'].includes(mode))return false;state.proposal=null;state.mode=mode;renderTitles();renderStats();renderList();renderCard();renderMap();updateHash();return true;}
  function setTab(tab){if(!['network','saving'].includes(tab))return;state.tab=tab;$('comparisonView').hidden=tab!=='network';$('savingView').hidden=tab!=='saving';document.querySelectorAll('[role="tab"][data-tab]').forEach(b=>{const on=b.dataset.tab===tab;b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1;});if(tab==='network'){map.invalidateSize({pan:false});renderMap();}else window.ATLAS_SAVING?.render();updateHash();}
- function focusRoutes(ids){const valid=[...new Set(ids)].filter(id=>rowById.has(id)&&rowById.get(id).current?.active);if(!valid.length)return;state.mode='current';state.selected=null;state.focus=valid;setTab('network');renderTitles();renderStats();renderList();renderCard();renderMap();const paths=valid.flatMap(id=>rowById.get(id).current.paths);map.fitBounds(L.latLngBounds(paths.flat()),{paddingTopLeft:[35,190],paddingBottomRight:[35,165],maxZoom:13.5,animate:false});updateHash();if(innerWidth<=760)$('map').closest('.map-area').scrollIntoView({behavior:'auto',block:'start'});}
+ function focusRoutes(ids){const valid=[...new Set(ids)].filter(id=>rowById.has(id)&&rowById.get(id).current?.active);if(!valid.length)return;state.proposal=null;state.mode='current';state.selected=null;state.focus=valid;setTab('network');renderTitles();renderStats();renderList();renderCard();renderMap();const paths=valid.flatMap(id=>rowById.get(id).current.paths);map.fitBounds(L.latLngBounds(paths.flat()),{paddingTopLeft:[35,190],paddingBottomRight:[35,165],maxZoom:13.5,animate:false});updateHash();if(innerWidth<=760)$('map').closest('.map-area').scrollIntoView({behavior:'auto',block:'start'});}
+ function focusProposal(ids,paths,label){const valid=[...new Set(ids)].filter(id=>rowById.has(id)&&rowById.get(id).current?.active);if(!valid.length||!paths?.length)return;state.mode='current';state.selected=null;state.focus=valid;state.proposal={paths,label};setTab('network');renderTitles();renderStats();renderList();renderCard();renderMap();const boundsPaths=[...paths,...valid.flatMap(id=>rowById.get(id).current.paths||[])];map.fitBounds(L.latLngBounds(boundsPaths.flat()),{paddingTopLeft:[35,190],paddingBottomRight:[35,165],maxZoom:13.5,animate:false});updateHash();if(innerWidth<=760)$('map').closest('.map-area').scrollIntoView({behavior:'auto',block:'start'});}
  function restoreFromHash(){
   const p=new URLSearchParams(location.hash.slice(1)),view=p.get('view');
   if(['historic','current'].includes(view))state.mode=view;else if(view==='cut')state.mode='current';
@@ -224,5 +229,5 @@
  map.on('moveend',()=>{renderBadges();renderStops();renderPlaces();});
  let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(state.tab==='network'){map.invalidateSize();renderBadges();}},150);});
  gotoRegion('all');renderTitles();renderStats();renderList();renderCard();renderMap();setTab(state.tab);updateHash();
- window.ATLAS={data:D,state,map,setMode,setTab,focusRoutes,updateHash,selectRoute,clearSelection,metric,renderTable,get drawnRoutes(){return drawn.map(x=>x.r.id);}};
+ window.ATLAS={data:D,state,map,setMode,setTab,focusRoutes,focusProposal,updateHash,selectRoute,clearSelection,metric,renderTable,get drawnRoutes(){return drawn.map(x=>x.r.id);}};
 })();
