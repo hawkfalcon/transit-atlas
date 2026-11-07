@@ -15,11 +15,18 @@
  if(rowById.has(params.get('line'))){state.selected=params.get('line');state.focus=[];}
  const colors={frequent:'#007e78',moderate:'#3d80a6',halfHourly:'#cc8b29',hourly:'#cf6252',infrequent:'#914858',limited:'#6554a4',ghost:'#474a43'};
  const modeKey=m=>m==='historic'?'historic':'current';
+ // Glasbey categorical palette (JCh lightness 35–65, chroma 35–85),
+ // extended from the atlas teal #006e66 and optimized for deuteranomaly-aware
+ // perceptual separation. Fixed swatches keep every route color stable offline.
+ const routeColorChoices=['#006e66','#fe910d','#fa7dfe','#ce1261','#8b2dfd','#1bd1af','#10880f','#bb08a5','#259ab2','#fc7dab','#419379','#e13b1c','#cc41fd','#53b65d','#37c7fd','#b676a4','#fb7868','#6b63a8','#975839','#217a7c','#9c4d78','#209bfe','#c27377','#6bb8bf','#39d530','#ae8e00','#f137d4','#f77ccd','#aa89d5','#e51d92','#107f4b','#7e8b45','#e52a4e','#c8b264','#9e69af','#3db387','#4a9e9a','#1180d4','#87c591','#ff5d23','#af0ee0','#a35b04','#b1abe7','#d435aa','#ac637b','#047e68','#fd4094','#03a20b'];
+ const routeIds=[...new Set(D.routes.map(r=>r.id))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
+ const routeColors=new Map(routeIds.map((id,i)=>[id,routeColorChoices[i]]));
  function metric(r,mode=state.mode){
   const rec=r[modeKey(mode)];
   return {rec,active:!!rec?.active,h:rec?.active&&rec.headway!=null?rec.headway:null,min:rec?.gapMin??null,max:rec?.gapMax??null,mid:rec?.middayTrips??0,day:rec?.dayTrips??0};
  }
- function color(m){return !m.active?colors.ghost:m.h==null?colors.limited:m.h<=15?colors.frequent:m.h<=30?colors.moderate:m.h<=45?colors.halfHourly:m.h<=60?colors.hourly:colors.infrequent;}
+ function color(m,id=null){if(id!=null&&routeColors.has(String(id)))return routeColors.get(String(id));return !m.active?colors.ghost:m.h==null?colors.limited:m.h<=15?colors.frequent:m.h<=30?colors.moderate:m.h<=45?colors.halfHourly:m.h<=60?colors.hourly:colors.infrequent;}
+ function routeDisplayColor(r,m,mode=state.mode){return mode==='current'&&!m.active&&r.historic?.active?'#000000':color(m,r.id);}
 
  // Route colours are chosen for the map strokes, not for 9-11px text. Where a
  // palette colour is used as a label, darken it (hue and saturation preserved)
@@ -51,8 +58,6 @@
  map.createPane('places');map.getPane('places').style.zIndex=360;map.getPane('places').style.pointerEvents='none';
  map.createPane('routeCasing');map.getPane('routeCasing').style.zIndex=390;map.getPane('routeCasing').style.pointerEvents='none';
  map.createPane('routeLines');map.getPane('routeLines').style.zIndex=400;
- map.createPane('referenceCasing');map.getPane('referenceCasing').style.zIndex=415;map.getPane('referenceCasing').style.pointerEvents='none';
- map.createPane('routeReferences');map.getPane('routeReferences').style.zIndex=420;
  map.createPane('routeBadges');map.getPane('routeBadges').style.zIndex=440;
  L.control.zoom({position:'bottomright'}).addTo(map);
  L.control.scale({position:'bottomleft',imperial:false,maxWidth:90}).addTo(map);
@@ -66,7 +71,10 @@
  function routePaths(r){const rec=r[modeKey(state.mode)];return rec?.paths?.length?rec.paths:(r.historic?.paths?.length?r.historic.paths:r.current?.paths)||[];}
  function width(m){return m.h==null?3.2:Math.max(2.8,6.8-Math.log2(Math.max(m.h,8)/10)*.9);}
  function referenceLabel(r){return state.mode==='historic'?'Not in the 2019 timetable · 2026 path':r.historic?.active?'2019 route · no trips today':'No trips on this date';}
+ function raiseMapRoute(id){const x=drawn.find(item=>item.r.id===String(id));if(!x)return;x.casing.bringToFront();x.layer.bringToFront();x.casing.setStyle({weight:x.weight+4.8,opacity:1});x.layer.setStyle({weight:x.weight+2.4,opacity:1});}
+ function resetMapRoute(id){const x=drawn.find(item=>item.r.id===String(id));if(!x)return;x.casing.setStyle({weight:x.weight+2.4,opacity:x.opacity===0.13?0.08:x.ghost?0.98:0.87});x.layer.setStyle({weight:x.weight,opacity:x.opacity});}
  function renderMap(){
+
   routesGroup.clearLayers();proposalGroup.clearLayers();badgesGroup.clearLayers();drawn=[];
   let candidates=[];
   for(const r of D.routes){
@@ -80,15 +88,15 @@
   }
   candidates.sort((a,b)=>(a.ghost?-1:0)-(b.ghost?-1:0)||(b.m.h??999)-(a.m.h??999));
   for(const x of candidates){
-   const {r,m,ghost,paths}=x,c=ghost?colors.ghost:color(m),selected=r.id===state.selected||state.focus.includes(r.id);
-   const faded=(state.selected||state.focus.length>0)&&!selected,opacity=faded?0.13:ghost?0.97:m.h==null?0.98:0.91,w=ghost?(selected?5.8:4.2):selected?width(m)+2.1:width(m);
-   L.polyline(paths,{pane:ghost?'referenceCasing':'routeCasing',interactive:false,color:'#fffef8',weight:w+2.4,opacity:faded?0.08:ghost?0.98:0.87,dashArray:ghost?'10 7':null,smoothFactor:.65,lineCap:'round',lineJoin:'round'}).addTo(routesGroup);
-   const layer=L.polyline(paths,{pane:ghost?'routeReferences':'routeLines',color:c,weight:w,opacity,className:ghost?'route-reference':m.h==null?'route-limited':'route-regular',dashArray:ghost?'10 7':null,smoothFactor:.65,lineCap:'round',lineJoin:'round',bubblingMouseEvents:false});
+   const {r,m,ghost,paths}=x,c=routeDisplayColor(r,m),selected=r.id===state.selected||state.focus.includes(r.id);
+   const faded=(state.selected||state.focus.length>0)&&!selected,opacity=faded?0.13:ghost?0.97:m.h==null?0.98:0.96,w=ghost?(selected?5.8:4.2):selected?width(m)+2.1:width(m);
+   const casing=L.polyline(paths,{pane:'routeCasing',interactive:false,color:'#fffef8',weight:w+2.4,opacity:faded?0.08:ghost?0.98:0.87,dashArray:ghost?'10 7':null,smoothFactor:.65,lineCap:'round',lineJoin:'round'}).addTo(routesGroup);
+   const layer=L.polyline(paths,{pane:'routeLines',color:c,weight:w,opacity,className:ghost?'route-reference':m.h==null?'route-limited':'route-regular',dashArray:ghost?'10 7':null,smoothFactor:.65,lineCap:'round',lineJoin:'round',bubblingMouseEvents:false});
    layer.bindTooltip(`<span class="tooltip-line">Line ${esc(r.id)} · ${esc(m.rec?.name||r.historic?.name||r.name)}</span><span class="tooltip-frequency">${ghost?esc(referenceLabel(r)):esc(m.h==null?'Limited / timed service':value(m))+(variable(m)?` typical · gaps ${esc(range(m))}`:'')}<br>Click to compare 2019 and today</span>`,{sticky:true,direction:'top',opacity:1});
    layer.on('click',()=>selectRoute(r.id,false));
-   layer.on('mouseover',()=>{if(!state.selected&&!state.focus.length)layer.setStyle({weight:w+1.5,opacity:1});});
-   layer.on('mouseout',()=>{if(!state.selected&&!state.focus.length)layer.setStyle({weight:w,opacity});});
-   layer.addTo(routesGroup);if(layer.getElement())layer.getElement().dataset.line=r.id;drawn.push({...x,layer,color:c});
+   layer.on('mouseover',()=>raiseMapRoute(r.id));
+   layer.on('mouseout',()=>resetMapRoute(r.id));
+   layer.addTo(routesGroup);if(layer.getElement())layer.getElement().dataset.line=r.id;drawn.push({...x,layer,casing,color:c,weight:w,opacity});
   }
   if(state.proposal?.paths?.length){
    L.polyline(state.proposal.paths,{pane:'routeCasing',interactive:false,color:'#fffef8',weight:10,opacity:.98,smoothFactor:.5,lineCap:'round',lineJoin:'round'}).addTo(proposalGroup);
@@ -144,7 +152,7 @@
   $('changeText').textContent=state.mode==='historic'?'Before the pandemic · Weekday midday':`${Math.round((1-trips/base)*100)}% fewer midday departures than 2019`;
  }
  function renderTitles(){
-  const data={historic:{date:'TUESDAY · OCTOBER 15, 2019',title:'2019 network',sub:'Weekday service before the pandemic.',note:'<b>Fall 2019.</b> Four routes offered a typical 15-minute interval or better.'},current:{date:'THURSDAY · OCTOBER 15, 2026',title:'2026 network',sub:'October weekday service, after August’s cuts.',note:'<b>Six routes from 2019 are missing.</b> Dark dashes show where they ran.'}}[state.mode];
+  const data={historic:{date:'TUESDAY · OCTOBER 15, 2019',title:'2019 network',sub:'Weekday service before the pandemic.',note:'<b>Fall 2019.</b> Four routes offered a typical 15-minute interval or better.'},current:{date:'THURSDAY · OCTOBER 15, 2026',title:'2026 network',sub:'October weekday service, after August’s cuts.',note:'<b>Six routes from 2019 are missing.</b> Black dashed lines show their old paths; active route colors stay consistent across views.'}}[state.mode];
   $('mapDate').textContent=data.date;$('mapTitle').textContent=data.title;$('mapSubtitle').textContent=data.sub;$('scenarioNote').innerHTML=data.note;$('scenarioNote').className='scenario-note';
   document.querySelectorAll('.scenario').forEach(b=>{const on=b.dataset.mode===state.mode;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
  }
@@ -170,9 +178,13 @@
    if(r.id==='33')sub='Seasonal · No October weekday trips';
    let trend='';
    if(h?.headway!=null&&c?.headway!=null&&h.active&&c.active){const change=c.headway-h.headway;trend=change===0?'Same interval':change>0?`${fmt(h.headway)} → ${fmt(c.headway)} min`:`${fmt(h.headway)} → ${fmt(c.headway)} min`;}
-   return `<button class="route-row ${!m.active?'ghost':m.h==null?'limited':''} ${r.id===state.selected||state.focus.includes(r.id)?'selected':''}" data-line="${esc(r.id)}" aria-pressed="${r.id===state.selected||state.focus.includes(r.id)}"><span class="route-chip" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(r.id)}</span><span class="route-name"><strong>${esc(currName)}</strong><small>${esc(sub|| (variable(m)?'Uneven midday gaps':'Weekday daytime'))}</small></span><span class="route-frequency" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(value(m))}<small class="${h?.headway&&c?.headway<h.headway?'improved':''}">${esc(trend)}</small></span></button>`;
+   return `<button class="route-row ${!m.active?'ghost':m.h==null?'limited':''} ${r.id===state.selected||state.focus.includes(r.id)?'selected':''}" data-line="${esc(r.id)}" aria-pressed="${r.id===state.selected||state.focus.includes(r.id)}"><span class="route-chip" style="--route:${routeDisplayColor(r,m)};--route-text:${textInk(routeDisplayColor(r,m))}">${esc(r.id)}</span><span class="route-name"><strong>${esc(currName)}</strong><small>${esc(sub|| (variable(m)?'Uneven midday gaps':'Weekday daytime'))}</small></span><span class="route-frequency" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(value(m))}<small class="${h?.headway&&c?.headway<h.headway?'improved':''}">${esc(trend)}</small></span></button>`;
   }).join(''):'<div class="empty-list">No lines match this filter.<br>Try another search or network.</div>';
-  document.querySelectorAll('#routeList [data-line]').forEach(b=>b.addEventListener('click',()=>selectRoute(b.dataset.line,false,true)));
+  document.querySelectorAll('#routeList [data-line]').forEach(b=>{
+   b.addEventListener('click',()=>selectRoute(b.dataset.line,false,true));
+   b.addEventListener('mouseenter',()=>raiseMapRoute(b.dataset.line));b.addEventListener('mouseleave',()=>resetMapRoute(b.dataset.line));
+   b.addEventListener('focus',()=>raiseMapRoute(b.dataset.line));b.addEventListener('blur',()=>resetMapRoute(b.dataset.line));
+  });
   // Re-rendering replaces the button that had keyboard focus. Put focus back on
   // the same line so Enter/Space keeps working from the directory.
   if(keepFocus){const again=$('routeList').querySelector(`[data-line="${CSS.escape(keepFocus)}"]`);if(again)again.focus({preventScroll:true});}
@@ -184,7 +196,7 @@
   el.hidden=false;el.classList.toggle('is-limited',m.active&&m.h==null);el.classList.toggle('is-inactive',!m.active);
   const cards=['historic','current'].map((mode,i)=>{const a=metric(r,mode),num=a.h!=null;return `<div class="mini ${!a.active?'inactive':a.h==null?'limited':''} ${state.mode===mode?'active':''}"><span>${['2019','TODAY'][i]}</span><strong class="${num?'':'word'}">${esc(num?`${variable(a)?'~':''}${fmt(a.h)}`:value(a))}</strong><small>${num?'min between buses':a.active?'Trips run · limited/timed':'No departures'}</small></div>`;}).join('');
   const directions=(rec?.directions||[]).map(dir=>`<div class="direction-row"><strong>${esc(dir.headsign||`Direction ${dir.id}`)}</strong><small>${dir.headway==null||dir.middayTrips<2?`${fmt(dir.dayTrips)} ${dir.dayTrips===1?'departure':'departures'} that day · ${fmt(dir.middayTrips)} at midday`:`Typical ${fmt(dir.headway)} min · gaps ${fmt(dir.gapMin)}–${fmt(dir.gapMax)} min<br>${fmt(dir.middayTrips)} midday departures`}</small></div>`).join('');
-  el.innerHTML=`<div class="card-top"><span class="route-chip" style="--route:${color(m)};--route-text:${textInk(color(m))}">${esc(r.id)}</span><div><h3>${esc(rec?.name||r.historic?.name||r.name)}</h3><div class="card-kicker">${kind}</div>${m.active&&m.h==null?'<span class="service-status limited">Runs · limited/timed trips</span>':!m.active?'<span class="service-status inactive">No trips in this timetable</span>':''}</div><button class="card-close" aria-label="Close line details">×</button></div><div class="card-comparison">${cards}</div><p class="gap-note">${m.active&&m.h!=null?`<b>${esc(range(m))}</b> between departures. ~ means the gaps vary.`:m.active?'Scheduled trips, with no regular midday interval.':state.mode==='current'&&r.historic?.active?'This route ran in 2019. The dark dashes follow its old path.':state.mode==='historic'?'This route wasn’t in the 2019 timetable. The dashes show its 2026 path.':'No departures on this date.'}</p>${r.note?`<p class="card-note">${esc(r.note)}</p>`:''}<div class="card-detail-row"><span>Midday departures</span><b>${fmt(m.mid)}<br><small>10 am–2 pm · both directions</small></b></div><div class="card-detail-row"><span>Trips that day</span><b>${fmt(m.day)}</b></div>${rec?.active?`<div class="card-detail-row"><span>First → last bus</span><b>${clock(rec.first)} → ${clock(rec.last)}</b></div>`:''}${directions}<div class="card-actions"><button class="zoom-line">Zoom to line ↗</button><button class="clear-line">Show all lines</button></div>`;
+  el.innerHTML=`<div class="card-top"><span class="route-chip" style="--route:${routeDisplayColor(r,m)};--route-text:${textInk(routeDisplayColor(r,m))}">${esc(r.id)}</span><div><h3>${esc(rec?.name||r.historic?.name||r.name)}</h3><div class="card-kicker">${kind}</div>${m.active&&m.h==null?'<span class="service-status limited">Runs · limited/timed trips</span>':!m.active?'<span class="service-status inactive">No trips in this timetable</span>':''}</div><button class="card-close" aria-label="Close line details">×</button></div><div class="card-comparison">${cards}</div><p class="gap-note">${m.active&&m.h!=null?`<b>${esc(range(m))}</b> between departures. ~ means the gaps vary.`:m.active?'Scheduled trips, with no regular midday interval.':state.mode==='current'&&r.historic?.active?'This route ran in 2019. Dashed lines show its old path.':state.mode==='historic'?'This route wasn’t in the 2019 timetable. The dashes show its 2026 path.':'No departures on this date.'}</p>${r.note?`<p class="card-note">${esc(r.note)}</p>`:''}<div class="card-detail-row"><span>Midday departures</span><b>${fmt(m.mid)}<br><small>10 am–2 pm · both directions</small></b></div><div class="card-detail-row"><span>Trips that day</span><b>${fmt(m.day)}</b></div>${rec?.active?`<div class="card-detail-row"><span>First → last bus</span><b>${clock(rec.first)} → ${clock(rec.last)}</b></div>`:''}${directions}<div class="card-actions"><button class="zoom-line">Zoom to line ↗</button><button class="clear-line">Show all lines</button></div>`;
   el.querySelector('.card-close').onclick=clearSelection;el.querySelector('.clear-line').onclick=clearSelection;el.querySelector('.zoom-line').onclick=()=>fitRoute(r);
  }
  function fitRoute(r){const paths=routePaths(r);if(!paths.length)return;const bb=L.latLngBounds(paths.flat());const mobile=innerWidth<=760;map.fitBounds(bb,{paddingTopLeft:[35,mobile?115:120],paddingBottomRight:[mobile?35:Math.min(340,map.getSize().x*.4),mobile?150:175],maxZoom:14.5,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});}
@@ -207,7 +219,7 @@
  function gotoRegion(key){map.fitBounds(regions[key]||regions.all,{paddingTopLeft:[25,125],paddingBottomRight:[32,165],animate:false});}
  function openDialog(id){$(id).showModal();$('layersPanel').hidden=true;$('layersBtn').setAttribute('aria-expanded','false');}
  function tableCell(r,mode){const m=metric(r,mode);return `<td><span class="table-value ${!m.active?'inactive-status':m.h==null?'limited-status':''}">${esc(value(m))}</span>${m.active&&m.h==null?'<small class="limited-explainer">Trips run · no regular midday interval</small>':m.h!=null&&variable(m)?`<small>gaps ${esc(range(m))}</small>`:''}</td>`;}
- function renderTable(){const list=D.routes.filter(r=>$('tableExtras').checked||r.kind==='regular');$('compareBody').innerHTML=list.map(r=>`<tr data-line="${esc(r.id)}" tabindex="0" aria-label="Show line ${esc(r.id)} on map" class="${r.kind==='regular'?'':'row-extra'}"><td><span class="route-chip ${!metric(r).active?'inactive-status':metric(r).h==null?'limited-status':''}" style="--route:${color(metric(r))};--route-text:${textInk(color(metric(r)))}">${esc(r.id)}</span><div><strong>${esc(r.name)}</strong><small>${esc(r.historicName&&r.historicName!==r.name?`2019: ${r.historicName}`:r.kind==='regular'?'Regular line':r.kind==='amtrak'?'Amtrak shuttle':'School & special trips')}</small></div></td>${tableCell(r,'historic')}${tableCell(r,'current')}</tr>`).join('');$('compareBody').querySelectorAll('tr[data-line]').forEach(el=>{const go=()=>{$('compareDialog').close();selectRoute(el.dataset.line,true);};el.onclick=go;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};});}
+ function renderTable(){const list=D.routes.filter(r=>$('tableExtras').checked||r.kind==='regular');$('compareBody').innerHTML=list.map(r=>`<tr data-line="${esc(r.id)}" tabindex="0" aria-label="Show line ${esc(r.id)} on map" class="${r.kind==='regular'?'':'row-extra'}"><td><span class="route-chip ${!metric(r).active?'inactive-status':metric(r).h==null?'limited-status':''}" style="--route:${color(metric(r),r.id)};--route-text:${textInk(color(metric(r),r.id))}">${esc(r.id)}</span><div><strong>${esc(r.name)}</strong><small>${esc(r.historicName&&r.historicName!==r.name?`2019: ${r.historicName}`:r.kind==='regular'?'Regular line':r.kind==='amtrak'?'Amtrak shuttle':'School & special trips')}</small></div></td>${tableCell(r,'historic')}${tableCell(r,'current')}</tr>`).join('');$('compareBody').querySelectorAll('tr[data-line]').forEach(el=>{const go=()=>{$('compareDialog').close();selectRoute(el.dataset.line,true);};el.onclick=go;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};});}
  function downloadCSV(){const s=atob('/*CSV_B64*/'),bytes=Uint8Array.from(s,c=>c.charCodeAt(0)),blob=new Blob([new Uint8Array([239,187,191]),bytes],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='SBMTD-line-comparison.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
  document.querySelectorAll('[role="tab"][data-tab]').forEach(b=>{b.onclick=()=>setTab(b.dataset.tab);b.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tab=e.key==='Home'?'network':e.key==='End'?'saving':b.dataset.tab==='network'?'saving':'network';setTab(tab);$(tab==='network'?'networkTab':'savingTab').focus();}};});
  document.querySelectorAll('.scenario').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
@@ -229,5 +241,5 @@
  map.on('moveend',()=>{renderBadges();renderStops();renderPlaces();});
  let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(state.tab==='network'){map.invalidateSize();renderBadges();}},150);});
  gotoRegion('all');renderTitles();renderStats();renderList();renderCard();renderMap();setTab(state.tab);updateHash();
- window.ATLAS={data:D,state,map,setMode,setTab,focusRoutes,focusProposal,updateHash,selectRoute,clearSelection,metric,renderTable,get drawnRoutes(){return drawn.map(x=>x.r.id);}};
+ window.ATLAS={data:D,state,map,setMode,setTab,focusRoutes,focusProposal,updateHash,selectRoute,clearSelection,metric,renderTable,get drawnRoutes(){return drawn.map(x=>x.r.id);},get routeColors(){return Object.fromEntries(routeColors)}};
 })();

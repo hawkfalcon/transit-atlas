@@ -76,7 +76,7 @@ This is not a percentage change in annual hours, budget, ridership or every ride
 - Historical sample: **Tuesday, October 15, 2019**. 46 source records; 45 active: 24 general lines, 3 Amtrak shuttles and 18 school/other extras. Standby record 1001 has no trips.
 - Current sample: **Thursday, October 15, 2026**. 39 source records; 38 active: 19 general lines, 3 Amtrak shuttles and 16 school boosters. Seasonal 33 does not operate that day.
 - School-in-session calendars and exceptions are applied. Line 10 is explicitly limited/peak-oriented, with no midday departures, rather than being misrepresented as all-day service.
-- Dark dashed routes show the losses since 2019. Other routes can still use the same streets. Other lines and The Wave on-demand service may provide access; on-demand service has no fixed headway and is outside this fixed-route comparison. See MTD’s [The Wave announcement](https://sbmtd.gov/mtd_news/santa-barbara-mtds-on-demand-microtransit-servicethe-wave-expands-to-carpinteria/).
+- Black dashed routes show the losses since 2019. Other routes can still use the same streets. Other lines and The Wave on-demand service may provide access; on-demand service has no fixed headway and is outside this fixed-route comparison. See MTD’s [The Wave announcement](https://sbmtd.gov/mtd_news/santa-barbara-mtds-on-demand-microtransit-servicethe-wave-expands-to-carpinteria/).
 
 ### Frequency method
 
@@ -203,14 +203,14 @@ Independent civic visualization, not affiliated with or endorsed by MTD. Consult
 
 ### Reading limited service versus reference paths
 
-- **Solid purple + clock-marked badge:** scheduled limited/timed trips run on the selected sample weekday, but no regular midday headway can be estimated. A route may operate only outside 10 am–2 pm. Directory labels, line details and purple table cells explicitly say that trips run.
-- **Bold, dark dashes:** no active trips in the selected view; the path shows where that route ran, rather than current service. By default these are 2019 lines with no trips on the current sample date. Selecting a line present only in the other snapshot also shows that snapshot’s reference geometry. The missing-route key leads the legend and follows the paths actually drawn, including when the lost-lines overlay is off.
+- **Clock-marked route badge:** scheduled limited/timed trips run on the selected sample weekday, but no regular midday headway can be estimated. A route may operate only outside 10 am–2 pm. Route colors stay distinct; directory labels, line details and purple table cells explicitly say that trips run.
+- **Dashed paths:** no trips in the selected view; the path shows where that route ran, rather than current service. In Today, 2019 routes with no current trips are black; other reference paths retain their route color. By default the black dashed paths are 2019 lines with no trips on the current sample date; selecting a line present only in the other snapshot also shows that snapshot’s geometry. The missing-route key follows the paths actually drawn, including when the lost-lines overlay is off.
 
 The difference uses both color and stroke pattern, not color alone. Source data, route geometry, actual counts, dates and the separate Saving MTD notebook are unchanged.
 
 ### Map emphasis and copy
 
-Missing routes are drawn above current service with **4.2 px charcoal dashes, 97% opacity, white dashed halos and dark route badges**. They remain visible where old and current routes overlap. Limited service stays solid purple with a clock badge. Selecting a route still dims the others so its path is easy to follow.
+Active routes use a stable 48-color **Glasbey categorical palette**, selected for perceptual separation with deuteranomaly-aware distance and anchored by the atlas’s existing teal. In Today, routes from 2019 with no current trips return to **black**, using **4.2 px dashes and dashed white halos** to mark the old path. Hovering a map line or its directory row raises it above overlapping lines; clicking a line selects it for comparison. Clock-marked lines have limited/timed service. Route frequency remains visible in the directory, details and line width. Selecting a route dims the others so its path is easy to follow.
 
 Both tabs use descriptive headings instead of slogans. The map and Saving MTD use shorter explanations; source dates, scope and calculation details live in Sources & method and the expandable table note. Route annotations have been rewritten in the same voice. The original geometry and every historic/current timetable field are checked against `tests/timetable-fingerprint.json`.
 

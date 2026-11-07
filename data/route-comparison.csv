@@ -24,7 +24,7 @@ line,name,type,historic_active,historic_day_trips,historic_midday_trips_both_dir
 33,Downtown Waterfront,regular,False,0,0,,,,False,0,0,,,,"This is a seasonal shuttle. There are no trips on October 15, 2026."
 34,Waterfront Shuttle,regular,True,35,16,30.0,30.0,30.0,False,0,0,,,,This was the Waterfront Shuttle. Seasonal line 33 is a separate route and has no trips on the October comparison weekday.
 36,Seaside Shuttle,regular,True,29,10,25.0,25.0,25.0,False,0,0,,,,"The Seaside Shuttle is gone from the fixed-route timetable. Carpinteria now also has The Wave, which you book on demand."
-37,Crosstown Shuttle,regular,True,56,10,47.0,47.0,47.0,False,0,0,,,,The Crosstown Shuttle is missing from today’s timetable. The dark dashes show its 2019 route.
+37,Crosstown Shuttle,regular,True,56,10,47.0,47.0,47.0,False,0,0,,,,The Crosstown Shuttle is missing from today’s timetable. Its 2019 path is shown with a dashed line.
 90,West Goleta Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
 91,East Goleta/UCSB Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
 92,Santa Barbara Amtrak Shuttle,amtrak,True,1,0,,,,True,2,0,,,,
