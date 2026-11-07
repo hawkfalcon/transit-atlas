@@ -35,7 +35,7 @@ Only `main` deploys. To publish a change, merge it to `main`; branch pushes and 
 Four service and funding options, with supporting data and the checks needed before making changes:
 
 1. **Busy routes:** review crowding, school connections and minimum operating hours and coverage.
-2. **Route overlaps:** compare paid vehicle and driver hours on shared corridors. Lines 6 and 11 are an example to study; they already alternate 15-minute midday departures from Transit Center toward Goleta/UCSB.
+2. **Route overlaps:** two single-line alternatives, not a ranked cut list: 4/5 keeps Route 4’s Carrillo/Meigs approach to Cliff and uses Route 5’s Mesa/La Cumbre leg, dropping Route 5’s De la Vina/Ortega approach; current Route 17 is shown separately to SBCC, not joined to the Meigs leg. Route 4 has higher whole-line FY2025–26 productivity than Route 5 (18.8 vs 12.4 boardings/revenue hour), but those averages do not establish branch-level demand or spare capacity on Route 17. The 14/20 line runs North Jameson–Transit Center–Carpinteria; it uses Route 14’s alternate geometry into Transit Center and Route 20’s return shape reversed out from TC, avoiding a repeated Coast Village segment. Verify the reversed shapes’ street-direction legality. Keep 17 separate; historic 16 is not current service. Both source pairs use separate bus blocks; no savings are claimed.
 3. **Trip-level review:** use official boardings per revenue hour to identify where to request trip-level evidence first. It is not a cancellation list.
 4. **Recurring funding:** show the actual budgeted federal-relief bridge and the specifically attributed UCSB fee staff proposal, without assuming that a future vote or new revenue is secured.
 
@@ -109,6 +109,19 @@ The comparable ranking includes the **19 current regular lines**. Seasonal 33, t
 These are **not recommended cancellations**. The figures cover all fiscal-year operating days/times and **predate August 2026’s service reductions**. They cannot identify the weakest individual departures, establish post-cut performance, quantify equity effects or predict financial savings. Ranking by total riders alone would also ignore differences in service supplied.
 
 High annual productivity on 28 (65.5), 27 (60.7), 24X (39.8) and 11 (33.9) is a capacity-protection signal, not permission to abandon neighborhoods with fewer alternatives. School boosters as an aggregate had 64.8 boardings/hour. The 25.9 system reference includes all fixed-route services; it is not a cancellation threshold.
+
+### Route redesign studies
+
+The Saving MTD route-overlap option now foregrounds two local-route redesign studies rather than ranking long express-route parallels. Evidence is generated from the current GTFS feed for the October 15, 2026 weekday, comparing dissolved route shapes within a 25-metre buffer, shared stops and shared bus blocks.
+
+| Study | Current GTFS evidence | Concept to test |
+|---|---|---|
+| **4 + 5** | Current shapes share 5.3 km and 14 stops; separate blocks. | One out-and-back: Transit Center → Carrillo/Meigs → Cliff & Loma Alta → Arroyo Burro → Mesa → State & La Cumbre 156. It keeps Route 4’s Carrillo/Meigs approach, joins Route 5’s Mesa/La Cumbre leg at Cliff, and drops Route 5’s De la Vina/Ortega approach. Route 17’s current path to SBCC is shown separately, not joined to Meigs. Route 5’s outer pattern serves 11 weekday trips; the line is 17.1 km one way with 59 current stops along it. Route 4 has higher whole-line productivity (18.8 vs 12.4 boardings/revenue hour), but averages do not establish branch-level demand or spare capacity on 17. |
+| **14 + 20** | 11.5 km of current shared corridor; 23 shared stops; separate blocks. | One line: North Jameson & Sheffield → East Valley → Transit Center → Coast Village → Via Real & Mark, then reverse. It is a 38.9 km one-way line with 119 current stops along it. It reaches Transit Center once and does not retrace the Coast Village corridor; confirm the reversed shapes are street-legal in both directions and review runtime/load. |
+
+**Keep Route 17** as a separate Lower West/SBCC service: 47 weekday trips, 13 midday trips and a typical 35-minute headway. It shares four bus blocks with Route 4, which is a reason to check the blocks—not a third merge proposal. **Route 16 is historical context only:** it had a 2019 campus alignment but is absent from the October 2026 feed.
+
+These are concepts for study, not route-change recommendations. No financial savings are claimed: a saving requires a revised timetable that actually removes a vehicle assignment or paid driver hour. Before recommending either concept, MTD would need trip-level loads and transfer counts, vehicle/crew costing, recovery-time analysis, accessible alternatives, essential-trip protection, applicable Title VI review, public input and a reversible trial. The Wave has no fixed headway and is not treated as a like-for-like fixed-route replacement.
 
 ### Published budget and funding option
 
